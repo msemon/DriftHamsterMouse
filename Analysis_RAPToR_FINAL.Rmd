@@ -1,0 +1,280 @@
+---
+title: "Analysis_Raptor"
+author: "marie"
+date: "26 may 2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{r cars}
+library(RAPToR)
+library(DESeq2)
+library(reshape2)
+
+
+```
+
+## load data
+
+```{r load, echo=FALSE}
+metadataTot1=read.table(file="metadataTot_FINAL.txt",stringsAsFactors = T)
+CountTot=read.table(file="../../Counts/CountTot.txt")
+
+
+mdhamtime=read.table("predictions_rnaseq_cuspmdH_all.txt",h=T)
+mxhamtime=read.table("predictions_rnaseq_cuspmxH_all.txt",h=T)
+mdmustime=read.table("predictions_rnaseq_cuspmdM_all.txt",h=T)
+mxmustime=read.table("predictions_rnaseq_cuspmxM_all.txt",h=T)
+
+times=data.frame(rbind(mdhamtime,mxhamtime,mdmustime,mxmustime))
+times$echantillon[grep("mus",times$echantillon)]=paste0(times$echantillon[grep("mus",times$echantillon)],"W")
+
+metadataTot2=merge(metadataTot1,times,by.x=0,by.y="echantillon",all.x=T,no.dups=TRUE)
+row.names(metadataTot2)=metadataTot2$Row.names
+metadataTot2=metadataTot2[row.names(metadataTot1),]
+
+
+ddsToothWhole <- DESeqDataSetFromMatrix(countData = round(CountTot[,-c(grep("mes",metadataTot2$machoire),grep("epi",metadataTot2$machoire),grep("kidney",metadataTot2$machoire))],0),
+                              colData = metadataTot2[-c(grep("mes",metadataTot2$machoire),grep("epi",metadataTot2$machoire),grep("kidney",metadataTot2$machoire)),],
+                              design = ~ 1)
+
+colData(ddsToothWhole)$stade=as.numeric(as.character(colData(ddsToothWhole)$stade.x))
+colData(ddsToothWhole)$timerel[colData(ddsToothWhole)$espece=="mus"]=10*(as.numeric(colData(ddsToothWhole)$est_GAM[colData(ddsToothWhole)$espece=="mus"])-14.5)/(18-14.5)
+colData(ddsToothWhole)$timerel[colData(ddsToothWhole)$espece=="ham"]=10*(as.numeric(colData(ddsToothWhole)$est_GAM[colData(ddsToothWhole)$espece=="ham"])-12.3)/(14.5-12.3)
+                              
+                              
+ddsToothWhole <- DESeq(ddsToothWhole)
+vstT=vst(ddsToothWhole)
+
+```
+
+
+### FINAL model with lower mouse + hamster 
+
+```{r ica low2, echo=FALSE}
+
+## REMOVE EARLY SAMPLES
+
+dsmu=list(g=assay(vstT)[,colData(ddsToothWhole)$espece=="mus"&colData(ddsToothWhole)$machoire=="mx"],p=colData(ddsToothWhole)[colData(ddsToothWhole)$espece=="mus"&colData(ddsToothWhole)$machoire=="mx",])
+dsml=list(g=assay(vstT)[,colData(ddsToothWhole)$espece=="mus"&colData(ddsToothWhole)$machoire=="md"],p=colData(ddsToothWhole)[colData(ddsToothWhole)$espece=="mus"&colData(ddsToothWhole)$machoire=="md",])
+dshu=list(g=assay(vstT)[,colData(ddsToothWhole)$espece=="ham"&colData(ddsToothWhole)$machoire=="mx"&colData(ddsToothWhole)$stade>12],p=colData(ddsToothWhole)[colData(ddsToothWhole)$espece=="ham"&colData(ddsToothWhole)$machoire=="mx"&colData(ddsToothWhole)$stade>12,])
+dshl=list(g=assay(vstT)[,colData(ddsToothWhole)$espece=="ham"&colData(ddsToothWhole)$machoire=="md"&colData(ddsToothWhole)$stade>12],p=colData(ddsToothWhole)[colData(ddsToothWhole)$espece=="ham"&colData(ddsToothWhole)$machoire=="md"&colData(ddsToothWhole)$stade>12,])
+
+dsl=list(g=assay(vstT)[,colData(ddsToothWhole)$machoire=="md"],p=colData(ddsToothWhole)[colData(ddsToothWhole)$machoire=="md",])
+dsu=list(g=assay(vstT)[,colData(ddsToothWhole)$machoire=="mx"],p=colData(ddsToothWhole)[colData(ddsToothWhole)$machoire=="mx",])
+
+
+dim_red_type="ica"
+data="dsl"
+nc=5
+modelname=paste0(data,"_",dim_red_type,"_",nc,"timerel")
+
+m_dsl <- ge_im(X = dsl$g, p = dsl$p, formula = "X ~ s(timerel, bs = 'cr', k=4, by=espece)+ espece", nc = nc,  method="gam", dim_red=dim_red_type)
+
+
+g_mp <- mperf(scale(dsl$g), predict(m_dsl), is.t = T)
+g_mp
+ng_mp <- mperf(scale(dsl$g), predict(m_dsl), is.t = T, global = F)
+
+pdf(paste0("performances_",modelname,".pdf"))
+par(mfrow=c(2,2))
+sapply(names(ng_mp),function(x){plot(density(ng_mp[[x]]),main=x);abline(v=mean(ng_mp[[x]]),col="red")})
+dev.off()
+
+
+n.inter <- 100 # nb of new timepoints
+newdat <- data.frame(
+  timerel = seq(min(dsl$p$timerel), max(dsl$p$timerel), l = n.inter),
+  espece = "mus"
+  )
+pred_m_dsml <- predict(m_dsl, newdata = newdat)
+pred_m_dsml_comp <- predict(m_dsl, newdata = newdat,as.c = TRUE)
+
+
+
+n.inter <- 100 # nb of new timepoints
+newdat1 <- data.frame(
+  timerel = seq(min(dsl$p$timerel), max(dsl$p$timerel), l = n.inter),
+  espece = "ham"
+  )
+pred_m_dshl <- predict(m_dsl, newdata = newdat1)
+pred_m_dshl_comp <- predict(m_dsl, newdata = newdat1,as.c = TRUE)
+
+
+
+ica_X <- ica::icafast(t(scale(t(dsl$g), center = T, scale = FALSE)), nc = nc)
+pdf(paste0("cumsumcompo_",modelname,".pdf"))
+barplot(cumsum(ica_X$vafs))
+dev.off()
+
+
+pdf(paste0("predictions_",modelname,".pdf"))
+par(mfrow=c(2,3))
+for(i in 1:nc)
+{
+plot(dsl$p$timerel,ica_X$M[,i],xlab="Age (timerel)", ylab=paste("ICA",i),
+     pch=ifelse(dsl$p$rep=="rep1",20,1),
+     col=ifelse(dsl$p$espece=="mus","black","grey"))
+lines(newdat$timerel,pred_m_dsml_comp[,i],col="black")
+lines(newdat1$timerel,pred_m_dshl_comp[,i],col="grey")
+}
+dev.off()
+
+
+
+# make a 'reference object' for mus (r_dsl_m) and another for ham (r_dsl_h)
+r_dsl_m <- list(interpGE = pred_m_dsml, time.series = newdat$timerel)
+r_dsl_h <- list(interpGE = pred_m_dshl, time.series = newdat1$timerel)
+
+# mus timeseries
+ae_test_ds1 <- ae(dsmu$g, r_dsl_m$interpGE, r_dsl_m$time.series)
+ae_test_ds2 <- ae(dsml$g, r_dsl_m$interpGE, r_dsl_m$time.series)
+# ham timeseries
+ae_test_ds3 <- ae(dshu$g, r_dsl_h$interpGE, r_dsl_h$time.series)
+ae_test_ds4 <- ae(dshl$g, r_dsl_h$interpGE, r_dsl_h$time.series)
+
+#row.names(ae_test_ds1$age.estimates)=paste(row.names(ae_test_ds1$age.estimates),dsmu$p[,c("timerel")])
+
+pdf(paste0("predictions_ic_",modelname,"_mu.pdf"))
+plot(ae_test_ds1, show.boot_estimates = TRUE, groups = dsmu$p$rep) # plot all sample estimates
+dev.off()
+
+pdf(paste0("predictions_ic_",modelname,"_ml.pdf"))
+plot(ae_test_ds2, show.boot_estimates = TRUE, groups = dsml$p$rep) # plot all sample estimates
+dev.off()
+
+pdf(paste0("predictions_ic_",modelname,"_hu.pdf"))
+plot(ae_test_ds3, show.boot_estimates = TRUE, groups = dshu$p$rep) # plot all sample estimates
+dev.off()
+
+pdf(paste0("predictions_ic_",modelname,"_hl.pdf"))
+plot(ae_test_ds4, show.boot_estimates = TRUE, groups = dshl$p$rep) # plot all sample estimates
+dev.off()
+
+letter1=paste(dsmu$p$stade,dsmu$p$rep)
+letter2=paste(dsml$p$stade,dsml$p$rep)
+letter3=paste(dshu$p$stade,dshu$p$rep)
+letter4=paste(dshl$p$stade,dshl$p$rep)
+
+
+pdf(paste0("RAPToR_",modelname,".pdf"))
+par(mfrow=c(2,2))
+plot(dsmu$p$timerel,ae_test_ds1$age.estimates[,1],xlab="Mus Upper true",ylab="Mus Upper estimate",pch=ifelse(dsmu$p$rep=="rep1",1,20),xlim=c(-1,10.5),ylim=c(-1,10.5))
+text(dsmu$p$timerel+0.4,ae_test_ds1$age.estimates[,1],lab=dsmu$p$stade)
+abline(b=1,a=0)
+abline(lm(ae_test_ds1$age.estimates[,1]~dsmu$p$timerel),lty=2)
+
+plot(dsml$p$timerel,ae_test_ds2$age.estimates[,1],xlab="Mus Lower true",ylab="Mus Lower estimate",pch=ifelse(dsml$p$rep=="rep1",1,20),xlim=c(-2,10.5),ylim=c(-2,10.5))
+text(dsml$p$timerel+0.4,ae_test_ds2$age.estimates[,1],lab=dsml$p$stade)
+abline(b=1,a=0)
+abline(lm(ae_test_ds2$age.estimates[,1]~dsml$p$timerel),lty=2)
+
+plot(dshu$p$timerel,ae_test_ds3$age.estimates[,1],xlab="Ham Upper true",ylab="Ham Upper estimate",pch=ifelse(dshu$p$rep=="rep1",1,20),xlim=c(-2,10.5),ylim=c(-2,10.5))
+text(dshu$p$timerel+0.4,ae_test_ds3$age.estimates[,1],lab=dshu$p$stade)
+abline(b=1,a=0)
+abline(lm(ae_test_ds3$age.estimates[,1]~dshu$p$timerel),lty=2)
+
+
+plot(dshl$p$timerel,ae_test_ds4$age.estimates[,1],xlab="Ham Lower true",ylab="Ham Lower estimate",pch=ifelse(dshl$p$rep=="rep1",1,20),xlim=c(-2,10.5),ylim=c(-2,10.5))
+text(dshl$p$timerel+0.4,ae_test_ds4$age.estimates[,1],lab=dshl$p$stade)
+abline(b=1,a=0)
+abline(lm(ae_test_ds4$age.estimates[,1]~dshl$p$timerel),lty=2)
+dev.off()
+
+cor.test(dsmu$p$timerel,ae_test_ds1$age.estimates[,1])$estimate
+cor.test(dsml$p$timerel,ae_test_ds2$age.estimates[,1])$estimate
+cor.test(dshu$p$timerel,ae_test_ds3$age.estimates[,1])$estimate
+cor.test(dshl$p$timerel,ae_test_ds4$age.estimates[,1])$estimate
+
+pdf(paste0("RAPToR_",modelname,"offsetMouse.pdf"))
+plot(dsmu$p$timerel,ae_test_ds2$age.estimates[,1]-ae_test_ds1$age.estimates[,1],xlab="Chronological timing",ylab="Estimated Upper-Lower offset in mouse", pch=ifelse(dsml$p$rep=="rep1",20,1))
+dev.off()
+
+pdf(paste0("RAPToR_",modelname,"offsetHamster.pdf"))
+plot(dshu$p$timerel,ae_test_ds4$age.estimates[,1]-ae_test_ds3$age.estimates[,1],xlab="Chronological timing",ylab="Estimated Upper-Lower offset in hamster", pch=ifelse(dsml$p$rep=="rep1",20,1))
+dev.off()
+
+
+
+mu=data.frame(ae_test_ds1$age.estimates)
+mu$timerel=dsmu$p$timerel
+mu$rep=dsmu$p$rep
+mu$stade=dsmu$p$stade
+mu$species="mus"
+mu$tooth="up"
+
+ml=data.frame(ae_test_ds2$age.estimates)
+ml$timerel=dsml$p$timerel
+ml$stade=dsml$p$stade
+ml$rep=dsml$p$rep
+ml$species="mus"
+ml$tooth="low"
+
+hu=data.frame(ae_test_ds3$age.estimates)
+hu$timerel=dshu$p$timerel
+hu$stade=dshu$p$stade
+hu$rep=dshu$p$rep
+hu$species="ham"
+hu$tooth="up"
+
+hl=data.frame(ae_test_ds4$age.estimates)
+hl$timerel=dshl$p$timerel
+hl$stade=dshl$p$stade
+hl$rep=dshl$p$rep
+hl$species="ham"
+hl$tooth="low"
+
+datapred=data.frame(rbind(mu,ml,hu,hl))
+  
+library(ggplot2)
+pd <- position_dodge(0.1)
+g=ggplot(datapred,aes(timerel,age.estimate,col=rep))+geom_point()+facet_wrap(species~tooth) + geom_errorbar(aes(ymin=lb, ymax=ub), width=.1, position=pd)+ geom_line(position=pd) + xlab("relative time")
+ggsave(g,file="modelsRAPToR_low2species.png")
+
+
+g=ggplot(datapred,aes(stade,age.estimate,col=rep))+geom_point()+facet_wrap(species~tooth,scales="free_x") + geom_errorbar(aes(ymin=lb, ymax=ub), width=.1, position=pd)+ geom_line(position=pd) + xlab("stage dpc")
+ggsave(g,file="modelsRAPToR_low2species_stage.png")
+
+
+datapred_wide=dcast(datapred, paste(rep,stade,species) ~ tooth, value.var=c("age.estimate"))
+datapred_wide1=dcast(datapred, paste(rep,stade,species) ~ tooth, value.var=c("lb"))
+datapred_wide2=dcast(datapred, paste(rep,stade,species) ~ tooth, value.var=c("ub"))
+names(datapred_wide1)[2:3]=c("lb.low","lb.up")
+names(datapred_wide2)[2:3]=c("ub.low","ub.up")
+
+c=colsplit(string=datapred_wide[,1], pattern=" ", names=c("rep", "stade","species"))
+datapred_wide=data.frame(cbind(datapred_wide,c,datapred_wide1,datapred_wide2))
+
+g=ggplot(datapred_wide,aes(low,up))+geom_point(size=2)+ylim(-2.5,10)+xlim(-2.5,10)+facet_wrap(species~.) + theme_light()+ geom_errorbar(aes(xmin=lb.low, xmax=ub.low), width=.1, position=pd)+ 
+  geom_errorbar(aes(ymin=lb.up, ymax=ub.up), width=.1, position=pd)+ 
+  xlab("relative dev. age Lower")+ ylab("relative dev. age Upper")+
+  #geom_line(position=pd)+ 
+  geom_smooth(se=F)+geom_abline(slope=1,intercept=0,color="grey",alpha=0.5) 
+ggsave(g,file="modelsRAPToR_low2species_diff.png")
+ggsave(g,file="modelsRAPToR_low2species_diff.pdf",width = 40, height = 20, units = "cm")
+saveRDS(g, file = "raptor.RDS")
+
+##### Figure offset 
+#datapred
+
+tab=data.frame(timerel=dsmu$p$timerel,upMlo=ae_test_ds2$age.estimates[,1]-ae_test_ds1$age.estimates[,1],sp="mus")
+tab=rbind(tab,data.frame(timerel=dshu$p$timerel,upMlo=ae_test_ds4$age.estimates[,1]-ae_test_ds3$age.estimates[,1],sp="ham"))
+g=ggplot(tab,aes(x=timerel,y=upMlo,col=sp)) + geom_point()+ geom_smooth(se=F,span = 1) + xlab("chronological timing")+ ylab("Lower - Upper offset")+ scale_color_manual(values=c("black","grey"))+ theme_bw()+ labs(colour="species")
+ggsave(paste0("RAPToR_",modelname,"offsets.png"),g)
+ggsave(paste0("RAPToR_",modelname,"offsets.pdf"),g)
+
+
+
+
+```
+
+
+
+
+
+
