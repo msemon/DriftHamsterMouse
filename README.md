@@ -19,6 +19,25 @@ This script performs deconvolutions from markers extracted from mesenchyme/epith
 Control plots to check the accuracy of prediction in pure tissues and boostraps made by resampling the marker lists are made in the code.
 
 
+# Spline DE analyses and GO enrichment
+
+`ComputeByPairs_GAM.R`
+
+This code fits splines to temporal expression profiles, 
+
+`FigUpLow.R`
+`FigHamSou.R`
+`liste_bite-it.csv`
+`keystone_genes.csv`
+`dispensable_genes.csv`
+`pathways-Margaux-corMS.xlsx`
+
+
+
+# ROMA pathway activation analyses
+
+
+# multivariate analyses
 
 
 
