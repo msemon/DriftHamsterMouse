@@ -1,0 +1,298 @@
+---
+title: "ROMA BL samples"
+author: "marie"
+date: "21 mai 2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+To install Roma 
+https://github.com/sysbio-curie/rRoma
+
+https://rdrr.io/github/Albluca/rRoma/man/rRoma.R.html
+
+```{r rRoma}
+library(readxl)
+library(rRoma)
+library(DESeq2)
+library(ggplot2)
+library(corrplot)
+library(tidyverse)
+library(viridis)   
+library(ggthemes) 
+```
+
+
+
+```{r load, echo=FALSE}
+
+metadataTot1=read.table(file="metadataTot_FINAL.txt")
+CountTot=read.table(file="CountTot.txt")
+
+ddsToothWhole <- DESeqDataSetFromMatrix(countData = round(CountTot[,-c(grep("kidney",metadataTot1$machoire))],0),
+                              colData = metadataTot1[-c(grep("kidney",metadataTot1$machoire)),],
+                              design = ~ 1)
+
+colData(ddsToothWhole)$stade=as.numeric(as.character(colData(ddsToothWhole)$stade))
+colData(ddsToothWhole)$timerel[colData(ddsToothWhole)$espece=="mus"]=10*(as.numeric(colData(ddsToothWhole)$stade[colData(ddsToothWhole)$espece=="mus"])-14.5)/(18-14.5)
+colData(ddsToothWhole)$timerel[colData(ddsToothWhole)$espece=="ham"]=10*(as.numeric(colData(ddsToothWhole)$stade[colData(ddsToothWhole)$espece=="ham"])-12)/(14.5-12)
+colData(ddsToothWhole)$machoire=as.factor(colData(ddsToothWhole)$machoire)                              
+                              
+ddsToothWhole <- DESeq(ddsToothWhole)
+vstT=data.frame(assay(vst(ddsToothWhole)))
+bm=data.frame(counts(ddsToothWhole,norm=T))
+
+ ```
+
+
+
+
+```{r pathways, echo=FALSE}
+
+bmp=read.csv("BMP-avril2019.csv")
+bmp$dir="not target"
+bmp$dir[grep("negative",bmp$X)]="negative"
+bmp$dir[grep("positive",bmp$X)]="positive"
+## clean
+bmp=bmp[!(bmp$Target=="Wnt3a"&bmp$X=="BMP EPI EPI positive target"),]
+
+bmpE10=unique(bmp[bmp$Reference=="This study"&bmp$Stage=="E10",])
+bmpE13E14=unique(bmp[bmp$Reference=="This study"&(bmp$Stage=="E13"|bmp$Stage=="E14"),])
+bmpE13E14=unique(bmpE13E14[,c("Target","dir")])
+
+
+MesModulesBmpE10 = list()
+MesModulesBmpE10[["BmpE10"]]=list(Name="BmpE10",
+                         Desc="BmpE10",
+                         Genes=bmpE10$Target,
+                         Weigths=ifelse(bmpE10$dir=="positive",1,-1))
+
+MesModulesBmpE13E14 = list()
+MesModulesBmpE13E14[["BmpE13E14"]]=list(Name="BmpE13E14",
+                         Desc="BmpE13E14",
+                         Genes=bmpE13E14$Target,
+                         Weigths=ifelse(bmpE13E14$dir=="positive",1,-1))
+
+
+
+
+wnt=read.csv("WNT-avril2019.csv")
+wnt$dir="not target"
+wnt$dir[grep("negative",wnt$X)]="negative"
+wnt$dir[grep("positive",wnt$X)]="positive"
+wnt=wnt[!(wnt$Target=="Wnt10a"&wnt$X=="EPI EPI negative target"),]
+
+wntE10=wnt[wnt$Reference=="This study"&wnt$Stage=="E10",]
+wntE13E14=wnt[wnt$Reference=="This study"&(wnt$Stage=="E13"|wnt$Stage=="E14"),]
+wntE13E14=unique(wntE13E14[,c("Target","dir")])
+
+wntAll=wnt[(wnt$Stage=="E13"|wnt$Stage=="E14"),]
+wntAll=unique(wntAll)
+
+MesModulesWntE10 = list()
+MesModulesWntE10[["WntE10"]]=list(Name="WntE10",
+                         Desc="WntE10",
+                         Genes=wntE10$Target,
+                         Weigths=ifelse(wntE10$dir=="positive",1,-1))
+
+MesModulesWntE13E14 = list()
+MesModulesWntE13E14[["WntE13E14"]]=list(Name="WntE13E14",
+                         Desc="WntE13E14",
+                         Genes=wntE13E14$Target,
+                         Weigths=ifelse(wntE13E14$dir=="positive",1,-1))
+
+
+# liste SHH dans:
+# https://www.gsea-msigdb.org/gsea/msigdb/cards/PID_HEDGEHOG_GLI_PATHWAY
+listShh=read.table("genesetSHH.txt",h=F)
+c=data.frame(cbind(row=row.names(ddsToothWhole),rowup=toupper(row.names(ddsToothWhole))))
+listShht=c[c$rowup%in%listShh$V1,]
+# On met activation pour tous les gènes
+MesModulesShh = list()
+MesModulesShh[["Shh"]]=list(Name="Shh",
+                          Desc="Shh",
+                          Genes=listShht$row,
+                          Weigths=rep(1,length(listShht$row)))
+
+
+
+
+fcorSp4=function(species="mus",set="bmpE10",MesModulesBW=MesModulesBmpE10, optPC="CorrelateKnownWeightsByGene",CorM="spearman",nb=nb)
+{
+vstTmd=vstT[,colData(ddsToothWhole)$espece==species]
+cmd=colData(ddsToothWhole)[colData(ddsToothWhole)$espece==species,]
+cmd$rep[grep("4.",row.names(cmd))]="rep4"
+cmd$rep[grep("3.",row.names(cmd))]="rep3"
+cmd$type="whole"
+cmd$type[grep("epi",cmd$machoire)]="epi"
+cmd$type[grep("mes",cmd$machoire)]="mes"
+cmd$type[grep("_B",cmd$machoire)]="B"
+cmd$type[grep("_L",cmd$machoire)]="L"
+cmd$machoire[grep("md",cmd$machoire)]="md"
+cmd$machoire[grep("mx",cmd$machoire)]="mx"
+vstTmd=vstTmd[,cmd$type=="B"|cmd$type=="L"]
+cmd=cmd[cmd$type=="B"|cmd$type=="L",]
+
+names(vstTmd)=paste0(cmd$machoire,"_",cmd$stade,"_",cmd$rep,"_",cmd$type)
+  Data_mus_md <- rRoma.R(ExpressionMatrix = vstTmd, ModuleList = MesModulesBW, FixedCenter = TRUE,
+                   UseParallel = TRUE, nCores = 3, ClusType = "FORK", MaxGenes = 100,MinGenes = 4,
+                   PCSignMode=optPC, CorMethod= CorM,UseWeigths = TRUE,OutGeneNumber=10,SuppressWarning = TRUE,MoreInfo=FALSE)
+
+Data_mus_md_score=data.frame(sapply(1,function(x){as.numeric(Data_mus_md$ModuleSummary[[x]]$SampleScore)}))
+names(Data_mus_md_score)=set
+row.names(Data_mus_md_score)=names(vstTmd)
+
+weight=data.frame(weight=Data_mus_md$ModuleSummary[[1]]$GeneWeight*Data_mus_md$ModuleSummary[[1]]$CorrectSign1)
+weight2=data.frame(weight=MesModulesBW[[1]]$Weigths)
+weight2$name=MesModulesBW[[1]]$Genes
+weight2=merge(weight,weight2,by.x=0,by.y="name")
+names(weight2)=c("name","weight","activ")
+
+weight2=weight2[order(weight2$weight),]
+neg=sum(weight2[1:nb,"activ"]>0)
+pos=sum(weight2[c((nrow(weight2)-nb):nrow(weight2)),"activ"]>0)
+
+if(neg > pos){
+  Data_mus_md_score[,1]=-Data_mus_md_score[,1];
+  cat("sign changed \n")
+}
+cat(paste0("negative side: ",species," ", neg," activator. positive side: ",pos,"\n"))
+return(Data_mus_md_score)
+}
+
+
+
+
+fgatherSp4=function(MesModulesBWx=MesModulesBmpE10,setx="bmpE10",optPC="CorrelateKnownWeightsByGene",CorMethod="pearson",nb=10)
+{
+Data_mus_score_bmpE10=fcorSp4(species="mus",set=setx,MesModulesBW=MesModulesBWx,optPC=optPC,CorM=CorMethod, nb=nb)
+
+library(tidyr)
+Data_mus_score_bmpE10$id=row.names(Data_mus_score_bmpE10)
+
+Data_mus_score_long=gather(Data_mus_score_bmpE10,key = "pathway", value = "value", -id)
+Data_mus_score_long$species="mus"
+
+Data_mus_score_long$tooth="md"
+Data_mus_score_long$tooth[grep("mx",Data_mus_score_long$id)]="mx"
+
+Data_mus_score_long$type="whole"
+Data_mus_score_long$type[grep("epi",Data_mus_score_long$id)]="epi"
+Data_mus_score_long$type[grep("mes",Data_mus_score_long$id)]="mes"
+Data_mus_score_long$type[grep("B",Data_mus_score_long$id)]="B"
+Data_mus_score_long$type[grep("L",Data_mus_score_long$id)]="L"
+
+Data_mus_score_long$stage=as.numeric(sapply(strsplit(Data_mus_score_long$id,"_"),function(x){x[[2]]}))
+Data_mus_score_long$rep=sapply(strsplit(Data_mus_score_long$id,"_"),function(x){x[[3]]})
+
+dataROMA=data.frame(Data_mus_score_long)
+
+g=ggplot(dataROMA, aes(as.factor(stage), type, fill= value)) + 
+  geom_tile()+ facet_grid(tooth ~ species, scales="free_x")+
+  scale_fill_gradient(low = "white", high = "red")
+ggsave(g,file=paste0("dataROMA_orient2_","_",setx,"_",optPC,"_",CorMethod,".png"))
+
+return(dataROMA)
+}
+
+
+setx="bmpE10"
+f1d=fgatherSp4(MesModulesBWx=MesModulesBmpE10,setx="bmpE10",optPC="none",CorMethod="pearson",nb=5)
+g=ggplot(f1d, aes(tooth, value, color= type)) + 
+  geom_point()
+ggsave("BmpE10ROMAd.png",g)
+
+
+setx="bmpE13E14"
+f2d=fgatherSp4(MesModulesBWx=MesModulesBmpE13E14,setx="bmpE13E14",optPC="none",CorMethod="pearson",nb=5)
+g=ggplot(f2d, aes(tooth, value, color= type)) + 
+  geom_point() 
+ggsave("BmpE13E14ROMAd.png",g)
+
+setx="wntE10"
+f4d=fgatherSp4(MesModulesBWx=MesModulesWntE10,setx="wntE10",optPC="none",CorMethod="pearson",nb=5)
+g=ggplot(f4d, aes(tooth, value, color= type)) + 
+  geom_point()
+ggsave("WntE10ROMAd.png",g)
+
+setx="wntE13E14"
+f5d=fgatherSp4(MesModulesBWx=MesModulesWntE13E14,setx="wntE13E14",optPC="none",CorMethod="pearson",nb=5)
+g=ggplot(f5d, aes(tooth, value, color= type)) + 
+  geom_point()
+ggsave("WntE13E14ROMAd.png",g)
+
+
+setx="Shh"
+f6d=fgatherSp4(MesModulesBWx=MesModulesShh,setx="shh",optPC="none",CorMethod="pearson",nb=5)
+g=ggplot(f6d, aes(tooth, value, color= type)) + 
+  geom_point()
+f6d$value=-f6d$value
+g=ggplot(f6d, aes(tooth, value, color= type)) +   geom_point()
+ggsave("ShhROMAd.png",g)
+
+
+
+tabBLRoma=data.frame(rbind(f1d,f2d,f4d,f5d,f6d))
+
+
+
+tabBLRoma$pathComp=tabBLRoma$pathway
+tabBLRoma$pathComp=gsub("E10"," (Mes)",tabBLRoma$pathComp)
+tabBLRoma$pathComp=gsub("E13E14"," (Epi)",tabBLRoma$pathComp)
+
+pathComp <- c("MesBmp","EpiBmp","MesWnt","EpiWnt","Shh")
+names(pathComp) <- c("bmp_Mes","bmp_Epi","wnt_Mes","wnt_Epi","shh")
+
+
+gg=ggplot(tabBLRoma, aes(tooth, value, color= type)) + geom_point() +  ylab("Activation level") + 
+scale_x_discrete(name ="Tooth",labels=c("md"="lower","mx"="upper"))+
+  scale_color_manual(values=c("#E69F00", "#56B4E9"),labels=c("B"="buccal","L"="lingual"))+
+  guides(color=guide_legend(title="Tooth side")) + 
+facet_grid( ~ pathComp, scales="free_x", labeller = labeller(pathComp=pathComp)) 
+ggsave("tabBLRoma.png",gg)
+ggsave("tabBLRoma.pdf",gg)
+
+tabBLRomaM <- tabBLRoma %>% group_by(pathComp,tooth,type) %>% 
+      summarise(mean_activ = mean(value))
+g=ggplot(tabBLRomaM, aes(tooth, mean_activ, color= type)) + geom_point() +  ylab("Activation level") + 
+scale_x_discrete(name ="Tooth",labels=c("md"="lower","mx"="upper"))+
+  scale_color_manual(values=c("#E69F00", "#56B4E9"),labels=c("B"="buccal","L"="lingual"))+
+  guides(color=guide_legend(title="Tooth side")) + 
+facet_grid( ~ pathComp, scales="free_x", labeller = labeller(pathComp=pathComp)) 
+ggsave("tabBLRoma_Average.png",g)
+ggsave("tabBLRoma_Average.pdf",g)
+
+
+g=ggplot(tabBLRomaM, aes(y=tooth, fill=mean_activ, x= type)) + geom_tile(color="white", size=0.1)+
+scale_y_discrete(name ="Tooth",labels=c("md"="lower","mx"="upper"))+
+scale_x_discrete(name ="Tooth Part",labels=c("B"="buccal","L"="lingual"))+
+  scale_fill_viridis(name="Activation",direction=-1)+
+  coord_equal()+
+  facet_grid( ~ pathComp, labeller = labeller(pathComp=pathComp)) +
+  theme(axis.ticks=element_blank())+
+  theme(legend.text=element_text(size=6))+ ggpubr::rotate_x_text()
+ggsave("tabBLRoma_tiles.png",g)
+ggsave("tabBLRoma_tiles.pdf",g)
+
+g2=ggplot(tabBLRomaM, aes(y=tooth, fill=mean_activ, x= type)) + geom_tile(color="white", size=0.1)+
+scale_y_discrete(name ="Tooth",labels=c("md"="lower","mx"="upper"))+
+scale_x_discrete(name ="Tooth Part",labels=c("B"="buccal","L"="lingual"))+
+  scale_fill_viridis(name="Activation",direction=-1,option="G")+
+  coord_equal()+
+  facet_grid( ~ pathComp, labeller = labeller(pathComp=pathComp)) +
+  theme(axis.ticks=element_blank())+
+  theme(legend.text=element_text(size=6))+ ggpubr::rotate_x_text()
+ggsave("tabBLRoma_tiles2.png",g2)
+ggsave("tabBLRoma_tiles2.pdf",g2)
+
+
+
+g3 = ggarrange(g2, gg , 
+          labels = c("A", "B"),
+          ncol = 1, nrow = 2)
+ggsave("tabBLRoma_tiles3.png",g3)

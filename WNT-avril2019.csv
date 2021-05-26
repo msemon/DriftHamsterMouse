@@ -1,0 +1,153 @@
+,Regulator,Target,Perturbation,Effect,Stage,Tissue.Reg,Tissue.Target,Additional Perturbation,Year,Reference
+EPI EPI negative target,Gsk3b,Acvr1b,-,-,E13,Epi,Epi,,2011,This study
+EPI EPI negative target,Gsk3b,Acvr2b,-,-,E13,Epi,Epi,,2011,This study
+MES MES positive target,Gsk3b,Acvr2b,-,+,E10,Mes,Mes,,2011,This study
+EPI EPI positive target,Ctnnb1,Amelx,+,+,E16,Epi,Epi,,2009,"Wang XP, O'Connell DJ, Lund JJ, Saadi I, Kuraguchi M, Turbe-Doan A, Cavallesco R, Kim H, Park PJ, Harada H, Kucherlapati R, Maas RL. Apc inhibition of Wnt signaling regulates supernumerary tooth formation during embryogenesis and throughout adulthood. Development 2009 vol. 136 (11) pp. 1939-49"
+MES MES negative target,Gsk3b,Atf2,-,-,E10,Mes,Mes,,2011,This study
+MES MES positive target,Gsk3b,Axin2,-,+,E10,Mes,Mes,,2011,This study
+MES MES positive target,Ctnnb1,Axin2,-,-,E11,Mes,Mes,,2010,"Fujimori S, Novak H, Weissenböck M, Jussila M, Gonçalves A, Zeller R, Galloway J, Thesleff I, Hartmann C. Wnt/?-catenin signaling in the dental mesenchyme regulates incisor development by regulating Bmp4. Developmental biology 2010 vol. 348 (1) pp. 97-106"
+MES MES negative target,Gsk3b,Barx1,-,-,E10,Mes,Mes,,2011,This study
+EPI EPI negative target,Gsk3b,Bcl11b,-,-,E13,Epi,Epi,,2011,This study
+EPI MES positive target,Ctnnb1,Bmp4,+,+,E14,Epi,Mes,,2009,"Wang XP, O'Connell DJ, Lund JJ, Saadi I, Kuraguchi M, Turbe-Doan A, Cavallesco R, Kim H, Park PJ, Harada H, Kucherlapati R, Maas RL. Apc inhibition of Wnt signaling regulates supernumerary tooth formation during embryogenesis and throughout adulthood. Development 2009 vol. 136 (11) pp. 1939-49"
+MES EPI positive target,Ctnnb1,Bmp4,-,-,E14,Mes,Epi,,2009,"Chen J, Lan Y, Baek JA, Gao Y, Jiang R. Wnt/beta-catenin signaling plays an essential role in activation of odontogenic mesenchyme during early tooth development. Developmental biology 2009 vol. 334 (1) pp. 174-85"
+MES MES positive target,Ctnnb1,Bmp4,-,-,E11,Mes,Mes,,2010,"Fujimori S, Novak H, Weissenböck M, Jussila M, Gonçalves A, Zeller R, Galloway J, Thesleff I, Hartmann C. Wnt/?-catenin signaling in the dental mesenchyme regulates incisor development by regulating Bmp4. Developmental biology 2010 vol. 348 (1) pp. 97-106"
+EPI MES positive target,Ctnnb1,Bmp4,-,-,E13,Epi,Mes,,2008,"Liu F, Chu EY, Watt B, Zhang Y, Gallant NM, Andl T, Yang SH, Lu MM, Piccolo S, Schmidt-Ullrich R, Taketo MM, Morrisey EE, Atit R, Dlugosz AA, Millar SE. Wnt/beta-catenin signaling directs multiple stages of tooth morphogenesis. Developmental biology 2008 vol. 313 (1) pp. 210-24"
+MES MES negative target,Gsk3b,Bmper,-,-,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Bmpr1b,-,-,E10,Mes,Mes,,2011,This study
+EPI EPI negative target,Gsk3b,Btrc,-,-,E13,Epi,Epi,,2011,This study
+MES MES positive target,Gsk3b,Ccnd1,-,+,E10,Mes,Mes,,2011,This study
+EPI EPI positive target,Ctnnb1,Cdkn1a,+,+,E14,Epi,Epi,,2009,"Wang XP, O'Connell DJ, Lund JJ, Saadi I, Kuraguchi M, Turbe-Doan A, Cavallesco R, Kim H, Park PJ, Harada H, Kucherlapati R, Maas RL. Apc inhibition of Wnt signaling regulates supernumerary tooth formation during embryogenesis and throughout adulthood. Development 2009 vol. 136 (11) pp. 1939-49"
+MES MES positive target,Gsk3b,Cdkn1a,-,+,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Cited1,-,-,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Cited2,-,-,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Col1a1,-,-,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Col1a2,-,-,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Csnk1g1,-,-,E10,Mes,Mes,,2011,This study
+MES MES positive target,Gsk3b,Csnk2a1,-,+,E10,Mes,Mes,,2011,This study
+MES MES positive target,Gsk3b,Dkk1,-,+,E10,Mes,Mes,,2011,This study
+EPI EPI positive target,Ctnnb1,Dkk4,+,+,E14,Epi,Epi,,2011,This study
+MES MES negative target,Gsk3b,Dlx1,-,-,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Dlx2,-,-,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Dlx6,-,-,E10,Mes,Mes,,2011,This study
+EPI MES positive target,Ctnnb1,Dspp,+,+,E16,Epi,Mes,,2009,"Wang XP, O'Connell DJ, Lund JJ, Saadi I, Kuraguchi M, Turbe-Doan A, Cavallesco R, Kim H, Park PJ, Harada H, Kucherlapati R, Maas RL. Apc inhibition of Wnt signaling regulates supernumerary tooth formation during embryogenesis and throughout adulthood. Development 2009 vol. 136 (11) pp. 1939-49"
+EPI EPI positive target,Ctnnb1,Edar,+,+,E14,Epi,Epi,,2006,"Järvinen E, Salazar-Ciudad I, Birchmeier W, Taketo MM, Jernvall J, Thesleff I. Continuous tooth generation in mouse is induced by activated epithelial Wnt/beta-catenin signaling. PNAS 2006 vol. 103 (49) pp. 18627-32"
+UNRELEVANT,Gsk3b,Edar,-,+,E10,Mes,Mes,,2011,This study
+EPI EPI negative target,Gsk3b,Ednra,-,-,E13,Epi,Epi,,2011,This study
+MES MES positive target,Gsk3b,Ednra,-,+,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Egfr,-,-,E10,Mes,Mes,,2011,This study
+MES MES positive target,Gsk3b,Etv5,-,+,E10,Mes,Mes,,2011,This study
+EPI MES positive target,Ctnnb1,Fgf3,+,+,E14,Epi,Mes,,2009,"Wang XP, O'Connell DJ, Lund JJ, Saadi I, Kuraguchi M, Turbe-Doan A, Cavallesco R, Kim H, Park PJ, Harada H, Kucherlapati R, Maas RL. Apc inhibition of Wnt signaling regulates supernumerary tooth formation during embryogenesis and throughout adulthood. Development 2009 vol. 136 (11) pp. 1939-49"
+EPI MES positive target,Ctnnb1,Fgf3,+,+,E14,Epi,Mes,,2006,"Järvinen E, Salazar-Ciudad I, Birchmeier W, Taketo MM, Jernvall J, Thesleff I. Continuous tooth generation in mouse is induced by activated epithelial Wnt/beta-catenin signaling. PNAS 2006 vol. 103 (49) pp. 18627-32"
+MES EPI positive target,Ctnnb1,Fgf3,-,-,E14,Mes,Epi,,2009,"Chen J, Lan Y, Baek JA, Gao Y, Jiang R. Wnt/beta-catenin signaling plays an essential role in activation of odontogenic mesenchyme during early tooth development. Developmental biology 2009 vol. 334 (1) pp. 174-85"
+MES MES positive target,Ctnnb1,Fgf3,-,-,E14,Mes,Mes,,2009,"Chen J, Lan Y, Baek JA, Gao Y, Jiang R. Wnt/beta-catenin signaling plays an essential role in activation of odontogenic mesenchyme during early tooth development. Developmental biology 2009 vol. 334 (1) pp. 174-85"
+MES MES positive target,Ctnnb1,Fgf3,-,-,E13,Mes,Mes,,2010,"Fujimori S, Novak H, Weissenböck M, Jussila M, Gonçalves A, Zeller R, Galloway J, Thesleff I, Hartmann C. Wnt/?-catenin signaling in the dental mesenchyme regulates incisor development by regulating Bmp4. Developmental biology 2010 vol. 348 (1) pp. 97-106"
+EPI EPI positive target,Ctnnb1,Fgf4,+,+,E14,Epi,Epi,,2009,"Wang XP, O'Connell DJ, Lund JJ, Saadi I, Kuraguchi M, Turbe-Doan A, Cavallesco R, Kim H, Park PJ, Harada H, Kucherlapati R, Maas RL. Apc inhibition of Wnt signaling regulates supernumerary tooth formation during embryogenesis and throughout adulthood. Development 2009 vol. 136 (11) pp. 1939-49"
+MES EPI positive target,Ctnnb1,Fgf4,-,-,E14,Mes,Epi,,2009,"Chen J, Lan Y, Baek JA, Gao Y, Jiang R. Wnt/beta-catenin signaling plays an essential role in activation of odontogenic mesenchyme during early tooth development. Developmental biology 2009 vol. 334 (1) pp. 174-85"
+EPI EPI positive target,Ctnnb1,Fgf8,+,+,E14,Epi,Epi,,2009,"Wang XP, O'Connell DJ, Lund JJ, Saadi I, Kuraguchi M, Turbe-Doan A, Cavallesco R, Kim H, Park PJ, Harada H, Kucherlapati R, Maas RL. Apc inhibition of Wnt signaling regulates supernumerary tooth formation during embryogenesis and throughout adulthood. Development 2009 vol. 136 (11) pp. 1939-49"
+EPI EPI negative target,Gsk3b,Fgfr2,-,-,E13,Epi,Epi,,2011,This study
+MES MES positive target,Gsk3b,Fst,-,+,E10,Mes,Mes,,2011,This study
+EPI EPI negative target,Gsk3b,Fstl1,-,-,E13,Epi,Epi,,2011,This study
+MES MES negative target,Gsk3b,Fstl1,-,-,E10,Mes,Mes,,2011,This study
+MES MES positive target,Gsk3b,Fzd10,-,+,E10,Mes,Mes,,2011,This study
+EPI EPI negative target,Gsk3b,Fzd2,-,-,E13,Epi,Epi,,2011,This study
+MES MES negative target,Gsk3b,Fzd2,-,-,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Fzd5,-,-,E10,Mes,Mes,,2011,This study
+EPI EPI negative target,Gsk3b,Fzd6,-,-,E13,Epi,Epi,,2011,This study
+EPI EPI negative target,Gsk3b,Gab1,-,-,E13,Epi,Epi,,2011,This study
+EPI EPI negative target,Gsk3b,Gata3,-,-,E13,Epi,Epi,,2011,This study
+EPI EPI negative target,Gsk3b,Gli2,-,-,E13,Epi,Epi,,2011,This study
+MES MES positive target,Gsk3b,Gli2,-,+,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Gpr177,-,-,E10,Mes,Mes,,2011,This study
+MES MES positive target,Gsk3b,Grem1,-,+,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Gsc,-,-,E10,Mes,Mes,,2011,This study
+MES MES positive target,Gsk3b,Hes1,-,+,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Id1,-,-,E10,Mes,Mes,,2011,This study
+EPI EPI negative target,Gsk3b,Igfbp3,-,-,E13,Epi,Epi,,2011,This study
+MES MES negative target,Gsk3b,Il17rd,-,-,E10,Mes,Mes,,2011,This study
+EPI MES positive target,Ctnnb1,Inhba,+,+,E14,Epi,Mes,,2009,"Wang XP, O'Connell DJ, Lund JJ, Saadi I, Kuraguchi M, Turbe-Doan A, Cavallesco R, Kim H, Park PJ, Harada H, Kucherlapati R, Maas RL. Apc inhibition of Wnt signaling regulates supernumerary tooth formation during embryogenesis and throughout adulthood. Development 2009 vol. 136 (11) pp. 1939-49"
+EPI EPI negative target,Gsk3b,Inhbb,-,-,E13,Epi,Epi,,2011,This study
+EPI EPI negative target,Gsk3b,Jag2,-,-,E13,Epi,Epi,,2011,This study
+EPI EPI negative target,Gsk3b,Kif3a,-,-,E13,Epi,Epi,,2011,This study
+MES MES positive target,Gsk3b,Kremen1,-,+,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Krt14,-,-,E10,Mes,Mes,,2011,This study
+MES MES positive target,Gsk3b,Lef1,-,+,E10,Mes,Mes,,2011,This study
+MES MES positive target,Ctnnb1,Lef1,-,-,E13,Mes,Mes,,2009,"Chen J, Lan Y, Baek JA, Gao Y, Jiang R. Wnt/beta-catenin signaling plays an essential role in activation of odontogenic mesenchyme during early tooth development. Developmental biology 2009 vol. 334 (1) pp. 174-85"
+MES MES positive target,Ctnnb1,Lef1,-,-,E14,Mes,Mes,,2009,"Chen J, Lan Y, Baek JA, Gao Y, Jiang R. Wnt/beta-catenin signaling plays an essential role in activation of odontogenic mesenchyme during early tooth development. Developmental biology 2009 vol. 334 (1) pp. 174-85"
+EPI EPI positive target,Ctnnb1,Lef1,-,-,E13,Epi,Epi,,2008,"Liu F, Chu EY, Watt B, Zhang Y, Gallant NM, Andl T, Yang SH, Lu MM, Piccolo S, Schmidt-Ullrich R, Taketo MM, Morrisey EE, Atit R, Dlugosz AA, Millar SE. Wnt/beta-catenin signaling directs multiple stages of tooth morphogenesis. Developmental biology 2008 vol. 313 (1) pp. 210-24"
+EPI MES positive target,Ctnnb1,Lef1,-,-,E13,Epi,Mes,,2008,"Liu F, Chu EY, Watt B, Zhang Y, Gallant NM, Andl T, Yang SH, Lu MM, Piccolo S, Schmidt-Ullrich R, Taketo MM, Morrisey EE, Atit R, Dlugosz AA, Millar SE. Wnt/beta-catenin signaling directs multiple stages of tooth morphogenesis. Developmental biology 2008 vol. 313 (1) pp. 210-24"
+MES MES negative target,Gsk3b,Lhx8,-,-,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Lrp6,-,-,E10,Mes,Mes,,2011,This study
+EPI EPI negative target,Gsk3b,Map2k3,-,-,E13,Epi,Epi,,2011,This study
+EPI EPI negative target,Gsk3b,Mapk14,-,-,E13,Epi,Epi,,2011,This study
+MES MES positive target,Gsk3b,Mapk14,-,+,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Meis2,-,-,E10,Mes,Mes,,2011,This study
+MES MES positive target,Gsk3b,Msx1,-,+,E10,Mes,Mes,,2011,This study
+EPI MES positive target,Ctnnb1,Msx1,-,-,E13,Epi,Mes,,2008,"Liu F, Chu EY, Watt B, Zhang Y, Gallant NM, Andl T, Yang SH, Lu MM, Piccolo S, Schmidt-Ullrich R, Taketo MM, Morrisey EE, Atit R, Dlugosz AA, Millar SE. Wnt/beta-catenin signaling directs multiple stages of tooth morphogenesis. Developmental biology 2008 vol. 313 (1) pp. 210-24"
+MES MES positive target,Gsk3b,Msx2,-,+,E10,Mes,Mes,,2011,This study
+EPI EPI positive target,Ctnnb1,Msx2,-,-,E13,Epi,Epi,,2008,"Liu F, Chu EY, Watt B, Zhang Y, Gallant NM, Andl T, Yang SH, Lu MM, Piccolo S, Schmidt-Ullrich R, Taketo MM, Morrisey EE, Atit R, Dlugosz AA, Millar SE. Wnt/beta-catenin signaling directs multiple stages of tooth morphogenesis. Developmental biology 2008 vol. 313 (1) pp. 210-24"
+EPI MES positive target,Ctnnb1,Msx2,-,-,E13,Epi,Mes,,2008,"Liu F, Chu EY, Watt B, Zhang Y, Gallant NM, Andl T, Yang SH, Lu MM, Piccolo S, Schmidt-Ullrich R, Taketo MM, Morrisey EE, Atit R, Dlugosz AA, Millar SE. Wnt/beta-catenin signaling directs multiple stages of tooth morphogenesis. Developmental biology 2008 vol. 313 (1) pp. 210-24"
+MES MES positive target,Gsk3b,Nbl1,-,+,E10,Mes,Mes,,2011,This study
+EPI EPI negative target,Gsk3b,Ncam1,-,-,E13,Epi,Epi,,2011,This study
+MES MES negative target,Gsk3b,Ncam1,-,-,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Nes,-,-,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Ngfr,-,-,E10,Mes,Mes,,2011,This study
+MES MES positive target,Gsk3b,Nkd1,-,+,E10,Mes,Mes,,2011,This study
+MES MES positive target,Gsk3b,Nkd2,-,+,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Notch1,-,-,E10,Mes,Mes,,2011,This study
+EPI EPI negative target,Gsk3b,Ntn3,-,-,E13,Epi,Epi,,2011,This study
+MES MES positive target,Gsk3b,Osr2,-,+,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Pdgfa,-,-,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Pdgfra,-,-,E10,Mes,Mes,,2011,This study
+EPI EPI negative target,Gsk3b,Pik3r1,-,-,E13,Epi,Epi,,2011,This study
+EPI EPI positive target,Ctnnb1,Pitx2,+,+,E14,Epi,Epi,,2009,"Wang XP, O'Connell DJ, Lund JJ, Saadi I, Kuraguchi M, Turbe-Doan A, Cavallesco R, Kim H, Park PJ, Harada H, Kucherlapati R, Maas RL. Apc inhibition of Wnt signaling regulates supernumerary tooth formation during embryogenesis and throughout adulthood. Development 2009 vol. 136 (11) pp. 1939-49"
+EPI EPI positive target,Ctnnb1,Pitx2,+,+,E14,Epi,Epi,,2008,"Liu F, Chu EY, Watt B, Zhang Y, Gallant NM, Andl T, Yang SH, Lu MM, Piccolo S, Schmidt-Ullrich R, Taketo MM, Morrisey EE, Atit R, Dlugosz AA, Millar SE. Wnt/beta-catenin signaling directs multiple stages of tooth morphogenesis. Developmental biology 2008 vol. 313 (1) pp. 210-24"
+MES MES negative target,Gsk3b,Prkaca,-,-,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Pygo2,-,-,E10,Mes,Mes,,2011,This study
+EPI EPI negative target,Gsk3b,Rgma,-,-,E13,Epi,Epi,,2011,This study
+MES MES negative target,Gsk3b,Rgma,-,-,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Rps6ka5,-,-,E10,Mes,Mes,,2011,This study
+EPI EPI negative target,Gsk3b,Sdc1,-,-,E13,Epi,Epi,,2011,This study
+MES MES positive target,Gsk3b,Sdc1,-,+,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Sfrp1,-,-,E10,Mes,Mes,,2011,This study
+EPI EPI negative target,Gsk3b,Sfrp2,-,-,E13,Epi,Epi,,2011,This study
+MES MES negative target,Gsk3b,Sfrp2,-,-,E10,Mes,Mes,,2011,This study
+EPI EPI positive target,Ctnnb1,Shh,+,+,E14,Epi,Epi,,2009,"Wang XP, O'Connell DJ, Lund JJ, Saadi I, Kuraguchi M, Turbe-Doan A, Cavallesco R, Kim H, Park PJ, Harada H, Kucherlapati R, Maas RL. Apc inhibition of Wnt signaling regulates supernumerary tooth formation during embryogenesis and throughout adulthood. Development 2009 vol. 136 (11) pp. 1939-49"
+EPI EPI positive target,Ctnnb1,Shh,+,+,E14,Epi,Epi,,2006,"Järvinen E, Salazar-Ciudad I, Birchmeier W, Taketo MM, Jernvall J, Thesleff I. Continuous tooth generation in mouse is induced by activated epithelial Wnt/beta-catenin signaling. PNAS 2006 vol. 103 (49) pp. 18627-32"
+MES EPI positive target,Ctnnb1,Shh,-,-,E14,Mes,Epi,,2009,"Chen J, Lan Y, Baek JA, Gao Y, Jiang R. Wnt/beta-catenin signaling plays an essential role in activation of odontogenic mesenchyme during early tooth development. Developmental biology 2009 vol. 334 (1) pp. 174-85"
+MES EPI positive target,Ctnnb1,Shh,-,-,E12,Mes,Epi,,2010,"Fujimori S, Novak H, Weissenböck M, Jussila M, Gonçalves A, Zeller R, Galloway J, Thesleff I, Hartmann C. Wnt/?-catenin signaling in the dental mesenchyme regulates incisor development by regulating Bmp4. Developmental biology 2010 vol. 348 (1) pp. 97-106"
+EPI EPI positive target,Ctnnb1,Shh,-,-,E13,Epi,Epi,,2008,"Liu F, Chu EY, Watt B, Zhang Y, Gallant NM, Andl T, Yang SH, Lu MM, Piccolo S, Schmidt-Ullrich R, Taketo MM, Morrisey EE, Atit R, Dlugosz AA, Millar SE. Wnt/beta-catenin signaling directs multiple stages of tooth morphogenesis. Developmental biology 2008 vol. 313 (1) pp. 210-24"
+MES MES positive target,Gsk3b,Smad2,-,+,E10,Mes,Mes,,2011,This study
+EPI EPI negative target,Gsk3b,Smad3,-,-,E13,Epi,Epi,,2011,This study
+EPI MES positive target,Ctnnb1,Sostdc1,+,+,E14,Epi,Mes,,2006,"Järvinen E, Salazar-Ciudad I, Birchmeier W, Taketo MM, Jernvall J, Thesleff I. Continuous tooth generation in mouse is induced by activated epithelial Wnt/beta-catenin signaling. PNAS 2006 vol. 103 (49) pp. 18627-32"
+MES MES positive target,Gsk3b,Sostdc1,-,+,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Sox9,-,-,E10,Mes,Mes,,2011,This study
+EPI EPI positive target,Ctnnb1,Sp6,+,+,E14,Epi,Epi,,2006,"Järvinen E, Salazar-Ciudad I, Birchmeier W, Taketo MM, Jernvall J, Thesleff I. Continuous tooth generation in mouse is induced by activated epithelial Wnt/beta-catenin signaling. PNAS 2006 vol. 103 (49) pp. 18627-32"
+MES MES negative target,Gsk3b,Src,-,-,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Stat3,-,-,E10,Mes,Mes,,2011,This study
+MES MES positive target,Gsk3b,Tcf7,-,+,E10,Mes,Mes,,2011,This study
+EPI EPI negative target,Gsk3b,Tcf7l2,-,-,E13,Epi,Epi,,2011,This study
+MES MES negative target,Gsk3b,Tcf7l2,-,-,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Tgfb2,-,-,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Tgfb3,-,-,E10,Mes,Mes,,2011,This study
+EPI EPI negative target,Gsk3b,Timp2,-,-,E13,Epi,Epi,,2011,This study
+EPI EPI negative target,Gsk3b,Timp3,-,-,E13,Epi,Epi,,2011,This study
+MES MES negative target,Gsk3b,Timp3,-,-,E10,Mes,Mes,,2011,This study
+MES MES positive target,Gsk3b,Tle3,-,+,E10,Mes,Mes,,2011,This study
+MES MES positive target,Gsk3b,Tle4,-,+,E10,Mes,Mes,,2011,This study
+MES MES positive target,Gsk3b,Tnfrsf19,-,+,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Tnik,-,-,E10,Mes,Mes,,2011,This study
+MES MES negative target,Gsk3b,Trp63,-,-,E10,Mes,Mes,,2011,This study
+MES MES positive target,Gsk3b,Twist1,-,+,E10,Mes,Mes,,2011,This study
+MES MES positive target,Gsk3b,Wif1,-,+,E10,Mes,Mes,,2011,This study
+EPI EPI positive target,Ctnnb1,Wnt10a,+,+,E14,Epi,Epi,,2011,This study
+EPI EPI negative target,Gsk3b,Wnt10a,-,-,E13,Epi,Epi,,2011,This study
+EPI EPI positive target,Ctnnb1,Wnt10b,+,+,E14,Epi,Epi,,2006,"Järvinen E, Salazar-Ciudad I, Birchmeier W, Taketo MM, Jernvall J, Thesleff I. Continuous tooth generation in mouse is induced by activated epithelial Wnt/beta-catenin signaling. PNAS 2006 vol. 103 (49) pp. 18627-32"
+EPI EPI positive target,Ctnnb1,Wnt10b,+,+,E14,Epi,Epi,,2011,This study
+EPI EPI negative target,Ctnnb1,Wnt3a,+,-,E14,Epi,Epi,,2011,This study
+EPI EPI negative target,Gsk3b,Wnt3a,-,-,E13,Epi,Epi,,2011,This study
+EPI EPI negative target,Gsk3b,Wnt4,-,-,E13,Epi,Epi,,2011,This study
+MES MES positive target,Gsk3b,Wnt5a,-,+,E10,Mes,Mes,,2011,This study
+MES MES positive target,Gsk3b,Wnt5b,-,+,E10,Mes,Mes,,2011,This study
+EPI EPI positive target,Ctnnb1,Wnt6,+,+,E14,Epi,Epi,,2011,This study
+EPI EPI positive target,Ctnnb1,Wnt6,+,+,E14,Epi,Epi,,2011,This study
+EPI EPI negative target,Gsk3b,Wnt7b,-,-,E13,Epi,Epi,,2011,This study
