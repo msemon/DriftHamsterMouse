@@ -1,0 +1,129 @@
+echantillon,machoire,stade,espece,replicat,file,calage,calagesophie,weight,protocole,kit banque,jour prep,index,sequençage,ligne,anomalie,Nb dents,dissection,papa
+aco_BZW_AAAA,md,23,aco,rep1,quant_aco/BZW_AAAAOSRA_1_1_C9H8VACXX.IND6_noribo_clean.fastq.gz.qt,PEK,PEK,396,protocole modifié,kit4,19/01/2017,6,run4,ligne1,NA,1 dent,NA,ND
+aco_BZW_AAAB,mx,23,aco,rep1,quant_aco/BZW_AAABOSRA_1_1_C9H8VACXX.IND12_noribo_clean.fastq.gz.qt,PEK,PEK,396,protocole modifié,kit4,19/01/2017,12,run4,ligne1,NA,1 dent,NA,ND
+aco_BZW_AAAC,md,22.5,aco,rep1,quant_aco/BZW_AAACOSRA_1_1_C9H8VACXX.IND2_noribo_clean.fastq.gz.qt,1SEK,1SEK,470,protocole modifié,kit4,19/01/2017,2,run4,ligne1,NA,1 dent,NA,ND
+aco_BZW_AAAD,mx,22.5,aco,rep1,quant_aco/BZW_AAADOSRA_1_1_C9H8VACXX.IND4_noribo_clean.fastq.gz.qt,1SEK,1SEK,470,protocole modifié,kit4,19/01/2017,4,run4,ligne1,NA,1 dent,NA,ND
+aco_BZW_AAAE,md,23.5,aco,rep1,quant_aco/BZW_AAAEOSRA_2_1_C9H8VACXX.IND5_noribo_clean.fastq.gz.qt,1.5SEK,1SEK,528,protocole modifié,kit4,19/01/2017,5,run4,ligne2,NA,1 dent,NA,ND
+aco_BZW_AAAF,mx,23.5,aco,rep1,quant_aco/BZW_AAAFOSRA_2_1_C9H8VACXX.IND13_noribo_clean.fastq.gz.qt,1.5SEK,1SEK,528,protocole modifié,kit4,19/01/2017,13,run4,ligne2,NA,1 dent,NA,ND
+aco_BZW_AAAG,md,23,aco,rep1,quant_aco/BZW_AAAGOSRA_2_1_C9H8VACXX.IND6_noribo_clean.fastq.gz.qt,2SEK,2_4SEK,627,protocole modifié,kit4,19/01/2017,6,run4,ligne2,NA,1 dent,NA,ND
+aco_BZW_AAAH,mx,23,aco,rep1,quant_aco/BZW_AAAHOSRA_2_1_C9H8VACXX.IND12_noribo_clean.fastq.gz.qt,2SEK,2_4SEK,627,protocole modifié,kit4,19/01/2017,12,run4,ligne2,NA,1 dent,NA,ND
+aco_BZW_AAAI,md,24,aco,rep1,quant_aco/BZW_AAAIOSRA_3_1_C9H8VACXX.IND6_noribo_clean.fastq.gz.qt,3/4SEK,2_4SEK,710,protocole modifié,kit4,26/02/2017,6,run4,ligne3,NA,1 dent,NA,ND
+aco_BZW_AAAJ,mx,24,aco,rep1,quant_aco/BZW_AAAJOSRA_3_1_C9H8VACXX.IND12_noribo_clean.fastq.gz.qt,3/4SEK,2_4SEK,710,protocole modifié,kit4,26/02/2017,12,run4,ligne3,NA,1 dent,petit bout enlevé en trop mis en RNA later,ND
+aco_BZW_AAAK,md,25,aco,rep1,quant_aco/BZW_AAAKOSRA_3_1_C9H8VACXX.IND2_noribo_clean.fastq.gz.qt,5/6SEK,4_6SEK,888,protocole modifié,kit4,26/02/2017,2,run4,ligne3,NA,1 dent,NA,ND
+aco_BZW_AAAL,mx,25,aco,rep1,quant_aco/BZW_AAALOSRA_3_1_C9H8VACXX.IND4_noribo_clean.fastq.gz.qt,5/6SEK,4_6SEK,888,protocole modifié,kit4,26/02/2017,4,run4,ligne3,NA,1 dent,NA,ND
+aco_BZW_AAAM,md,27.5,aco,rep1,quant_aco/BZW_AAAMOSRA_4_1_C9H8VACXX.IND5_noribo_clean.fastq.gz.qt,6SEK,4_6SEK,1282,protocole modifié,kit4,26/02/2017,5,run4,ligne4,NA,1 dent,NA,ND
+aco_BZW_AAAN,mx,27.5,aco,rep1,quant_aco/BZW_AAANOSRA_4_1_C9H8VACXX.IND13_noribo_clean.fastq.gz.qt,5/6SEK,4_6SEK,1282,protocole modifié,kit4,26/02/2017,13,run4,ligne4,NA,1 dent,NA,ND
+aco_BZW_AAAO,md,27.5,aco,rep1,quant_aco/BZW_AAAOOSRA_4_1_C9H8VACXX.IND6_noribo_clean.fastq.gz.qt,DF,DF,1637,protocole modifié,kit4,26/02/2017,6,run4,ligne4,NA,1 dent,NA,ND
+aco_BZW_AAAP,mx,27.5,aco,rep1,quant_aco/BZW_AAAPOSRA_4_1_C9H8VACXX.IND12_noribo_clean.fastq.gz.qt,DF,DF,1637,protocole modifié,kit4,26/02/2017,12,run4,ligne4,NA,1 dent,NA,ND
+aco_BZW_AAAQ,md,23,aco,rep1,quant_aco/BZW_AAAQOSRA_5_1_C9H8VACXX.IND6_noribo_clean.fastq.gz.qt,2SEK,2_4SEK,673,protocole modifié,kit4,30/01/2017,6,run4,ligne5,NA,1 dent,NA,ND
+aco_BZW_AAAR,mx,23,aco,rep1,quant_aco/BZW_AAAROSRA_5_1_C9H8VACXX.IND12_noribo_clean.fastq.gz.qt,3/4SEK,2_4SEK,673,protocole modifié,kit4,30/01/2017,12,run4,ligne5,NA,1 dent,NA,ND
+aco_BZW_AAAS,md,25,aco,rep1,quant_aco/BZW_AAASOSRA_5_1_C9H8VACXX.IND2_noribo_clean.fastq.gz.qt,5/6SEK,4_6SEK,858,protocole modifié,kit4,30/01/2017,2,run4,ligne5,NA,1 dent,NA,ND
+aco_BZW_AAAT,mx,25,aco,rep1,quant_aco/BZW_AAATOSRA_5_1_C9H8VACXX.IND4_noribo_clean.fastq.gz.qt,5/6SEK,4_6SEK,858,protocole modifié,kit4,30/01/2017,4,run4,ligne5,NA,1 dent,NA,ND
+aco_BZW_AAAU,md,26,aco,rep1,quant_aco/BZW_AAAUOSRA_6_1_C9H8VACXX.IND6_noribo_clean.fastq.gz.qt,6SEK,4_6SEK,1056,protocole modifié,kit4,30/01/2017,6,run4,ligne6,NA,1 dent,NA,ND
+aco_BZW_AAAV,mx,26,aco,rep1,quant_aco/BZW_AAAVOSRA_6_1_C9H8VACXX.IND12_noribo_clean.fastq.gz.qt,5/6SEK,4_6SEK,1056,protocole modifié,kit4,30/01/2017,12,run4,ligne6,NA,1 dent,un peu ratiboisée à l'avant,ND
+aco_BZW_AAAW,md,26.5,aco,rep1,quant_aco/BZW_AAAWOSRA_6_1_C9H8VACXX.IND5_noribo_clean.fastq.gz.qt,DF,DF,1471,protocole modifié,kit4,30/01/2017,5,run4,ligne6,NA,1 dent,NA,ND
+aco_BZW_AAAX,mx,26.5,aco,rep1,quant_aco/BZW_AAAXOSRA_6_1_C9H8VACXX.IND13_noribo_clean.fastq.gz.qt,DF,DF,1471,protocole modifié,kit4,30/01/2017,13,run4,ligne6,NA,1 dent,NA,ND
+aco_BZW_AABA,md,22,aco,rep1,quant_aco/BZW_AABAOSRA_7_1_C9H8VACXX.IND2_noribo_clean.fastq.gz.qt,PEK,PEK,389,protocole modifié,kit4,06/02/2017,2,run4,ligne7,NA,1 dent,NA,ND
+aco_BZW_AABB,mx,22,aco,rep1,quant_aco/BZW_AABBOSRA_7_1_C9H8VACXX.IND4_noribo_clean.fastq.gz.qt,PEK,PEK,389,protocole modifié,kit4,06/02/2017,4,run4,ligne7,NA,1 dent,NA,ND
+aco_BZW_AAAZ,mx,21.5,aco,rep1,quant_aco/BZW_AAAZOSRA_7_1_C9H8VACXX.IND12_noribo_clean.fastq.gz.qt,BUD,BUD,330,protocole modifié,kit3+4,19/04/2017,6,run4,ligne7,NA,1 dent,NA,ND
+aco_BZW_AAAY,md,21.5,aco,rep1,quant_aco/BZW_AAAYOSRA_7_1_C9H8VACXX.IND6_noribo_clean.fastq.gz.qt,BUD,BUD,330,protocole modifié,kit3+4,19/04/2017,12,run4,ligne7,NA,1 dent,NA,ND
+aco_BZW_AABC,md,22,aco,rep1,quant_aco/BZW_AABCOSRA_8_1_C9H8VACXX.IND6_noribo_clean.fastq.gz.qt,1.5SEK,1SEK,468,protocole modifié,kit4,06/02/2017,6,run4,ligne8,NA,1 dent,NA,ND
+aco_BZW_AABD,mx,22,aco,rep1,quant_aco/BZW_AABDOSRA_8_1_C9H8VACXX.IND12_noribo_clean.fastq.gz.qt,1.5SEK,1SEK,468,protocole modifié,kit4,06/02/2017,12,run4,ligne8,NA,1 dent,NA,ND
+aco_BZW_AABE,md,23,aco,rep1,quant_aco/BZW_AABEOSRA_8_1_C9H8VACXX.IND5_noribo_clean.fastq.gz.qt,2SEK,2_4SEK,616,protocole modifié,kit4,06/02/2017,5,run4,ligne8,NA,1 dent,NA,ND
+aco_BZW_AABF,mx,23,aco,rep1,quant_aco/BZW_AABFOSRA_8_1_C9H8VACXX.IND13_noribo_clean.fastq.gz.qt,3/4SEK,2_4SEK,616,protocole modifié,kit4,06/02/2017,13,run4,ligne8,NA,1 dent,NA,ND
+aco_BZW_AABG,mx,21.5,aco,rep1,quant_aco/BZW_AABGOSRA_8_1_CA5AMACXX.IND5_noribo_clean.fastq.gz.qt,BUD,BUD,321,protocole modifié,kit4,06/02/2017,5,run4,ligne9,NA,1 dent,NA,ND
+aco_BZW_AABH,md,21.5,aco,rep1,quant_aco/BZW_AABHOSRA_8_1_CA5AMACXX.IND13_noribo_clean.fastq.gz.qt,BUD,BUD,321,protocole modifié,kit4,06/02/2017,13,run4,ligne9,NA,1 dent,NA,ND
+aco_BZW_AABI,mx,23,aco,rep1,quant_aco/BZW_AABIOSRA_8_1_CA5AMACXX.IND6_noribo_clean.fastq.gz.qt,2SEK,2_4SEK,564,protocole modifié,kit4,19/04/2017,6,run4,ligne9,NA,1 dent,NA,ND
+aco_BZW_AABJ,md,23,aco,rep1,quant_aco/BZW_AABJOSRA_8_1_CA5AMACXX.IND12_noribo_clean.fastq.gz.qt,2SEK,2_4SEK,564,protocole modifié,kit4,19/04/2017,12,run4,ligne9,NA,1 dent,possible manque morceau base orale dent,ND
+ger_CAH_AA,mx,20.5,ger,rep1,quant_ger/CAH_AAOSRA_7_1_CA5AMACXX.IND6_noribo_clean.fastq.gz.qt,BUD,BUD,583,protocole modifié,kit4,06/03/2017,6,run4,ligne10,NA,1 dent,NA,ND
+ger_CAH_AB,md,20.5,ger,rep1,quant_ger/CAH_ABOSRA_7_1_CA5AMACXX.IND12_noribo_clean.fastq.gz.qt,BUD,BUD,583,protocole modifié,kit4,06/03/2017,12,run4,ligne10,NA,1 dent,NA,ND
+ger_CAH_AC,mx,21,ger,rep1,quant_ger/CAH_ACOSRA_7_1_CA5AMACXX.IND2_noribo_clean.fastq.gz.qt,PEK,PEK,694,protocole modifié,kit4,06/03/2017,2,run4,ligne10,NA,1 dent,NA,ND
+ger_CAH_AD,md,21,ger,rep1,quant_ger/CAH_ADOSRA_7_1_CA5AMACXX.IND4_noribo_clean.fastq.gz.qt,PEK,PEK,694,protocole modifié,kit4,06/03/2017,4,run4,ligne10,NA,1 dent,NA,ND
+ger_CAH_AE,mx,21.5,ger,rep1,quant_ger/CAH_AEOSRA_3_1_CA5AMACXX.IND5_noribo_clean.fastq.gz.qt,1SEK,1SEK,902,protocole modifié,kit4,06/03/2017,5,run4,ligne11,NA,1 dent,NA,ND
+ger_CAH_AF,md,21.5,ger,rep1,quant_ger/CAH_AFOSRA_3_1_CA5AMACXX.IND13_noribo_clean.fastq.gz.qt,1SEK,1SEK,902,protocole modifié,kit4,06/03/2017,13,run4,ligne11,NA,1 dent,NA,ND
+ger_CAH_AG,mx,21,ger,rep1,quant_ger/CAH_AGOSRA_3_1_CA5AMACXX.IND6_noribo_clean.fastq.gz.qt,1.5SEK,1SEK,1076,protocole modifié,kit4,06/03/2017,6,run4,ligne11,NA,1 dent,NA,ND
+ger_CAH_AH,md,21,ger,rep1,quant_ger/CAH_AHOSRA_3_1_CA5AMACXX.IND12_noribo_clean.fastq.gz.qt,2SEK,1SEK,1076,protocole modifié,kit4,06/03/2017,12,run4,ligne11,NA,1 dent,NA,ND
+ger_CAH_AI,mx,22,ger,rep1,quant_ger/CAH_AIOSRA_1_1_CA5AMACXX.IND6_noribo_clean.fastq.gz.qt,2SEK,2_4SEK,1158,protocole modifié,kit4,24/03/2017,6,run4,ligne12,NA,1 dent,NA,ND
+ger_CAH_AJ,md,22,ger,rep1,quant_ger/CAH_AJOSRA_1_1_CA5AMACXX.IND12_noribo_clean.fastq.gz.qt,2SEK,2_4SEK,1158,protocole modifié,kit4,24/03/2017,12,run4,ligne12,NA,1 dent,NA,ND
+ger_CAH_AK,mx,21.5,ger,rep1,quant_ger/CAH_AKOSRA_1_1_CA5AMACXX.IND2_noribo_clean.fastq.gz.qt,3/4SEK,4_6SEK,1500,protocole modifié,kit4,24/03/2017,2,run4,ligne12,NA,1 dent,NA,ND
+ger_CAH_AL,md,21.5,ger,rep1,quant_ger/CAH_ALOSRA_1_1_CA5AMACXX.IND4_noribo_clean.fastq.gz.qt,5/6SEK,4_6SEK,1500,protocole modifié,kit4,24/03/2017,4,run4,ligne12,NA,1 dent,NA,ND
+ger_CAH_AM,mx,21.5,ger,rep1,quant_ger/CAH_AMOSRA_5_1_CA5AMACXX.IND5_noribo_clean.fastq.gz.qt,5/6SEK,4_6SEK,1949,protocole modifié,kit4,24/03/2017,5,run4,ligne13,NA,1 dent,NA,ND
+ger_CAH_AN,md,21.5,ger,rep1,quant_ger/CAH_ANOSRA_5_1_CA5AMACXX.IND13_noribo_clean.fastq.gz.qt,6SEK,4_6SEK,1949,protocole modifié,kit4,24/03/2017,13,run4,ligne13,NA,1 dent,NA,ND
+ger_CAH_AO,mx,21.5,ger,rep1,quant_ger/CAH_AOOSRA_5_1_CA5AMACXX.IND6_noribo_clean.fastq.gz.qt,DF,DF,2654,protocole modifié,kit4,24/03/2017,6,run4,ligne13,NA,1 dent,NA,ND
+ger_CAH_AP,md,21.5,ger,rep1,quant_ger/CAH_APOSRA_5_1_CA5AMACXX.IND12_noribo_clean.fastq.gz.qt,DF,DF,2654,protocole modifié,kit4,24/03/2017,12,run4,ligne13,NA,1 dent,NA,ND
+ger_CAH_AQ,mx,20.5,ger,rep2,quant_ger/CAH_AQOSRA_6_1_CA5AMACXX.IND6_noribo_clean.fastq.gz.qt,PEK,PEK,647,protocole modifié,kit3+4,11/04/2017,6,run4,ligne14,NA,1 dent,NA,ND
+ger_CAH_AR,md,20.5,ger,rep2,quant_ger/CAH_AROSRA_6_1_CA5AMACXX.IND12_noribo_clean.fastq.gz.qt,PEK,PEK,647,protocole modifié,kit3+4,11/04/2017,12,run4,ligne14,NA,1 dent,NA,ND
+ger_CAH_AS,mx,20.5,ger,rep2,quant_ger/CAH_ASOSRA_6_1_CA5AMACXX.IND2_noribo_clean.fastq.gz.qt,1SEK,1SEK,887,protocole modifié,kit3+4,11/04/2017,2,run4,ligne14,NA,1 dent,NA,ND
+ger_CAH_AT,md,20.5,ger,rep2,quant_ger/CAH_ATOSRA_6_1_CA5AMACXX.IND4_noribo_clean.fastq.gz.qt,1SEK,1SEK,887,protocole modifié,kit3+4,11/04/2017,4,run4,ligne14,NA,1 dent,NA,ND
+ger_CAH_AU,mx,21,ger,rep2,quant_ger/CAH_AUOSRA_4_1_CA5AMACXX.IND5_noribo_clean.fastq.gz.qt,1.5SEK,1SEK,1105,protocole modifié,kit3+4,11/04/2017,5,run4,ligne15,NA,1 dent,NA,ND
+ger_CAH_AV,md,21,ger,rep2,quant_ger/CAH_AVOSRA_4_1_CA5AMACXX.IND13_noribo_clean.fastq.gz.qt,2SEK,1SEK,1105,protocole modifié,kit3+4,11/04/2017,13,run4,ligne15,NA,1 dent,NA,ND
+ger_CAH_AW,mx,21.5,ger,rep2,quant_ger/CAH_AWOSRA_4_1_CA5AMACXX.IND6_noribo_clean.fastq.gz.qt,3/4SEK,2_4SEK,1471,protocole modifié,kit3+4,11/04/2017,6,run4,ligne15,NA,1 dent,NA,ND
+ger_CAH_AX,md,21.5,ger,rep2,quant_ger/CAH_AXOSRA_4_1_CA5AMACXX.IND12_noribo_clean.fastq.gz.qt,5/6SEK,2_4SEK,1471,protocole modifié,kit3+4,11/04/2017,12,run4,ligne15,NA,1 dent,NA,ND
+ger_CAH_AY,mx,20.5,ger,rep2,quant_ger/CAH_AYOSRA_2_1_CA5AMACXX.IND6_noribo_clean.fastq.gz.qt,BUD,BUD,612,protocole modifié,kit3+4,19/04/2017,6,run4,ligne16,NA,1 dent,NA,ND
+ger_CAH_AZ,md,20.5,ger,rep2,quant_ger/CAH_AZOSRA_2_1_CA5AMACXX.IND12_noribo_clean.fastq.gz.qt,BUD,BUD,612,protocole modifié,kit3+4,19/04/2017,12,run4,ligne16,NA,1 dent,NA,ND
+ger_CAH_BA,mx,22.5,ger,rep2,quant_ger/CAH_BAOSRA_2_1_CA5AMACXX.IND2_noribo_clean.fastq.gz.qt,DF,DF,2777,protocole modifié,kit3+4,19/04/2017,2,run4,ligne16,NA,1 dent,NA,ND
+ger_CAH_BB,md,22.5,ger,rep2,quant_ger/CAH_BBOSRA_2_1_CA5AMACXX.IND4_noribo_clean.fastq.gz.qt,DF,DF,2777,protocole modifié,kit3+4,19/04/2017,4,run4,ligne16,NA,1 dent,NA,ND
+ham_BCR_AOSW,md,12.2,ham,rep1,quant_ham/BCR_AOSW_5_1_C1JGYACXX.IND5_noribo_clean.fastq.qt,PEK,PEK,310,protocole modifié,kit 2,22/02/2013,5,run2,ligne1,NA,2 dents,NA,955000003517232
+ham_BCR_BOSW,mx,12.2,ham,rep1,quant_ham/BCR_BOSW_5_1_C1JGYACXX.IND6_noribo_clean.fastq.qt,PEK,PEK,310,protocole modifié,kit 2,22/02/2013,6,run2,ligne1,NA,2 dents,NA,955000003517232
+ham_BCR_COSW,md,12.5,ham,rep1,quant_ham/BCR_COSW_5_1_C1JGYACXX.IND12_noribo_clean.fastq.qt,1SEK,1SEK,431,protocole modifié,kit 2,22/02/2013,12,run2,ligne1,NA,2 dents,NA,955000003519323
+ham_BCR_DOSW,mx,12.5,ham,rep1,quant_ham/BCR_DOSW_5_1_C1JGYACXX.IND19_noribo_clean.fastq.qt,PEK,PEK,431,protocole modifié,kit 2,22/02/2013,19,run2,ligne1,NA,2 dents,NA,955000003519323
+ham_BCR_EOSW,md,13,ham,rep1,quant_ham/BCR_EOSW_6_1_C1JGYACXX.IND2_noribo_clean.fastq.qt,2SEK,1SEK,532,protocole modifié,kit 2,22/02/2013,2,run2,ligne2,NA,2 dents,NA,955000003518513
+ham_BCR_FOSW,mx,13,ham,rep1,quant_ham/BCR_FOSW_6_1_C1JGYACXX.IND4_noribo_clean.fastq.qt,1.5SEK,1SEK,532,protocole modifié,kit 2,22/02/2013,4,run2,ligne2,NA,2 dents,NA,955000003518513
+ham_BCR_GOSW,md,13.25,ham,rep1,quant_ham/BCR_GOSW_6_1_C1JGYACXX.IND7_noribo_clean.fastq.qt,3/4SEK,2_4SEK,776,protocole modifié,kit 2,22/02/2013,7,run2,ligne2,NA,2 dents,NA,955000003518993
+ham_BCR_HOSW,mx,13.25,ham,rep1,quant_ham/BCR_HOSW_6_1_C1JGYACXX.IND16_noribo_clean.fastq.qt,2SEK,2_4SEK,776,protocole modifié,kit 2,22/02/2013,16,run2,ligne2,NA,2 dents,NA,955000003518993
+ham_BCR_IOSW,md,13.5,ham,rep1,quant_ham/BCR_IOSW_7_1_C1JGYACXX.IND5_noribo_clean.fastq.qt,5/6SEK,2_4SEK,958,protocole modifié,kit 2,25/02/2013,5,run2,ligne3,1st strand refait,2 dents,NA,955000003519323
+ham_BCR_KOSW,mx,13.5,ham,rep1,quant_ham/BCR_KOSW_7_1_C1JGYACXX.IND6_noribo_clean.fastq.qt,3/4SEK,2_4SEK,958,protocole modifié,kit 2,25/02/2013,6,run2,ligne3,1st strand refait,2 dents,NA,955000003519323
+ham_BCR_LOSW,md,13.75,ham,rep1,quant_ham/BCR_LOSW_7_1_C1JGYACXX.IND12_noribo_clean.fastq.qt,6SEK,4_6SEK,1050,protocole modifié,kit 2,25/02/2013,12,run2,ligne3,NA,2 dents,NA,955000003517232
+ham_BCR_MOSW,mx,13.75,ham,rep1,quant_ham/BCR_MOSW_7_1_C1JGYACXX.IND19_noribo_clean.fastq.qt,5/6SEK,4_6SEK,1050,protocole modifié,kit 2,25/02/2013,19,run2,ligne3,NA,2 dents,NA,955000003517232
+ham_BCR_NOSW,md,14,ham,rep1,quant_ham/BCR_NOSW_8_1_C1JGYACXX.IND2_noribo_clean.fastq.qt,6SEK,4_6SEK,1195,protocole modifié,kit 2,25/02/2013,2,run2,ligne4,NA,2 dents,NA,955000003518993
+ham_BCR_POSW,mx,14,ham,rep1,quant_ham/BCR_POSW_8_1_C1JGYACXX.IND4_noribo_clean.fastq.qt,5/6SEK,4_6SEK,1195,protocole modifié,kit 2,25/02/2013,4,run2,ligne4,NA,2 dents,NA,955000003518993
+ham_BCR_QOSW,md,14.5,ham,rep1,quant_ham/BCR_QOSW_8_1_C1JGYACXX.IND7_noribo_clean.fastq.qt,DF,DF,1667,protocole modifié,kit 2,25/02/2013,7,run2,ligne4,NA,2 dents,NA,955000003519323
+ham_BCR_ROSW,mx,14.5,ham,rep1,quant_ham/BCR_ROSW_8_1_C1JGYACXX.IND16_noribo_clean.fastq.qt,DF,DF,1667,protocole modifié,kit 2,25/02/2013,16,run2,ligne4,NA,2 dents,NA,955000003519323
+ham_BGE_AAOSW,md,11.8,ham,rep2,quant_ham/BGE_AAOSW_8_1_C3G4CACXX.IND7_noribo_clean.fastq.qt,BUD,BUD,231,protocole modifié,kit 2vieux,26/02/2014,7,run3,ligne7,manque 1-2ul adenyl,2 dents,NA,955000003518513
+ham_BGE_AOSW,md,12,ham,rep2,quant_ham/BGE_AOSW_5_1_C3G4CACXX.IND5_noribo_clean.fastq.qt,BUD,BUD,237,protocole modifié,kit 2vieux,29/01/2014,5,run3,ligne5,NA,2 dents,NA,955000003518993
+ham_BGE_BAOSW,mx,11.8,ham,rep2,quant_ham/BGE_BAOSW_8_1_C3G4CACXX.IND16_noribo_clean.fastq.qt,BUD,BUD,231,protocole modifié,kit 2vieux,26/02/2014,16,run3,ligne7,NA,2 dents,NA,955000003518513
+ham_BGE_BOSW,mx,12,ham,rep2,quant_ham/BGE_BOSW_5_1_C3G4CACXX.IND6_noribo_clean.fastq.qt,BUD,BUD,237,protocole modifié,kit 2vieux,29/01/2014,6,run3,ligne5,NA,2 dents,NA,955000003518993
+ham_BGE_COSW,md,12.5,ham,rep2,quant_ham/BGE_COSW_5_1_C3G4CACXX.IND12_noribo_clean.fastq.qt,1SEK,1SEK,371,protocole modifié,kit 2vieux,29/01/2014,12,run3,ligne5,NA,2 dents,NA,mâle 31(29?)
+ham_BGE_DOSW,mx,12.5,ham,rep2,quant_ham/BGE_DOSW_5_1_C3G4CACXX.IND19_noribo_clean.fastq.qt,PEK,PEK,371,protocole modifié,kit 2vieux,29/01/2014,19,run3,ligne5,NA,2 dents,NA,mâle 31(29?)
+ham_BGE_EOSW,md,13,ham,rep2,quant_ham/BGE_EOSW_6_1_C3G4CACXX.IND2_noribo_clean.fastq.qt,2SEK,2_4SEK,548,protocole modifié,kit 2vieux,29/01/2014,2,run3,ligne6,NA,2 dents,NA,955000003518993
+ham_BGE_FOSW,mx,13,ham,rep2,quant_ham/BGE_FOSW_6_1_C3G4CACXX.IND4_noribo_clean.fastq.qt,1.5SEK,2_4SEK,548,protocole modifié,kit 2vieux,29/01/2014,4,run3,ligne6,NA,2 dents,NA,955000003518993
+ham_BGE_GOSW,md,13.25,ham,rep2,quant_ham/BGE_GOSW_6_1_C3G4CACXX.IND7_noribo_clean.fastq.qt,3/4SEK,2_4SEK,793,protocole modifié,kit 2vieux,29/01/2014,7,run3,ligne6,NA,2 dents,NA,955000003517232
+ham_BGE_HOSW,mx,13.25,ham,rep2,quant_ham/BGE_HOSW_6_1_C3G4CACXX.IND16_noribo_clean.fastq.qt,2SEK,2_4SEK,793,protocole modifié,kit 2vieux,29/01/2014,16,run3,ligne6,NA,2 dents,NA,955000003517232
+ham_BGE_IOSW,md,13.5,ham,rep2,quant_ham/BGE_IOSW_8_1_C3G4CACXX.IND2_noribo_clean.fastq.qt,6SEK,4_6SEK,1019,protocole modifié,kit 2vieux+gerard,26/02/2014,2,run3,ligne7,refait seul jusqu'à adenyl,2 dents,1 md petit bout moins avant,955000003518731
+ham_BGE_KOSW,mx,13.5,ham,rep2,quant_ham/BGE_KOSW_8_1_C3G4CACXX.IND4_noribo_clean.fastq.qt,5/6SEK,4_6SEK,1019,protocole modifié,kit 2vieux+gerard,26/02/2014,4,run3,ligne7,repurifié,2 dents,NA,955000003518731
+ham_BGE_NOSW,md,14,ham,rep2,quant_ham/BGE_NOSW_7_1_C3G4CACXX.IND2_noribo_clean.fastq.qt,6SEK,4_6SEK,1035,protocole modifié,kit 2vieux+gerard,26/02/2014,2,run3,ligne8,NA,2 dents,NA,955000003517232
+ham_BGE_POSW,mx,14,ham,rep2,quant_ham/BGE_POSW_7_1_C3G4CACXX.IND4_noribo_clean.fastq.qt,5/6SEK,4_6SEK,1035,protocole modifié,kit 2vieux+gerard,26/02/2014,4,run3,ligne8,NA,2 dents,NA,955000003517232
+ham_BGE_QOSW,md,14.5,ham,rep2,quant_ham/BGE_QOSW_7_1_C3G4CACXX.IND7_noribo_clean.fastq.qt,DF,DF,1570,protocole modifié,kit 2vieux+gerard,26/02/2014,7,run3,ligne8,NA,2 dents,NA,955000003516907
+ham_BGE_ROSW,mx,14.5,ham,rep2,quant_ham/BGE_ROSW_7_1_C3G4CACXX.IND16_noribo_clean.fastq.qt,DF,DF,1570,protocole modifié,kit 2vieux+gerard,26/02/2014,16,run3,ligne8,NA,2 dents,NA,955000003516907
+mus_AXR_MAOS,md,14.5,mus,rep1,quant_mus/AXR_MAOSW_1_1_D0YGFACXX.IND22_clean.fastq.qt,PEK,PEK,282,protocole initial,kit 1,09/04/2012,22,run1,ligne1,NA,2 dents,NA,317562
+mus_AXR_MBOS,mx,14.5,mus,rep1,quant_mus/AXR_MBOSW_1_1_D0YGFACXX.IND23_clean.fastq.qt,PEK,PEK,282,protocole initial,kit 1,09/04/2012,23,run1,ligne1,NA,2 dents,NA,317562
+mus_AXR_MCOS,md,15,mus,rep1,quant_mus/AXR_MCOSW_1_1_D0YGFACXX.IND10_clean.fastq.qt,1SEK,1SEK,371,protocole initial,kit 1,09/04/2012,10,run1,ligne1,NA,2 dents,NA,317561
+mus_AXR_MDOS,mx,15,mus,rep1,quant_mus/AXR_MDOSW_1_1_D0YGFACXX.IND11_clean.fastq.qt,1SEK,1SEK,371,protocole initial,kit 1,09/04/2012,11,run1,ligne1,NA,2 dents,NA,317561
+mus_AXR_MEOS,md,15.5,mus,rep1,quant_mus/AXR_MEOSW_2_1_D0YGFACXX.IND1_clean.fastq.qt,1.5SEK,1SEK,453,protocole initial,kit 1,19/04/2012,1,run1,ligne2,NA,2 dents,NA,317563
+mus_AXR_MFOS,mx,15.5,mus,rep1,quant_mus/AXR_MFOSW_2_1_D0YGFACXX.IND3_clean.fastq.qt,1.5SEK,1SEK,453,protocole initial,kit 1,19/04/2012,3,run1,ligne2,NA,2 dents,NA,317563
+mus_AXR_MGOS,md,16,mus,rep1,quant_mus/AXR_MGOSW_2_1_D0YGFACXX.IND8_clean.fastq.qt,2SEK,2_4SEK,590,protocole initial,kit 1,19/04/2012,8,run1,ligne2,NA,2 dents,NA,317561
+mus_AXR_MHOS,mx,16,mus,rep1,quant_mus/AXR_MHOSW_2_1_D0YGFACXX.IND9_clean.fastq.qt,1.5SEK,2_4SEK,590,protocole initial,kit 1,19/04/2012,9,run1,ligne2,NA,2 dents,NA,317561
+mus_AXR_MIOS,md,16.5,mus,rep1,quant_mus/AXR_MIOSW_2_1_D11UHACXX.IND20_clean.fastq.qt,3/4SEK,2_4SEK,750,protocole initial,kit 1,18/04/2012,20,run1,ligne3,NA,2 dents,NA,317563
+mus_AXR_MKOS,mx,16.5,mus,rep1,quant_mus/AXR_MKOSW_2_1_D11UHACXX.IND21_clean.fastq.qt,3/4SEK,2_4SEK,750,protocole initial,kit 1,18/04/2012,21,run1,ligne3,NA,2 dents,NA,317563
+mus_AXR_MLOS,md,17,mus,rep1,quant_mus/AXR_MLOSW_2_1_D11UHACXX.IND10_clean.fastq.qt,5/6SEK,4_6SEK,867,protocole initial,kit 1,19/04/2012,10,run1,ligne3,NA,2 dents,NA,317561
+mus_AXR_MMOS,mx,17,mus,rep1,quant_mus/AXR_MMOSW_2_1_D11UHACXX.IND11_clean.fastq.qt,3/4SEK,4_6SEK,867,protocole initial,kit 1,19/04/2012,11,run1,ligne3,pb mix,2 dents,NA,317561
+mus_AXR_MNOS,md,17.5,mus,rep1,quant_mus/AXR_MNOSW_3_1_D11UHACXX.IND1_clean.fastq.qt,6SEK,4_6SEK,1028,protocole initial,kit 1,09/04/2012,1,run1,ligne4,NA,2 dents,1md reste un peu epi oral?,317563
+mus_AXR_MPOS,mx,17.5,mus,rep1,quant_mus/AXR_MPOSW_3_1_D11UHACXX.IND3_clean.fastq.qt,5/6SEK,4_6SEK,1028,protocole initial,kit 1,09/04/2012,3,run1,ligne4,NA,2 dents,NA,317563
+mus_AXR_MQOS,md,18,mus,rep1,quant_mus/AXR_MQOSW_3_1_D11UHACXX.IND22_clean.fastq.qt,DF,DF,1232,protocole initial,kit 1,18/04/2012,22,run1,ligne4,NA,2 dents,NA,317560
+mus_AXR_MROS,mx,18,mus,rep1,quant_mus/AXR_MROSW_3_1_D11UHACXX.IND23_clean.fastq.qt,DF,DF,1232,protocole initial,kit 1,18/04/2012,23,run1,ligne4,NA,2 dents,NA,317560
+mus_BGF_MAOS,md,14.5,mus,rep2,quant_mus/BGF_MAOSW_5_1_C3F32ACXX.IND5_noribo_clean.fastq.qt,PEK,PEK,283,protocole modifié,kit 2vieux,10/01/2014,5,run3,ligne1,NA,2 dents,NA,317563
+mus_BGF_MBOS,mx,14.5,mus,rep2,quant_mus/BGF_MBOSW_5_1_C3F32ACXX.IND6_noribo_clean.fastq.qt,PEK,PEK,283,protocole modifié,kit 2vieux,10/01/2014,6,run3,ligne1,NA,2 dents,NA,317563
+mus_BGF_MCOS,md,15,mus,rep2,quant_mus/BGF_MCOSW_5_1_C3F32ACXX.IND12_noribo_clean.fastq.qt,1SEK,1SEK,352,protocole modifié,kit 2vieux,10/01/2014,12,run3,ligne1,NA,2 dents,NA,317561
+mus_BGF_MDOS,mx,15,mus,rep2,quant_mus/BGF_MDOSW_5_1_C3F32ACXX.IND19_noribo_clean.fastq.qt,1SEK,1SEK,352,protocole modifié,kit 2vieux,10/01/2014,19,run3,ligne1,NA,2 dents,NA,317561
+mus_BGF_MEOS,md,15.5,mus,rep2,quant_mus/BGF_MEOSW_6_1_C3F32ACXX.IND2_noribo_clean.fastq.qt,1.5SEK,1SEK,493,protocole modifié,kit 2vieux,10/01/2014,2,run3,ligne2,NA,2 dents,1 md ouverte à l'avant,317563
+mus_BGF_MFOS,mx,15.5,mus,rep2,quant_mus/BGF_MFOSW_6_1_C3F32ACXX.IND4_noribo_clean.fastq.qt,1.5SEK,1SEK,493,protocole modifié,kit 2vieux,10/01/2014,4,run3,ligne2,NA,2 dents,NA,317563
+mus_BGF_MGOS,md,16,mus,rep2,quant_mus/BGF_MGOSW_6_1_C3F32ACXX.IND7_noribo_clean.fastq.qt,2SEK,2_4SEK,592,protocole modifié,kit 2vieux,10/01/2014,7,run3,ligne2,NA,2 dents,NA,317562
+mus_BGF_MHOS,mx,16,mus,rep2,quant_mus/BGF_MHOSW_6_1_C3F32ACXX.IND16_noribo_clean.fastq.qt,2SEK,2_4SEK,592,protocole modifié,kit 2vieux,10/01/2014,16,run3,ligne2,NA,2 dents,NA,317562
+mus_BGF_MIOS,md,16.5,mus,rep2,quant_mus/BGF_MIOSW_7_1_C3F32ACXX.IND5_noribo_clean.fastq.qt,3/4SEK,2_4SEK,716,protocole modifié,kit 2vieux,20/01/2014,5,run3,ligne3,NA,2 dents,NA,317562
+mus_BGF_MKOS,mx,16.5,mus,rep2,quant_mus/BGF_MKOSW_7_1_C3F32ACXX.IND6_noribo_clean.fastq.qt,3/4SEK,2_4SEK,716,protocole modifié,kit 2vieux,20/01/2014,6,run3,ligne3,NA,2 dents,NA,317562
+mus_BGF_MLOS,md,17,mus,rep2,quant_mus/BGF_MLOSW_7_1_C3F32ACXX.IND12_noribo_clean.fastq.qt,5/6SEK,4_6SEK,924,protocole modifié,kit 2vieux,20/01/2014,12,run3,ligne3,NA,2 dents,NA,373861 nouveau male
+mus_BGF_MMOS,mx,17,mus,rep2,quant_mus/BGF_MMOSW_7_1_C3F32ACXX.IND19_noribo_clean.fastq.qt,5/6SEK,4_6SEK,924,protocole modifié,kit 2vieux,20/01/2014,19,run3,ligne3,NA,2 dents,NA,373861 nouveau male
+mus_BGF_MNOS,md,17.5,mus,rep2,quant_mus/BGF_MNOSW_8_1_C3F32ACXX.IND2_noribo_clean.fastq.qt,6SEK,4_6SEK,1118,protocole modifié,kit 2vieux,20/01/2014,2,run3,ligne4,NA,2 dents,NA,317562
+mus_BGF_MPOS,mx,17.5,mus,rep2,quant_mus/BGF_MPOSW_8_1_C3F32ACXX.IND4_noribo_clean.fastq.qt,5/6SEK,4_6SEK,1118,protocole modifié,kit 2vieux,20/01/2014,4,run3,ligne4,NA,2 dents,NA,317562
+mus_BGF_MQOS,md,18,mus,rep2,quant_mus/BGF_MQOSW_8_1_C3F32ACXX.IND7_noribo_clean.fastq.qt,DF,DF,1204,protocole modifié,kit 2vieux,20/01/2014,7,run3,ligne4,NA,2 dents,NA,317561
+mus_BGF_MROS,mx,18,mus,rep2,quant_mus/BGF_MROSW_8_1_C3F32ACXX.IND16_noribo_clean.fastq.qt,DF,DF,1204,protocole modifié,kit 2vieux,20/01/2014,16,run3,ligne4,NA,2 dents,NA,317561
