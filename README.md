@@ -10,4 +10,9 @@ This script first fits a relationship between embryo weight and age in days post
 
 In a second time, the models for cusp patterning are fitted with continuous time Marlov chains.
 
+# 
 
+
+# Crop genes sequences to orthologous parts in hamster and mouse 
+
+Code in `CropGenome.tar.xz`
