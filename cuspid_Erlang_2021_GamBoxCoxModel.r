@@ -8,51 +8,47 @@ library("readxl")
 library(MASS)
 library(mgcv)
 library(ggeffects)
-
-remotes::install_github("gavinsimpson/gratia")
+#remotes::install_github("gavinsimpson/gratia")
 library("gratia")
 library("mgcv")
-# https://stats.stackexchange.com/questions/341915/how-to-extract-confidence-interval-from-mgcv-gam-model
+
+
 
 ### MODELLING THE CUSP PATTERNING IN MOUSE AND HAMSTER
 
 
-setwd("/home/marie/Documents/Projet_Drift/MappingGenome/CuspPatterning2021/ModelGamBoxCox")
-
-
 ###   MOUSE MOLARS
+
 # Reading the raw data. 
-cuspmxM <- read_excel("../cusp_fgf4-marie.xlsx", sheet = "mx2020")
-cuspmdM <- read_excel("../cusp_fgf4-marie.xlsx", sheet = "md2020")
-#cuspmxM=read.table("CuspidUpperMus.txt",h=T,sep="\t",dec=",",flush=T)
-#cuspmdM=read.table("CuspidLowerMus.txt",h=T,sep="\t",dec=",",flush=T)
-cuspmdM=cuspmdM[,c("age","poidsmoyen","total cuspide","stade")]
-names(cuspmdM)=c("age","poids","total","stade")
-cuspmxM=cuspmxM[,c("age","poidsmoyen","total","stade")]
-names(cuspmxM)=c("age","poids","total","stade")
+cuspmxM <- read_excel("cusp_fgf4_mouse.xlsx", sheet = "mx2020")
+cuspmdM <- read_excel("cusp_fgf4_mouse.xlsx", sheet = "md2020")
+cuspmdM=cuspmdM[,c("age","averageweight","totalcuspids","stage")]
+names(cuspmdM)=c("age","weight","total","stage")
+cuspmxM=cuspmxM[,c("age","averageweight","totalcuspids","stage")]
+names(cuspmxM)=c("age","weight","total","stage")
 
 
 ###   HAMSTER MOLARS
 # Reading the raw data. 
-cuspmxH <- read_excel("../cusp_fgf4_hamster.xlsx", sheet = "mx2020")
-cuspmdH <- read_excel("../cusp_fgf4_hamster.xlsx", sheet = "md2020")
-cuspmxH=cuspmxH[,c("age","poidsmoyen","nb cuspide","stade")]
-names(cuspmxH)=c("age","poids","total","stade")
-cuspmdH=cuspmdH[,c("age","poidsmoyen","nb cuspide","stade")]
-names(cuspmdH)=c("age","poids","total","stade")
+cuspmxH <- read_excel("cusp_fgf4_hamster.xlsx", sheet = "mx2020")
+cuspmdH <- read_excel("cusp_fgf4_hamster.xlsx", sheet = "md2020")
+cuspmxH=cuspmxH[,c("age","averageweight","totalcuspids","stage")]
+names(cuspmxH)=c("age","weight","total","stage")
+cuspmdH=cuspmdH[,c("age","averageweight","totalcuspids","stage")]
+names(cuspmdH)=c("age","weight","total","stage")
 
 
 
 ### Sample for weight/time relationships
-df_poids_temps=read.table("../tableau_poid_temps_final.csv",h=T,sep=",")
+df_weight_time=read.table("weightTime_hamstermouse.txt",h=T)
 
-######## samples for RNAseq phenotype
-metadata=read.csv("../metadata-convergdent.csv",h=T,sep=",")
-
-
+### Samples for RNAseq phenotype
+metadata=read.table("metadata-samplesRNAseq.txt",h=T)
 
 
-log_weight_by_species = function(data=df_poids_temps,species="mus",confidence="yes"){
+
+
+log_weight_by_species = function(data=df_weight_time,species="mus",confidence="yes"){
   df = data[data$species == species,]
   if(confidence=="yes")
   {
@@ -63,7 +59,7 @@ log_weight_by_species = function(data=df_poids_temps,species="mus",confidence="y
   log_weight=df$log_weight
   lm_out = lm(stage~log_weight)
   plot(lm_out$fitted, lm_out$resid)
-  plot(df$log_weight,(df$stage),pch=20,xlab="log_weight",ylab=paste("temps"),main=paste(species,"temps/ log(poids)"))
+  plot(df$log_weight,(df$stage),pch=20,xlab="log_weight",ylab=paste("time"),main=paste(species,"time/ log(weight)"))
   abline(lm_out)
   #print(summary(lm_out))
   return(lm_out)
@@ -83,7 +79,7 @@ boxcox_by_species = function(data, species,confidence="yes"){
   stage = df$stage
   lm_out = lm(stage~weight_lambda)
   plot(lm_out$fitted, lm_out$resid)
-  plot(df$weight^lambda,(df$stage),pch=20,xlab=paste("poids^",lambda),ylab="temps",main=paste(species,"temps/ BC poids"))
+  plot(df$weight^lambda,(df$stage),pch=20,xlab=paste("weight^",lambda),ylab="time",main=paste(species,"time/ BC weight"))
   abline(lm_out)
   #print(summary(lm_out))
   return(list(lambda,lm_out))
@@ -138,53 +134,11 @@ gam_by_species = function(data, species,confidence="yes"){
 
 
 
-# Not better
-# lmer_boxcox_by_species = function(data, species){
-#   df = data[data$species == species,]
-#   if(confidence=="yes")
-#   {
-#     df = df[df$confidence=="yes",]
-#   }
-#   df$date=as.Date(df$date_litter,format = "%d/%m/%y")
-#   df=df[!is.na(df$date),]
-#   bc = boxcox(df$weight~df$stage, lambda=seq(-1,1,.001))
-#   r=data.frame(cbind(bc$x,bc$y))
-#   lambda = r[order(-r$X2),][1,1]
-#   weight_lambda = df$weight^lambda
-#   stage = df$stage
-#   lm_out = lm(stage~weight_lambda)
-#   plot(lm_out$fitted, lm_out$resid)
-#   plot(lm_out, which = 2) 
-#   ## consider litter as a random effect
-#   df$datefc=as.character(df$date)
-#   mixed.lmer <- lmer(stage ~  weight_lambda + 1|datefc, data = df)
-#   summary(mixed.lmer)
-#   qqnorm(resid(mixed.lmer))
-#   qqline(resid(mixed.lmer))
-#   # Extract the prediction data frame
-#   pred.mm <- ggpredict(mixed.lmer, terms = c("weight_lambda"))  # this gives overall predictions for the model
-#   # Plot the predictions 
-#   (ggplot(pred.mm) + 
-#       geom_line(aes(x = x, y = predicted)) +          # slope
-#       geom_ribbon(aes(x = x, ymin = predicted - std.error, ymax = predicted + std.error), 
-#                   fill = "lightgrey", alpha = 0.5) +  # error band
-#       geom_point(data = df,                      # adding the raw data (scaled values)
-#                  aes(x = weight_lambda, y = stage, colour = datefc)) + 
-#       labs(x = "Weight", y = "stage", 
-#            title = "Weight and stage model") + 
-#       theme_minimal()
-#   )
-#   dfmix=fortify.merMod(mixed.lmer)
-#   ggplot(fortify.merMod(mixed.lmer), aes(weight_lambda, stage, color=date)) +
-#     stat_summary(fun.data=mean_se, geom="pointrange") +
-#     stat_summary(aes(y=.fitted), fun.y=mean, geom="line")
-#   return(list(lambda,lm_out))
-# }
 
 
 
 
-predict_species = function(species="mus", data=df_poids_temps, newdataP=cuspmdM,data_name="cuspmdM",confidence="yes" ){
+predict_species_withRNAseq = function(species="mus", data=df_weight_time, newdataP=cuspmdM,data_name="cuspmdM",confidence="yes",metadatatab=metadata){
   log_model = log_weight_by_species(data, species,confidence=confidence)
   bc_out = boxcox_by_species(data, species,confidence=confidence)
   lambda = bc_out[[1]]
@@ -192,80 +146,14 @@ predict_species = function(species="mus", data=df_poids_temps, newdataP=cuspmdM,
   gam_out = gam_by_species(data, species,confidence=confidence)
   gam_model = gam_out[[2]]
   
-  
+  newdataP=newdataP[!is.na(newdataP$weight),]
   newdat_log <- data.frame(
-    log_weight = log(newdataP$poids))
+    log_weight = log(newdataP$weight))
   newdat_bc = data.frame(
-    weight_lambda = newdataP$poids^(lambda)) 
-  
-  x = predict(log_model,newdata = newdat_log)
-  y = predict(bc_model,newdata = newdat_bc)
-  z = predict(gam_model,newdata = newdat_bc)
-  
-  
-  
-  plot(x,y,xlab="predictions log model",ylab="predictions bc model")
-  abline(0,1)
-  
-  plot(x,z,xlab="predictions log model",ylab="predictions gam model")
-  abline(0,1)
-  
-  pred.gam <- ggpredict(gam_model, terms = c("weight_lambda"),full.data = TRUE) 
-  pred.gam.cusp <- ggpredict(gam_model, terms = c("weight_lambda"),full.data = newdat_bc) 
-  cuspdat_pred=fortify(pred.gam.cusp)
-  
-  pred.gam$weight=(pred.gam$x)^(1/lambda)
-  cuspdat_pred$weight=(cuspdat_pred$x)^(1/lambda)
-  
-  
-  
-  
-  gam=(ggplot(pred.gam) + 
-         geom_line(aes(x = x, y = predicted)) +          # slope
-         geom_ribbon(aes(x = x, ymin = predicted - std.error, ymax = predicted + std.error), 
-                     fill = "lightgrey", alpha = 0.5) +  # error band
-         geom_point(data = newdat_pred,                      # adding the predicted data (scaled values)
-                    aes(x = weight, y = predicted),color="dark blue",alpha=0.1) + 
-         labs(x = "Weight", y = "stage", 
-              title = "Weight and stage model") + 
-         theme_minimal()
-  )
-  ggsave(file=paste0("gam_rev_",data_name,".pdf"),gam)
-  
-  plot(newdataP$age,y,xlab="dpc",ylab="predic BC")
-  abline(0,1)
-  newdataP$time_logmodel = x
-  newdataP$time_bcmodel = y
-  newdataP$gam_model = z
-  newdataP$log_weight =  log(newdataP$poids)
-  
-  newdataP$total2=NULL
-  newdataP$total2=newdataP$total
-  newdataP$total2[newdataP$total%in%c("PEK/SEK","no","SEK faible","PEK/SEK faible","SEK","PEK/SEK")]=1
-  newdataP$total2[newdataP$total=="BUD"|newdataP$total=="bud"]=-1
-  newdataP$total2[newdataP$total=="PEK"]=0
-   return(newdataP)
-}
-
-
-
-predict_species_withRNAseq = function(species="mus", data=df_poids_temps, newdataP=cuspmdM,data_name="cuspmdM",confidence="yes",metadatatab=metadata){
-  log_model = log_weight_by_species(data, species,confidence=confidence)
-  bc_out = boxcox_by_species(data, species,confidence=confidence)
-  lambda = bc_out[[1]]
-  bc_model = bc_out[[2]]
-  gam_out = gam_by_species(data, species,confidence=confidence)
-  gam_model = gam_out[[2]]
-  
-  newdataP=newdataP[!is.na(newdataP$poids),]
-  newdat_log <- data.frame(
-    log_weight = log(newdataP$poids))
-  newdat_bc = data.frame(
-    weight_lambda = newdataP$poids^(lambda)) 
+    weight_lambda = newdataP$weight^(lambda)) 
   
   x = predict(log_model,newdata = newdat_log,se.fit=TRUE, interval = "prediction", level = 0.95)
   y = predict(bc_model,newdata = newdat_bc,se.fit=TRUE, interval = "prediction", level = 0.95)
-  #z = predict(gam_model, newdata = newdat_bc,se.fit=TRUE, interval = "prediction", level = 0.95)
   z = confint(gam_model, parm = "s(weight_lambda)", type = "confidence", newdata=newdat_bc)
   
   
@@ -273,9 +161,9 @@ predict_species_withRNAseq = function(species="mus", data=df_poids_temps, newdat
   newdataRNASeq=metadatatab[metadatatab$espece==species&metadatatab$machoire==tooth,c("echantillon","stade","replicat","weight")]
   
   rnaseqdat_log <- data.frame(
-    log_weight = log(newdataRNASeq$weight))
+  log_weight = log(newdataRNASeq$weight))
   rnaseqdat_bc = data.frame(
-    weight_lambda = newdataRNASeq$weight^(lambda)) 
+  weight_lambda = newdataRNASeq$weight^(lambda)) 
   
   xr = predict(log_model,newdata = rnaseqdat_log,se.fit=TRUE, interval = "prediction", level = 0.95)
   yr = predict(bc_model,newdata = rnaseqdat_bc,se.fit=TRUE, interval = "prediction", level = 0.95)
@@ -303,8 +191,8 @@ predict_species_withRNAseq = function(species="mus", data=df_poids_temps, newdat
   pred.gam.cusp = z
   pred.gam.rnaseq = zr
   
-  pred.gam$weight=(pred.gam$x)^(1/lambda)
-  pred.gam.cusp$weight=newdataP$poids
+
+  pred.gam.cusp$weight=newdataP$weight
   pred.gam.rnaseq$weight=newdataRNASeq$weight
   pred.gam.cusp$stage=newdataP$age
   pred.gam.rnaseq$stage=newdataRNASeq$stade
@@ -366,11 +254,11 @@ predict_species_withRNAseq = function(species="mus", data=df_poids_temps, newdat
   
   ### to predict for all possible weights
   
-  newdataTpoids=seq(from=min(na.omit(newdataP$poids)),to=max(na.omit(newdataP$poids)),by=1)
+  newdataTweight=seq(from=min(na.omit(newdataP$weight)),to=max(na.omit(newdataP$weight)),by=1)
   newdatT_log <- data.frame(
-    log_weight = log(newdataTpoids))
+    log_weight = log(newdataTweight))
   newdatT_bc = data.frame(
-    weight_lambda = newdataTpoids^(lambda)) 
+    weight_lambda = newdataTweight^(lambda)) 
   xt = predict(log_model,newdata = newdatT_log,se.fit=TRUE, interval = "prediction", level = 0.95)
   yt = predict(bc_model,newdata = newdatT_bc,se.fit=TRUE, interval = "prediction", level = 0.95)
  zt = confint(gam_model, parm = "s(weight_lambda)", type = "confidence", newdata=newdatT_bc)
@@ -386,7 +274,7 @@ predict_species_withRNAseq = function(species="mus", data=df_poids_temps, newdat
   zt=zt[,c("fit","lower1","upper1")]
   names(zt)=paste0(names(zt),"_GAM")
   
-  newdataT=data.frame(cbind(newdataTpoids,xt,yt,zt))
+  newdataT=data.frame(cbind(newdataTweight,xt,yt,zt))
   write.table(file=paste0("predictions_timeline_",data_name,"_",confidence,".txt"),newdataT)
   
   return(newdataP)
@@ -394,22 +282,16 @@ predict_species_withRNAseq = function(species="mus", data=df_poids_temps, newdat
 
 
 
-
-cuspmdM_yes=predict_species_withRNAseq(species="mus", data=df_poids_temps, newdataP=cuspmdM, data_name="cuspmdM",confidence="yes" )
-cuspmxM_yes=predict_species_withRNAseq(species="mus", data=df_poids_temps, newdataP=cuspmxM, data_name="cuspmxM",confidence="yes" )
-cuspmxH_yes=predict_species_withRNAseq(species="ham",data=df_poids_temps, newdataP=cuspmxH, data_name="cuspmxH",confidence="yes" )
-cuspmdH_yes=predict_species_withRNAseq(species="ham",data=df_poids_temps, newdataP=cuspmdH, data_name="cuspmdH",confidence="yes" )
-
-cuspmdM_all=predict_species_withRNAseq(species="mus", data=df_poids_temps, newdataP=cuspmdM, data_name="cuspmdM",confidence="all" )
-cuspmxM_all=predict_species_withRNAseq(species="mus", data=df_poids_temps, newdataP=cuspmxM, data_name="cuspmxM",confidence="all" )
-cuspmxH_all=predict_species_withRNAseq(species="ham",data=df_poids_temps, newdataP=cuspmxH, data_name="cuspmxH",confidence="all" )
-cuspmdH_all=predict_species_withRNAseq(species="ham",data=df_poids_temps, newdataP=cuspmdH, data_name="cuspmdH",confidence="all" )
+cuspmdM_all=predict_species_withRNAseq(species="mus", data=df_weight_time, newdataP=cuspmdM, data_name="cuspmdM",confidence="all" )
+cuspmxM_all=predict_species_withRNAseq(species="mus", data=df_weight_time, newdataP=cuspmxM, data_name="cuspmxM",confidence="all" )
+cuspmxH_all=predict_species_withRNAseq(species="ham",data=df_weight_time, newdataP=cuspmxH, data_name="cuspmxH",confidence="all" )
+cuspmdH_all=predict_species_withRNAseq(species="ham",data=df_weight_time, newdataP=cuspmdH, data_name="cuspmdH",confidence="all" )
 
 
-cuspmxM_s=cuspmxM_all[,c("est_GAM","total2")]
-cuspmdM_s=cuspmdM_all[,c("est_GAM","total2")]
-cuspmxH_s=cuspmxH_all[,c("est_GAM","total2")]
-cuspmdH_s=cuspmdH_all[,c("est_GAM","total2")]
+cuspmxM_s=cuspmxM_all[,c("fit_GAM","total2")]
+cuspmdM_s=cuspmdM_all[,c("fit_GAM","total2")]
+cuspmxH_s=cuspmxH_all[,c("fit_GAM","total2")]
+cuspmdH_s=cuspmdH_all[,c("fit_GAM","total2")]
 cuspmdH_s$total2[cuspmdH_s$total2==7]=6
 
 
@@ -472,33 +354,13 @@ calculLikTx=function(v,init,pattern,rep,datacusp){
   rep2=c(rep(1:length(rep),rep),length(rep)+1)
   Q=fQparam(v,pattern,rep)
   probs=apply(datacusp,1,function(x){
-    t=as.numeric(x[1])-init #bidouille sinon pb trop de temps à 0 cusp
+    t=as.numeric(x[1])-init #bidouille sinon pb trop de time à 0 cusp
     mat=expm(t*Q)
     cusp=as.numeric(x[2])+2 #pour transformer -1 en 1, 0 en 2 etc
     return(sum(mat[1,rep2==cusp]))})
   lik=sum(log(probs))
   return(lik)
 }
-
-# for plotting -- to be improved because here we propagate the errors from stage to stage resulting in a poor fit at the end of the time serie.
-
-plotmodel=function(rep=c(5,5,5,5,5,5,5,5,5),pattern=c(1:9),data=cuspmxM_s,model=tauxMx9Tx,title='pmmx.pdf')
-{
-  x=rep(model$estimate[pattern],rep)
-  cc1=c(0,cumsum(1/x))
-  rep2=c(rep(1:length(rep),rep),length(rep)+1)
-  cc=sapply(1:max(rep2),function(i){min(cc1[rep2==i])})+init
-  df=data.frame(time=data$time,cusp=factor(data$cusps))
-  df1=data.frame(cusp=factor(-1:max(data$cusps)),modelstart=cc,modelend=c(cc[-1],20),cuspend=factor(c(0:max(data$cusps),max(data$cusps))))
-  pmmx=ggplot(df, aes(x=time, y=cusp)) + geom_point() + 
-    scale_y_discrete("Cusps",labels=c("-1" = "Bud","0" = "PEK"))+
-    scale_x_continuous("Dev. time", limits=c(init,end))+
-    geom_segment(aes( x = modelstart, y = cusp, xend = modelend, yend = cusp), data = df1,color="blue",size=5,alpha=0.2)+
-    geom_segment(aes( x = modelend, y = cusp, xend = modelend, yend = cuspend), data = df1,color="blue",alpha=0.2)
-  ggsave(title,pmmx,width = 20, height = 15, units = "cm") 
-  return(pmmx)
-}
-
 
 # for plotting with bars centered on max probability 
 
@@ -515,16 +377,7 @@ plotmodel2=function(rep=c(5,5,5,5,5,5,5,5,5),pattern=c(1:9),data=cuspmxM_s,model
   return(p)
   })
   tmax=apply(mp,1,which.max)
-  
-#   mpl=melt(mp)
-#  mplp= ggplot(data=mpl,aes(x=Var2+init,y=Var1,fill=value))+geom_tile()+
-#     scale_fill_gradient2(midpoint=0.5,low="white",high="red",mid="orange")+
-#     theme_minimal()+ scale_y_discrete("Cusps",labels=c("-1" = "Bud","0" = "PEK"))+
-#     scale_x_continuous("Dev. time")+
-#     geom_point(data=df, aes(x=time, y=cusp)) 
-#     ggsave(paste("tile",title,".png",sep=""),mplp,width = 20, height = 15, units = "cm") 
-     
-  
+
   x=rep(model$estimate[pattern],rep)
   cc1=c(0,cumsum(1/x))
   rep2=c(rep(1:length(rep),rep),length(rep)+1)
@@ -559,12 +412,10 @@ plotmodel2=function(rep=c(5,5,5,5,5,5,5,5,5),pattern=c(1:9),data=cuspmxM_s,model
   
   pmmx=ggplot(df, aes(x=time, y=cusp2)) + 
     geom_point() + 
-    #scale_y_discrete("Cusps",limits=c("PEK","SEK",1:max(df$cusp)))+
     scale_y_discrete("Cusps",limits=c("Bud","PEK",1:8))+
     scale_x_continuous("Dev. time") + #, limits=c(init,end))+
     geom_segment(aes( x = modelstart, y = cusp2, xend = modelend, yend = cusp2), data = df1,color="blue",size=5,alpha=0.2)
- # geom_point(aes( x = tmax, y = cusp), data = df1,color="red",size=5,alpha=0.2)
-  
+
   ggsave(paste(title,".png",sep=""),pmmx,width = 20, height = 15, units = "cm") 
   ggsave(paste(title,".pdf",sep=""),pmmx,width = 20, height = 15, units = "cm") 
   
@@ -645,27 +496,6 @@ proba4Tx3Tx= 1-pchisq(2*(MusMx4Tx$maximum-MusMx3Tx$maximum),df=1)
 proba3Tx2Tx= 1-pchisq(2*(MusMx3Tx$maximum-MusMx2Tx$maximum),df=1)
 proba2Tx1Tx= 1-pchisq(2*(MusMx2Tx$maximum-MusMx1Tx$maximum),df=1)
 
-proba9Tx4Tx
-proba9Tx3Tx
-proba4Tx3Tx
-proba3Tx2Tx
-proba2Tx1Tx
-
-# >  proba9Tx4Tx
-# [1] 0.01181095
-# > proba9Tx3Tx
-# [1] 0.00892224
-# > proba4Tx3Tx
-# [1] 0.1199415
-# > proba3Tx2Tx
-# [1] 8.009941e-06
-# > proba2Tx1Tx
-# [1] 0
-# the model with 3 rates is to be preferred. 
-
-#z=ggarrange(m1, m2, m3,m4, nrow = 2,labels=c("A","B","C","D"))
-#ggsave("models_MxMus.pdf",z,width = 20, height = 15, units = "cm") 
-
 
 
 
@@ -721,29 +551,15 @@ MusMd1Tx=maxLik(function(v){return(calculLikTx(v,init=init,pattern=patternmd1,re
 
 
 
-#md8=plotmodel2(rep=c(5,5,5,5,5,5,5),pattern=patternmd8,model=MusMd8TxNM2,title='pmmd8centerNM',data=cuspmdM_s,end=maxi,init=mini)
-
 md8=plotmodel2(rep=c(5,5,5,5,5,5,5),pattern=patternmd8,model=MusMd8Tx,title='pmmd8center',data=cuspmdM_s,end=maxi,init=mini)
-# md1=plotmodel2(rep=c(5,5,5,5,5,5,5,5),pattern=patternmd1,model=MusMd1Tx,title='pmmd1center',data=cuspmdM)
 md2=plotmodel2(rep=c(5,5,5,5,5,5,5),pattern=patternmd2,model=MusMd2Tx,title='pmmd2center',data=cuspmdM_s,end=maxi,init=mini)
 md3=plotmodel2(rep=c(5,5,5,5,5,5,5),pattern=patternmd3,model=MusMd3Tx,title='pmmd3center',data=cuspmdM_s,end=maxi,init=mini)
 
 
 proba8Tx3Tx= 1-pchisq(2*(MusMd8Tx$maximum-MusMd3Tx$maximum),df=5)
 proba8Tx2Tx= 1-pchisq(2*(MusMd8Tx$maximum-MusMd2Tx$maximum),df=6)
-# proba2Tx1Tx= 1-pchisq(2*(MusMd2Tx$maximum-MusMd1Tx$maximum),df=1)
 proba3Tx2Tx= 1-pchisq(2*(MusMd3Tx$maximum-MusMd2Tx$maximum),df=1)
-proba8Tx3Tx
-proba8Tx2Tx
-proba3Tx2Tx
 
-> proba8Tx3Tx
-[1] 0.005200107
-> proba8Tx2Tx
-[1] 0.0001340359
-> proba3Tx2Tx
-[1] 0.001179053
-> 
 
 
 ###### MOLARS IN HAMSTER
@@ -807,21 +623,7 @@ proba2Tx1Tx
 proba3Tx2Tx
 proba7Tx3Tx
 proba7Tx3Tx
-> proba7Tx3Tx
-[1] 0.9062793
-> proba7Tx2Tx
-[1] 0.9612681
-> proba2Tx1Tx
-[1] 0
-> proba3Tx2Tx
-[1] 1
-> proba7Tx3Tx
-[1] 0.9062793
-> proba7Tx3Tx
-[1] 0.9062793
 
-> 
-## we keep model with 2 rates
 
 ### ## UPPER HAM
 
@@ -878,21 +680,8 @@ mxh7=plotmodel2(rep=c(5,5,5,5,5,5,5),pattern=patternhx7,model=HamMx7Tx,title='ph
 
 
 proba7Tx3Tx= 1-pchisq(2*(HamMx7Tx$maximum-HamMx3Tx$maximum),df=4)
-#proba7Tx4Tx= 1-pchisq(2*(HamMx7Tx$maximum-HamMx3Tx$maximum),df=3)
-#proba4Tx3Tx= 1-pchisq(2*(HamMx4Tx$maximum-HamMx3Tx$maximum),df=1)
 proba2Tx1Tx= 1-pchisq(2*(HamMx2Tx$maximum-HamMx1Tx$maximum),df=1)
 proba3Tx2Tx= 1-pchisq(2*(HamMx3Tx$maximum-HamMx2Tx$maximum),df=1)
-
-proba7Tx3Tx
-proba2Tx1Tx
-proba3Tx2Tx
-
-> proba7Tx3Tx
-[1] 0.6665638
-> proba2Tx1Tx
-[1] 0
-> proba3Tx2Tx
-[1] 0.6209808
 
 
 
