@@ -1,0 +1,89 @@
+Gene name	Mouse Ensembl ID (ENSMUSG)	Category	"Haplo-
+sufficient"	Type of molecule	Mutant tooth phenotype	Ref.
+Acvr2a	52155	progression	Yes	receptor	Bud stage arrest, partial penetrance	1
+Bmp4	21835	progression	Yes?	signal	Wnt1 cKO: Bud or cap stage arrest	2 3
+Bmpr1a	21796	progression	Yes	receptor	K14 cKO: Bud stage arrest	4
+Ctnna1	37815	progression	Yes?	intracellular	K14 cKO: Cap stage arrest	5
+Ctnnb1	6932	progression	Yes?	intracellular	K14 cKO: Early bud stage arrest	6
+Dicer1	41415	progression	Yes?	intracellular	Wnt1 cKO: Arrest at cap stage or absence	7 8
+Fgfr2	30849	progression	Yes	receptor	Bud stage arrest	9
+Inhba	41324	progression	Yes?	signal	Bud stage arrest	10 11
+Lef1	27985	progression	Yes	transcription factor	Late bud stage arrest	12 13
+Msx1	48450	progression	Yes?	transcription factor	Bud stage arrest	14
+Pax9	1497	progression	Yes	transcription factor	Bud stage arrest	15
+Pitx2	28023	progression	Yes	transcription factor	Bud stage arrest	16 17
+Runx2	39153	progression	Yes	transcription factor	Late bud stage arrest, extra budding	18 19
+Shh	2633	progression	Yes	signal	K14 cKO: Cap stage arrest	20
+Trp63	22510	progression	Yes?	transcription factor	Dental placode stage arrest	21 22
+Apc	5871	shape	Yes	intracellular	K14 cKO: Deformed supernumerary teeth	23
+Barx1	21381	shape	Yes	transcription factor	Slightly smaller molars	24
+Bcl11b	48251	shape	Yes?	transcription factor	Blunted cusps and reduced stellate reticuli	25 26
+Bmp2	27358	shape	Yes	signal	Osx cKO: Brittle and slightly misshaped, third molars missing	27 28
+Bmp7	8999	shape	Yes	signal	Abnormal cusp patterning	29 30
+Chuk	25199	shape	Yes	intracellular	Flattened cusps, no third molars	31
+Eda	59327	shape	Yes	signal	Reduced number and size of cusps of the first and second molars	32 33 34
+Edar	3227	shape	Yes	receptor	Reduced teeth	33 35
+Edaradd	95105	shape	Yes	intracellular	Severe agenesis, cone/peg shaped teeth	36 37
+Evc	29122	shape	Yes	intracellular	Conical molars, size reduction of the first molar and an enamel defect	38
+Fgf10	21732	shape	Yes	signal	Smaller molars and/or different shape	39 40
+Fgf20	31603	shape	Yes	signal	Smaller molars with mildly altered cusp pattern	41
+Fgf3	31074	shape	Yes	signal	Change of cusp pattern	42
+Foxi3	55874	shape	Yes	transcription factor	K14 cKO: Misshaped teeth	43
+Fst	21765	shape	Yes?	signal	Non-polarized cusps with multiple shallow foldings	44 45
+Gas1	52957	shape	Yes?	intracellular	Supernumerary teeth, molars slightly misshaped	46
+Jag2	2799	shape	Yes	signal	Increase of cusp number	47
+Lrp4	27253	shape	Yes?	receptor	Deformed supernumerary teeth	48 49
+Msx2	21469	shape	Yes	transcription factor	Msx2 null: Misshaped teeth, enamel hypoplasia	50
+Pdgfra	29231	shape	Yes?	receptor	Slight change in cusp pattern	51
+Rps6ka3	31309	shape	Yes	intracellular	Small change in tooth shape, often additional molars	52
+Smo	1761	shape	Yes	receptor	K14 cKO: Cusp pattern changed, molars fused and reduced	53
+Sostdc1	36169	shape	Yes	signal	Change in cusp pattern, supernumerary teeth	54
+Sp6	38560	shape	Yes?	transcription factor	Supernumerary teeth, reduction of cusp number	55
+Spry2	22114	shape	Yes?	intracellular	Slight change in cusp pattern, supernumerary teeth	56
+Spry4	24427	shape	Yes?	intracellular	Slight change in cusp pattern, supernumerary teeth	56
+Wnt10a	26167	shape	Yes?	signal	Abnormal cusp patterning, smaller and supernumerary teeth	57
+Yap1	53110	shape	Yes?	intracellular	K14 cKO: Smaller and abnormal tooth, fewer and flattened cusps	58
+Alpl	28766	tissue		other	Dentinogenesis imperfecta	59
+Ambn	29288	tissue		other	Severe enamel hypoplasia, odontogenenic tumors	60
+Amelx	31354	tissue		other	Enamel hypoplasia	61
+Amtn	29282	tissue		other	Amelogenesis imperfecta	62
+Bmi1	26739	tissue		transcription factor	Amylogenesis imperfecta	63
+Dmp1	29307	tissue		other	Dentinogenesis imperfecta	64 65 66
+Dspp	53268	tissue		other	Dentinogenesis imperfecta	67 68
+Enam	29286	tissue		other	No enamel	69
+Evc2	50248	tissue		intracellular	Amelogenesis imperfecta	70
+Fam20a	20614	tissue		other	Severe amelogenesis imperfecta	71
+Fam20c	25854	tissue		other	Severe amelogenesis imperfecta	71
+Fgfr1	31565	tissue		receptor	K14 cKO: Amelogenesis imperfecta	72
+Gdnf	22144	tissue		signal	Amelogenesis imperfecta, dentinogenesis imperfecta	73
+Grem2	50069	tissue		signal	Enamel hypoplasia, dentine hypoplasia	74
+Klk4	6948	tissue		other	Amelogenesis imperfecta	75
+Lama3	24421	tissue		other	Enamel hypoplasia	76
+Mmp14	957	tissue		other	Amelogenesis imperfecta	77 78
+Mmp20	18620	tissue		other	Amelogenesis imperfecta, enamel hypoplasia	79
+Mtor	28991	tissue		intracellular	Osx1 cKO: Dentine hypoplasia	80
+Nectin1	32012	tissue		other	Amelogenesis imperfecta	81 81
+Perp	19851	tissue		other	Amelogenesis imperfecta	82
+Pkd2	34462	tissue		other	Wnt1 cKO: Abnormal pulp cavities, fractured roots	83
+Postn	27750	tissue		other	Amelogenesis imperfect and abnormal periodontal ligament	84 85
+Slc13a5	20805	tissue		other	Enamel hypoplasia	86
+Slc39a13	2105	tissue		other	Dentine hypoplasia	87
+Sp3	27109	tissue		transcription factor	Enamel hypoplasia, dentinogenesis imperfecta	88
+Sppl2a	27366	tissue		other	Enamel hypoplasia	89
+Acvr2b	61393	double		receptor	Double KO (ACVR2A+/-, ACVR2B-/-): Bud stage arrest	11
+Dlx1	41911	double		transcription factor	Double KO: Placode stage arrest	90
+Dlx2	23391	double		transcription factor	Double KO: Placode stage arrest	90
+Dlx3	1510	double		transcription factor	Double KO: Misshaped teeth	91
+Dlx4	20871	double		transcription factor	Double KO: Misshaped teeth	91
+Dlx5	29755	double		transcription factor	Double KO: Misshaped teeth	92
+Dlx6	29754	double		transcription factor	Double KO: Misshaped teeth	92
+Gli2	48402	double		transcription factor	Double KO: Initiation stage arrest	93
+Gli3	21318	double		transcription factor	Double KO: Initiation stage arrest	93
+Lhx6	26890	double		transcription factor	Double KO: Initiation stage arrest	94
+Lhx8	96225	double		transcription factor	Double KO: Initiation stage arrest	94
+Csf1	14599	no eruption		signal	No eruption of molars	95
+Fos	21250	no eruption		transcription factor	No eruption of molars	96
+Ostm1	38280	no eruption		other	No eruption of molars	97
+Pthlh	48776	no eruption		signal	No eruption of molars	98
+Tcirg1	1750	no eruption		other	No eruption of molars	99
+Traf6	27164	no eruption		intracellular	No eruption of molars	100101102
