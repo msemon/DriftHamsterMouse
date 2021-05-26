@@ -4,7 +4,7 @@ This repository contains code and basic data to reproduce the analyses presented
 
 # Cusp patterning analysis 
 
-cuspid_Erlang_2021_GamBoxCoxModel.r
+* cuspid_Erlang_2021_GamBoxCoxModel.r *
 
 his script fits a relationship between embryo weight and age in days post coitum (dpc) by GAM+boxcox or linear+boxcox tranformation. This is using the data of hundreds of embryos in weightTime_hamstermouse.txt. Then age is predicted for embryos used for cusp patterning and RNAseq samples. 
 
