@@ -23,15 +23,10 @@ Control plots to check the accuracy of prediction in pure tissues and boostraps 
 
 `ComputeByPairs_GAM.R`
 
-This code fits splines to temporal expression profiles, 
+This code fits splines to temporal expression profiles, and then tests for differential expression with DESeq2. The proportion of differentially expressed genes in several lists of genes (`liste_bite-it.csv`, `keystone_genes.csv`, `dispensable_genes.csv`, `pathways-Margaux-corMS.xlsx`) is measured and plotted, and the general gene ontology enrichment is computed in :
 
-`FigUpLow.R`
-`FigHamSou.R`
-`liste_bite-it.csv`
-`keystone_genes.csv`
-`dispensable_genes.csv`
-`pathways-Margaux-corMS.xlsx`
-
+`FigUpLow.R` (for upper and lower comparisons)
+`FigHamSou.R` (for mouse and hamster comparisons)
 
 
 # ROMA pathway activation analyses
