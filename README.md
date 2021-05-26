@@ -31,8 +31,9 @@ This code fits splines to temporal expression profiles, and then tests for diffe
 
 # ROMA pathway activation analyses
 
+Pathway activation is measured by rROMA package, for three pathways with their target genes(`BMP-avril2019.csv`, `WNT-avril2019.csv`, `genesetSHH.txt`). 
 
-# multivariate analyses
+# Multivariate analyses
 
 
 
