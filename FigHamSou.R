@@ -119,7 +119,6 @@ ggsave("SplineHamMusClasses.png",propclass,width = 12, height = 7, units = "cm")
 ggsave("SplineHamMusClasses.pdf",propclass,width = 12, height = 7, units = "cm")
 
 
-
 ### Proportion per signalling pathways
 
 r=data.frame(lapply(names(pathwaylistspe),function(x){
@@ -177,6 +176,86 @@ ggsave("SplineMusHamClassesPathways.png",propclass2,width = 15, height = 10, uni
 
 ggsave("SplineMusHamClassesPathways.pdf",propclass2,width = 15, height = 10, units = "cm") 
 scp=propclass2
+
+
+########
+## barplots for UpLow diff
+
+
+datvarmelt2p$divlo="no"
+datvarmelt2p$divlo[datvarmelt2p$variable=="Lower"|datvarmelt2p$variable=="LowerUpper"]="Lower"
+
+datvarmelt2p$divup="no"
+datvarmelt2p$divup[datvarmelt2p$variable=="Upper"|datvarmelt2p$variable=="LowerUpper"]="Upper"
+
+
+datvarmelt2p %>%  
+  group_by(subset) %>%
+  mutate(sumvar = sum(value)) %>%
+  subset(divlo=="Lower")%>%
+  mutate(type = "Lower") %>%
+  mutate(sumdiv = sum(value)) %>%
+  subset(divup=="Upper")%>%
+  mutate(freq = sumdiv / sumvar) %>%
+  ungroup() -> datvarmelt2pLow
+
+datvarmelt2p %>%  
+  group_by(subset) %>%
+  mutate(sumvar = sum(value)) %>%
+  subset(divup=="Upper")%>%
+  mutate(type = "Upper") %>%
+  mutate(sumdiv = sum(value)) %>%
+  subset(divlo=="Lower")%>%
+  mutate(freq = sumdiv / sumvar) %>%
+  ungroup() -> datvarmelt2pUp
+
+datvarmelt2ptooth=data.frame(rbind(datvarmelt2pLow,datvarmelt2pUp))
+
+theme_barplot <- theme_bw(14) +
+  theme(axis.text.y = element_text(size = rel(.75)),
+        axis.ticks.y = element_blank(),
+        axis.title.x = element_text(size = rel(.75)),
+        panel.grid.major.x = element_blank(),
+        panel.grid.major.y = element_line(size = 0.5),
+        panel.grid.minor.x = element_blank())
+
+
+propclass=ggplot(datvarmelt2ptooth, aes(x = freq, y = subset3,fill = type)) + theme_barplot +
+  geom_bar(width = 0.5,position=position_dodge(),stat="identity")+
+  scale_x_continuous(labels = scales::percent)+
+  scale_fill_viridis(name="Model",discrete = TRUE, option = "D",labels = c("Lower 2curves","Upper 2curves"))
+
+ggsave("SplineMusHamClassesPatBarplots.png",propclass,width = 15, height = 7, units = "cm") 
+ggsave("SplineMusHamClassesPatBarplots.pdf",propclass,width = 15, height = 7, units = "cm")
+
+
+
+
+#### proportion of up&lo common for Fig 5
+
+datvarmelt2p[datvarmelt2p$variable!="X1.curve",] %>%  
+  group_by(subset) %>%
+  mutate(sumvar = sum(value)) %>%
+  mutate(freq = value / sumvar)  %>% 
+  ungroup() -> datvarmelt2b
+
+propclass=ggplot(datvarmelt2b, aes(x = freq, y = subset3,fill = variable)) +
+  geom_bar(stat="identity")+ theme_barplot +
+  scale_x_continuous(labels = scales::percent)+
+  scale_fill_viridis(name="Model",discrete = TRUE, option = "D")
+
+ggsave("SplineClassesBarplots.png",propclass,width = 12, height = 7, units = "cm") 
+ggsave("SplineClassesBarplots.pdf",propclass,width = 12, height = 7, units = "cm")
+
+
+
+
+
+
+
+
+
+
 
 
 ### GO analysis 

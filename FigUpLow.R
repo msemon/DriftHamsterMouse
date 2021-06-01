@@ -128,6 +128,72 @@ ggsave("SplineULClasses.pdf",propclass,width = 12, height = 7, units = "cm")
 
 
 
+#### Same, removing 1 curve For Fig 3
+
+datvarmelt2[datvarmelt2$variable!="X1.curve",] %>%  
+  group_by(subset) %>%
+  mutate(sumvar = sum(value)) %>%
+  mutate(freq = value / sumvar)  %>% 
+  ungroup() -> datvarmelt2b
+
+propclass=ggplot(datvarmelt2b, aes(x = freq, y = subset3,fill = variable)) +
+  #geom_bar(position=position_dodge(),stat="identity")+
+  geom_bar(stat="identity")+
+  scale_x_continuous(labels = scales::percent)+
+  scale_fill_viridis(name="Model",discrete = TRUE, option = "C",labels = c("Mus 2 curves", "Ham 2 curves","MusHam 2 curves"))
+
+ggsave("SplineULClassesBarplots.png",propclass,width = 12, height = 7, units = "cm") 
+ggsave("SplineULClassesBarplots.pdf",propclass,width = 12, height = 7, units = "cm")
+
+
+
+#### Same, divergence For Fig 5
+
+datvarmelt2$divham="no"
+datvarmelt2$divham[datvarmelt2$variable=="ham.2.teeth"|datvarmelt2$variable=="X2.teeth"]="ham"
+
+datvarmelt2$divmus="no"
+datvarmelt2$divmus[datvarmelt2$variable=="mus.2.teeth"|datvarmelt2$variable=="X2.teeth"]="mus"
+
+
+datvarmelt2 %>%  
+  group_by(subset) %>%
+  mutate(sumvar = sum(value)) %>%
+  subset(divham=="ham")%>%
+  mutate(type = "ham") %>%
+  mutate(sumdiv = sum(value)) %>%
+  subset(divmus=="mus")%>%
+  mutate(freq = sumdiv / sumvar) %>%
+  ungroup() -> datvarmelt2ham
+
+
+
+datvarmelt2 %>%  
+  group_by(subset) %>%
+  mutate(sumvar = sum(value)) %>%
+  subset(divmus=="mus")%>%
+  mutate(type = "mus") %>%
+  mutate(sumdiv = sum(value)) %>%
+  subset(divham=="ham")%>%
+  mutate(freq = sumdiv / sumvar) %>%
+  ungroup() -> datvarmelt2mus
+
+datvarmelt2species=data.frame(rbind(datvarmelt2mus,datvarmelt2ham))
+
+propclass=ggplot(datvarmelt2species, aes(x = freq, y = subset3,fill = type)) +
+  geom_bar(position=position_dodge(),stat="identity")+
+  scale_x_continuous(labels = scales::percent)+
+  scale_fill_viridis(name="Model",discrete = TRUE, option = "C",labels = c("Ham 2curves","Mus 2curves"))
+
+ggsave("SplineDivergentClassesBarplots.png",propclass,width = 12, height = 7, units = "cm") 
+ggsave("SplineDivergentClassesBarplots.pdf",propclass,width = 12, height = 7, units = "cm")
+
+
+
+
+
+
+
 ### Proportion per signalling pathways
 
 r=data.frame(lapply(names(pathwaylistspe),function(x){
@@ -187,6 +253,76 @@ ggsave("SplineULClassesPathways.pdf",propclass2,width = 15, height = 10, units =
 scp=propclass2
 
 
+
+
+## barplots for UpLow diff
+
+
+datvarmelt2p$divham="no"
+datvarmelt2p$divham[datvarmelt2p$variable=="ham.2.teeth"|datvarmelt2p$variable=="X2.teeth"]="ham"
+
+datvarmelt2p$divmus="no"
+datvarmelt2p$divmus[datvarmelt2p$variable=="mus.2.teeth"|datvarmelt2p$variable=="X2.teeth"]="mus"
+
+
+datvarmelt2p %>%  
+  group_by(subset) %>%
+  mutate(sumvar = sum(value)) %>%
+  subset(divham=="ham")%>%
+  mutate(type = "ham") %>%
+  mutate(sumdiv = sum(value)) %>%
+  subset(divmus=="mus")%>%
+  mutate(freq = sumdiv / sumvar) %>%
+  ungroup() -> datvarmelt2pham
+
+datvarmelt2p %>%  
+  group_by(subset) %>%
+  mutate(sumvar = sum(value)) %>%
+  subset(divmus=="mus")%>%
+  mutate(type = "mus") %>%
+  mutate(sumdiv = sum(value)) %>%
+  subset(divham=="ham")%>%
+  mutate(freq = sumdiv / sumvar) %>%
+  ungroup() -> datvarmelt2pmus
+
+datvarmelt2pspecies=data.frame(rbind(datvarmelt2pmus,datvarmelt2pham))
+
+theme_barplot <- theme_bw(14) +
+  theme(axis.text.y = element_text(size = rel(.75)),
+        axis.ticks.y = element_blank(),
+        axis.title.x = element_text(size = rel(.75)),
+        panel.grid.major.x = element_blank(),
+        panel.grid.major.y = element_line(size = 0.5),
+        panel.grid.minor.x = element_blank())
+
+
+
+propclass=ggplot(datvarmelt2pspecies, aes(x = freq, y = subset3,fill = type)) + theme_barplot +
+  geom_bar(width = 0.5,position=position_dodge(),stat="identity")+
+  scale_x_continuous(labels = scales::percent)+
+  scale_fill_viridis(name="Model",discrete = TRUE, option = "C",labels = c("Ham 2curves","Mus 2curves"))
+
+ggsave("SplineDivergentClassesPatBarplots.png",propclass,width = 15, height = 7, units = "cm") 
+ggsave("SplineDivergentClassesPatBarplots.pdf",propclass,width = 15, height = 7, units = "cm")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### GO analysis 
 
 lists=list(rownames(resmod3)[resmod3$mus=="Tooth"],rownames(resmod3)[resmod3$ham=="Tooth"],rownames(resmod3)[resmod3$model=="2 teeth"])
@@ -242,6 +378,9 @@ ggsave(paste0("Genes_",cat,"_emaplot.pdf"),p)
 })
 
 
+
+
+
 #### BCA ham sou 
 
 load("ddsToothWhole.Rdata")
@@ -268,7 +407,7 @@ bmus2=ggplot(dfm1[!is.na(dfm1$Difference),],aes(x=as.numeric(stade),y=Difference
 ddsToothWholeHam <- DESeqDataSetFromMatrix(countData = counts(ddsToothWhole)[,colData(ddsToothWhole)$espece=="ham"],
                                            colData = colData(ddsToothWhole)[colData(ddsToothWhole)$espece=="ham",],
                                            design = ~1)
-colData(ddsToothWholeHam)$timerel=100*(as.numeric(colData(ddsToothWholeHam)$est_GAM)-12)/(14.5-12)
+colData(ddsToothWholeHam)$timerel=100*(as.numeric(colData(ddsToothWholeHam)$est_GAM)-12.2)/(14.5-12.2)
 ddsToothWholeHam <- DESeq(ddsToothWholeHam)
 pTh=dudi.pca(t(counts(ddsToothWholeHam,norm=T)),scale=T,scann=F,n=10) 
 bcash=bca(pTh,as.factor(as.character(colData(ddsToothWholeHam)$machoire)),nf=1,scannf=FALSE)

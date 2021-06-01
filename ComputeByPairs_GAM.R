@@ -79,7 +79,7 @@ compute_timeeffect=function(facselec="machoire",selec="md",fac="espece")
                                 design = ~1)
   #### HERE we decide to take time estimate by GAM model
   colData(dds)$timerel[colData(dds)$espece=="mus"]=10*(as.numeric(colData(dds)$est_GAM[colData(dds)$espece=="mus"])-14.5)/(18-14.5)
-  colData(dds)$timerel[colData(dds)$espece=="ham"]=10*(as.numeric(colData(dds)$est_GAM[colData(dds)$espece=="ham"])-12)/(14.5-12)
+  colData(dds)$timerel[colData(dds)$espece=="ham"]=10*(as.numeric(colData(dds)$est_GAM[colData(dds)$espece=="ham"])-12.3)/(14.5-12.3)
   dds <- DESeq(dds)
   
   spline_design_matrix <- function(time, intercept = F) {
@@ -218,9 +218,7 @@ compute_timeeffect=function(facselec="machoire",selec="md",fac="espece")
   SDM <- t(spline_design_matrix(times, intercept=F))
   dat=data.frame(times=times)
   dat0=data.frame(times=times)
-  #if(facselec!="espece")
-  #{
-  ldc=sapply(row.names(counts),function(gene){
+   ldc=sapply(row.names(counts),function(gene){
     dat[,levelsfac[1]] <- as.numeric(2 ** (sc.sp1[gene]+sc.fac1[gene,] %*% SDM))
     dat[,levelsfac[2]] <- as.numeric(2 ** (sc.sp2[gene]+sc.fac2[gene,] %*% SDM))
     dat0[,levelsfac[1]] <- as.numeric(2 ** (sc.red.sp1[gene]+sc.red.t[gene,] %*% SDM))
@@ -228,20 +226,7 @@ compute_timeeffect=function(facselec="machoire",selec="md",fac="espece")
     # distance between curves 
     dc=sum(c((dat[,levelsfac[1]]-dat0[,levelsfac[1]])^2/(dat[,levelsfac[1]]+dat0[,levelsfac[1]]),(dat[,levelsfac[2]]-dat0[,levelsfac[2]])^2/(dat[,levelsfac[2]]+dat0[,levelsfac[2]])))
     return(dc)})
-  #}
-  
-  # if(facselec=="espece")
-  # {
-  #   ldc=sapply(row.names(counts),function(gene){
-  #     dat[,levelsfac[1]] <- as.numeric(2 ** (sc.fac1[gene,] %*% SDM))
-  #     dat[,levelsfac[2]] <- as.numeric(2 ** (sc.fac2[gene,] %*% SDM))
-  #     dat0[,levelsfac[1]] <- as.numeric(2 ** (sc.red.t[gene,] %*% SDM))
-  #     dat0[,levelsfac[2]]<- as.numeric(2 ** (sc.red.t[gene,] %*% SDM))
-  #     # distance between curves 
-  #     dc=sum(c((dat[,levelsfac[1]]-dat0[,levelsfac[1]])^2/(dat[,levelsfac[1]]+dat0[,levelsfac[1]]),(dat[,levelsfac[2]]-dat0[,levelsfac[2]])^2/(dat[,levelsfac[2]]+dat0[,levelsfac[2]])))
-  #     return(dc)})
-  #   }
-  # 
+ 
   res.diff$dist=ldc
   
   test_table <- data.frame(res.diff)
@@ -302,8 +287,6 @@ profile <- function(gene="Pou3f3",facselec="espece",dds=dds,selec="md",res.diff,
     scale_colour_manual(name="Model",
                         values=c("1 curve"="black",
                                  "2 species"="blue"))
-  # guides(alpha=FALSE,color=FALSE)
-  # ggtitle(paste0(gene," p.value="))
   
   save_plot(paste0(id,selec,"rel.png"), ncol=1,nrow=2,
             p ,limitsize = FALSE )   
@@ -524,6 +507,9 @@ plot_mod_sp_vs_Tooth("Fgf10",selec1="md",selec2="mx",resdds1=res_md_vs_sp, resdd
 plot_mod_sp_vs_Tooth("Bmp6",selec1="mus",selec2="ham",resdds1=res_mus_vs_tooth, resdds2=res_ham_vs_tooth,facsel="espece")
 plot_mod_sp_vs_Tooth("Bmp6",selec1="md",selec2="mx",resdds1=res_md_vs_sp, resdds2=res_mx_vs_sp,facsel="machoire")
 
+
+plot_mod_sp_vs_Tooth("Bmp2",selec1="mus",selec2="ham",resdds1=res_mus_vs_tooth, resdds2=res_ham_vs_tooth,facsel="espece")
+plot_mod_sp_vs_Tooth("Cyp26a1",selec1="md",selec2="mx",resdds1=res_md_vs_sp, resdds2=res_mx_vs_sp,facsel="machoire")
 
 
 
