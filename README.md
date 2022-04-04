@@ -1,15 +1,18 @@
 # DriftHamsterMouse
 
-This repository contains code and basic data to reproduce the analyses presented in the manuscript "XX".
+This repository contains code and basic data to reproduce the analyses presented in the manuscript "Developmental system drift in one tooth facilitates the adaptation of the other" 
+by Marie Sémon, Laurent Guéguen, Klara Steklikova, Marion Mouginot, Manon Peltier, Philippe Veber, Sophie Pantalacci
 
 # Cusp patterning analysis 
 
 `cuspid_Erlang_2021_GamBoxCoxModel.r`
 
 This script first fits a relationship between embryo weight and age in days post coitum (dpc) by GAM+boxcox or linear+boxcox tranformation. This is using the data of hundreds of embryos in `weightTime_hamstermouse.txt`. Then age is predicted for embryos used for cusp patterning models (`cusp_fgf4_hamster.xlsx` and `cusp_fgf4_mouse.xlsx`) and RNAseq samples (`metadata-samplesRNAseq.txt`). 
+related to all analysis in the paper (cusp patterning, in situ hybridization, time-serie models)
 
 In a second time, the models for cusp patterning are fitted with continuous time Marlov chains.
-CountTot.txt
+related to Figure 1B and Figure SXX
+
 
 # Deconvolutions 
 
@@ -27,6 +30,18 @@ This code fits splines to temporal expression profiles, and then tests for diffe
 
 `FigUpLow.R` (for upper and lower comparisons)
 `FigHamSou.R` (for mouse and hamster comparisons)
+
+
+`Compute4Curves_GAM.R`
+
+This code fits splines to the 4 temporal expression profiles, and then tests for differential expression with DESeq2. The proportion of differentially expressed genes in several lists of genes is measured and plotted, and coevolution measured. 
+related to Figure 1D, Figure 3C
+
+`Compute3Curves_GAM.R`
+
+This code fits splines to the 4 temporal expression profiles like above and adds the specific model with up/lower difference in one species only.
+related to Figure 2C
+
 
 
 # ROMA pathway activation analyses
