@@ -16,10 +16,10 @@ library(forcats)
 
 ## load whole tooth data
 # metadata
-metadataTot1=read.table(file="../../metadataTot.txt",sep="\t")
+metadataTot1=read.table(file="metadataTot.txt",sep="\t")
 names(metadataTot1)=c("jaw","stage","species","rep","file")
 # raw counts for 64 samples
-CountTot=read.table(file="../../CountTot.txt",sep="\t")
+CountTot=read.table(file="CountTot.txt",sep="\t")
 CountTot=CountTot[,metadataTot1$jaw=="mx"|metadataTot1$jaw=="md"]
 metadataTot1=metadataTot1[metadataTot1$jaw=="mx"|metadataTot1$jaw=="md",]
 
