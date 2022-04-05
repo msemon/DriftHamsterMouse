@@ -24,14 +24,6 @@ Control plots to check the accuracy of prediction in pure tissues and boostraps 
 
 # Spline DE analyses and GO enrichment
 
-`ComputeByPairs_GAM.R`
-
-This code fits splines to temporal expression profiles, and then tests for differential expression with DESeq2. The proportion of differentially expressed genes in several lists of genes (`liste_bite-it.csv`, `keystone_genes.csv`, `dispensable_genes.csv`, `pathways-Margaux-corMS.xlsx`) is measured and plotted, and the general gene ontology enrichment is computed in :
-
-`FigUpLow.R` (for upper and lower comparisons)
-`FigHamSou.R` (for mouse and hamster comparisons)
-
-
 `Compute4Curves_GAM.R`
 
 This code fits splines to the 4 temporal expression profiles, and then tests for differential expression with DESeq2. The proportion of differentially expressed genes in several lists of genes is measured and plotted, and coevolution measured. 
@@ -39,9 +31,15 @@ related to Figure 1D, Figure 3C
 
 `Compute3Curves_GAM.R`
 
-This code fits splines to the 4 temporal expression profiles like above and adds the specific model with up/lower difference in one species only.
-related to Figure 2C
+This code fits splines to the 4 temporal expression profiles like above and adds the specific model with up/lower difference in one species only. Compute Gene ontology enrichments.
+related to Figure 2C and Figure SXX
 
+`ComputeByPairs_GAM.R`
+
+This code fits splines to temporal expression profiles, and then tests for differential expression with DESeq2. The proportion of differentially expressed genes in several lists of genes (`liste_bite-it.csv`, `keystone_genes.csv`, `dispensable_genes.csv`, `pathways-Margaux-corMS.xlsx`) is measured and plotted, and the general gene ontology enrichment is computed in :
+
+`FigUpLow.R` (for upper and lower comparisons)
+`FigHamSou.R` (for mouse and hamster comparisons)
 
 
 # ROMA pathway activation analyses
