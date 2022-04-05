@@ -24,6 +24,8 @@ Control plots to check the accuracy of prediction in pure tissues and boostraps 
 
 # Spline DE analyses and GO enrichment
 
+This code fits splines to temporal expression profiles, and then tests for differential expression with DESeq2. The proportion of differentially expressed genes in several lists of genes (available in data folder : `liste_bite-it.csv`, `keystone_genes.csv`, `dispensable_genes.csv`, `pathways-Margaux-corMS.xlsx`) is measured and plotted, and the general gene ontology enrichment is computed.
+
 `Compute4Curves_GAM.R`
 
 This code fits splines to the 4 temporal expression profiles, and then tests for differential expression with DESeq2. The proportion of differentially expressed genes in several lists of genes is measured and plotted, and coevolution measured. 
@@ -36,7 +38,7 @@ related to Figure 2C and Figure SXX
 
 `ComputeByPairs_GAM.R`
 
-This code fits splines to temporal expression profiles, and then tests for differential expression with DESeq2. The proportion of differentially expressed genes in several lists of genes (`liste_bite-it.csv`, `keystone_genes.csv`, `dispensable_genes.csv`, `pathways-Margaux-corMS.xlsx`) is measured and plotted, and the general gene ontology enrichment is computed in :
+This code fits splines to the temporal expression profiles taken 2 by 2, for Figures 2 and 6
 
 `FigUpLow.R` (for upper and lower comparisons)
 `FigHamSou.R` (for mouse and hamster comparisons)
@@ -44,7 +46,7 @@ This code fits splines to temporal expression profiles, and then tests for diffe
 
 # ROMA pathway activation analyses
 
-Pathway activation is measured by rROMA package, for three pathways with their target genes(`BMP-avril2019.csv`, `WNT-avril2019.csv`, `genesetSHH.txt`). 
+Pathway activation is measured by rROMA package, for three pathways with their target genes (corresponding lists available in the data folder `BMP-avril2019.csv`, `WNT-avril2019.csv`, `genesetSHH.txt`). 
 
 # Multivariate analyses
 
