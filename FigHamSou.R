@@ -31,8 +31,10 @@ row.names(resmod2)=row.names(res_md_vs_sp[[2]])
 
 resmod2$md="1 curve"
 resmod2$md[resmod2$mod2.md.padj<0.05]="Species"
+resmod2$md[is.na(resmod2$mod2.md.padj)]=NA
 resmod2$mx="1 curve"
 resmod2$mx[resmod2$mod2.mx.padj<0.05]="Species"
+resmod2$mx[is.na(resmod2$mod2.mx.padj)]=NA
 resmod2$model="1 curve"
 resmod2$model[resmod2$md=="Species"&resmod2$mx=="Species"]="LowerUpper"
 resmod2$model[resmod2$md=="Species"&resmod2$mx=="1 curve"]="Lower"
@@ -43,15 +45,13 @@ resmod2$model[resmod2$mx=="Species"&resmod2$md=="1 curve"]="Upper"
 
 pathway = read_excel("../pathways-Margaux-corMS.xlsx",sheet=1)
 pathway=pathway[,1:5]
-
 pathwaylist=unique(pathway$Symbol)
 pathwaylistspe=lapply(split(pathway,pathway$Pathway),function(x){unique(x$Symbol)})
-
-
  
  getclassesmod2=function(list=biteit$V1,suf="bite-it",threshold=0.05)
  {
    subset=resmod2[row.names(resmod2)%in%list,]
+   subset=subset[!is.na(subset$md)&!is.na(subset$mx),]
    out=c(table(subset$model),nrow(subset),suf)
    names(out)=c(names(table(subset$model)),"N","subset")
    out=out[c("subset","N","1 curve","Lower","Upper","LowerUpper")]
@@ -81,15 +81,12 @@ datvarmelt2 <- datvarmelt %>%
   mutate(subset2 = paste0(subset," (",N,")"))%>%
   mutate(subset2 = fct_reorder(subset2, as.numeric(as.character(N))))
 
-
 lev= levels(datvarmelt2$subset2)
 lev1=lev
 lev1[1]=lev[4]
 lev1[4]=lev[3]
 lev1[2:3]=lev[1:2]
 datvarmelt2$subset3=factor(datvarmelt2$subset2,levels=lev1)
-
-
 
 # create a theme for dot plots, which can be reused
 theme_dotplot <- theme_bw(14) +
@@ -230,8 +227,7 @@ ggsave("SplineMusHamClassesPatBarplots.pdf",propclass,width = 15, height = 7, un
 
 
 
-
-#### proportion of up&lo common for Fig 5
+#### proportion of up&lo common for Fig 3
 
 datvarmelt2p[datvarmelt2p$variable!="X1.curve",] %>%  
   group_by(subset) %>%
@@ -246,14 +242,6 @@ propclass=ggplot(datvarmelt2b, aes(x = freq, y = subset3,fill = variable)) +
 
 ggsave("SplineClassesBarplots.png",propclass,width = 12, height = 7, units = "cm") 
 ggsave("SplineClassesBarplots.pdf",propclass,width = 12, height = 7, units = "cm")
-
-
-
-
-
-
-
-
 
 
 
@@ -337,4 +325,7 @@ sapply(unique(df$model),function(cat){
   ggsave(paste0("Genes_",cat,"_emaplot.pdf"),p)
   
 })
+
+
+write.table(file="resmod2.txt",resmod2,sep="\t",quote=F)
 

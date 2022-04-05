@@ -1,6 +1,9 @@
-##### plot full models for a selection of genes and COMPUTE models with 3 curves (the top part of the code is redundant with Compute4Curves_GAM but adds the 3 curves models and some plots, plus enrichments
+##### plot full models for a selection of genes and COMPUTE models with 3 curves 
 
 ################################################################### load libraries
+
+
+setwd("~/Documents/Projet_Drift/MappingGenome/Counts/Spline_Final/TimeGAM3Curves")
 library(DESeq2)
 library(splines)
 library(tximport)
@@ -33,10 +36,10 @@ library(simplifyEnrichment)
 ################################################################### load data
 
 # metadata
-metadataTot1=read.table(file="data/metadataTot.txt",sep="\t")
+metadataTot1=read.table(file="../../metadataTot.txt",sep="\t")
 names(metadataTot1)=c("jaw","stage","species","rep","file")
 # raw counts for 64 samples
-CountTot=read.table(file="data/CountTot.txt",sep="\t")
+CountTot=read.table(file="../../CountTot.txt",sep="\t")
 CountTot=CountTot[,metadataTot1$jaw=="mx"|metadataTot1$jaw=="md"]
 metadataTot1=metadataTot1[metadataTot1$jaw=="mx"|metadataTot1$jaw=="md",]
 
@@ -47,10 +50,10 @@ metadataTot1=metadataTot1[,!names(metadataTot1)%in%c("stage")]
 
 
 ## time estimates from GAM model
-mdhamtime=read.table("data/predictions_rnaseq_cuspmdH_all.txt",h=T)
-mxhamtime=read.table("data/predictions_rnaseq_cuspmxH_all.txt",h=T)
-mdmustime=read.table("data/predictions_rnaseq_cuspmdM_all.txt",h=T)
-mxmustime=read.table("data/predictions_rnaseq_cuspmxM_all.txt",h=T)
+mdhamtime=read.table("../predictions_rnaseq_cuspmdH_all.txt",h=T)
+mxhamtime=read.table("../predictions_rnaseq_cuspmxH_all.txt",h=T)
+mdmustime=read.table("../predictions_rnaseq_cuspmdM_all.txt",h=T)
+mxmustime=read.table("../predictions_rnaseq_cuspmxM_all.txt",h=T)
 times=data.frame(rbind(mdhamtime,mxhamtime,mdmustime,mxmustime))
 names(times)=c("samples","stage","replicate","weight","fit_boxCox","lwr_boxCox","upr_boxCox","fit_log","lwr_log","upr_log","est_GAM","lower_GAM","upper_GAM")
 times$sample[grep("mus",times$sample)]=paste0(times$sample[grep("mus",times$sample)],"W")
@@ -68,10 +71,10 @@ colData(ddsToothWhole)$timerel[colData(ddsToothWhole)$species=="ham"]=10*(as.num
 ddsToothWhole <- DESeq(ddsToothWhole)
 
 ### lists of genes of interest 
-biteit=read.table("data/liste_bite-it.csv",h=F)
-keystone=read.csv("data/keystone_genes.csv",h=T,sep="\t")
-dispensable=read.csv("data/dispensable_genes.csv",h=T,sep="\t")
-pathway = read_excel("data/pathways-Margaux-corMS.xlsx",sheet=1)
+biteit=read.table("../liste_bite-it.csv",h=F)
+keystone=read.csv("../keystone_genes.csv",h=T,sep="\t")
+dispensable=read.csv("../dispensable_genes.csv",h=T,sep="\t")
+pathway = read_excel("../pathways-Margaux-corMS.xlsx",sheet=1)
 pathway=pathway[,1:5]
 pathwaylist=unique(pathway$Symbol)
 pathwaylistspe=lapply(split(pathway,pathway$Pathway),function(x){unique(x$Symbol)})
@@ -89,9 +92,14 @@ colData(ddsToothWhole)$jaw=as.factor(colData(ddsToothWhole)$jaw)
 colData(ddsToothWhole)$timerel[colData(ddsToothWhole)$species=="mus"]=10*(as.numeric(colData(ddsToothWhole)$est_GAM[colData(ddsToothWhole)$species=="mus"])-14.5)/(18-14.5)
 colData(ddsToothWhole)$timerel[colData(ddsToothWhole)$species=="ham"]=10*(as.numeric(colData(ddsToothWhole)$est_GAM[colData(ddsToothWhole)$species=="ham"])-12.3)/(14.5-12.3)
 ddsToothWhole <- DESeq(ddsToothWhole)
+### make DESeq object
+# save(file="ddsToothWhole.Rdata",ddsToothWhole)
+
+
 
 
 ################################################################### Fit the models
+
 # 2 boundary knots, polynomials degree 3
 # DEsplines Time:(species,jaw)}
 
