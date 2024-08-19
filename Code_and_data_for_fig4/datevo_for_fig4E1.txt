@@ -1,0 +1,27 @@
+subset	N	variable	value	percent	subset2	subset3	divlo	divup	sumvar	type	sumdiv	freq
+1	bite-it	213	LowerUpper	67	0.314553990610329	bite-it (213)	bite-it (213)	Lower	Upper	213	Lower	85	0.39906103286385
+2	Dispensable	88	LowerUpper	29	0.329545454545455	Dispensable (88)	Dispensable (88)	Lower	Upper	88	Lower	32	0.363636363636364
+3	Keystone	79	LowerUpper	17	0.215189873417722	Keystone (79)	Keystone (79)	Lower	Upper	79	Lower	27	0.341772151898734
+4	Total	13278	LowerUpper	1661	0.125094140683838	Total (13278)	Total (13278)	Lower	Upper	13278	Lower	2846	0.214339508962193
+5	Pathways	247	LowerUpper	42	0.17004048582996	Pathways (247)	Pathways (247)	Lower	Upper	247	Lower	71	0.287449392712551
+6	Wnt	75	LowerUpper	10	0.133333333333333	Wnt (75)	Wnt (75)	Lower	Upper	75	Lower	15	0.2
+7	Bmp	65	LowerUpper	13	0.2	Bmp (65)	Bmp (65)	Lower	Upper	65	Lower	19	0.292307692307692
+8	FGF	63	LowerUpper	13	0.206349206349206	FGF (63)	FGF (63)	Lower	Upper	63	Lower	22	0.349206349206349
+9	HH	29	LowerUpper	1	0.0344827586206897	HH (29)	HH (29)	Lower	Upper	29	Lower	3	0.103448275862069
+10	activin	16	LowerUpper	2	0.125	activin (16)	activin (16)	Lower	Upper	16	Lower	5	0.3125
+11	tgfb	11	LowerUpper	3	0.272727272727273	tgfb (11)	tgfb (11)	Lower	Upper	11	Lower	5	0.454545454545455
+12	notch	9	LowerUpper	3	0.333333333333333	notch (9)	notch (9)	Lower	Upper	9	Lower	4	0.444444444444444
+13	eda	8	LowerUpper	0	0	eda (8)	eda (8)	Lower	Upper	8	Lower	2	0.25
+14	bite-it	213	LowerUpper	67	0.314553990610329	bite-it (213)	bite-it (213)	Lower	Upper	213	Upper	86	0.403755868544601
+15	Dispensable	88	LowerUpper	29	0.329545454545455	Dispensable (88)	Dispensable (88)	Lower	Upper	88	Upper	37	0.420454545454545
+16	Keystone	79	LowerUpper	17	0.215189873417722	Keystone (79)	Keystone (79)	Lower	Upper	79	Upper	24	0.30379746835443
+17	Total	13278	LowerUpper	1661	0.125094140683838	Total (13278)	Total (13278)	Lower	Upper	13278	Upper	2374	0.178791986744992
+18	Pathways	247	LowerUpper	42	0.17004048582996	Pathways (247)	Pathways (247)	Lower	Upper	247	Upper	62	0.251012145748988
+19	Wnt	75	LowerUpper	10	0.133333333333333	Wnt (75)	Wnt (75)	Lower	Upper	75	Upper	18	0.24
+20	Bmp	65	LowerUpper	13	0.2	Bmp (65)	Bmp (65)	Lower	Upper	65	Upper	17	0.261538461538462
+21	FGF	63	LowerUpper	13	0.206349206349206	FGF (63)	FGF (63)	Lower	Upper	63	Upper	17	0.26984126984127
+22	HH	29	LowerUpper	1	0.0344827586206897	HH (29)	HH (29)	Lower	Upper	29	Upper	3	0.103448275862069
+23	activin	16	LowerUpper	2	0.125	activin (16)	activin (16)	Lower	Upper	16	Upper	2	0.125
+24	tgfb	11	LowerUpper	3	0.272727272727273	tgfb (11)	tgfb (11)	Lower	Upper	11	Upper	3	0.272727272727273
+25	notch	9	LowerUpper	3	0.333333333333333	notch (9)	notch (9)	Lower	Upper	9	Upper	3	0.333333333333333
+26	eda	8	LowerUpper	0	0	eda (8)	eda (8)	Lower	Upper	8	Upper	2	0.25

@@ -1,0 +1,1601 @@
+times	variable	value	tissue	species	type
+1	pred.bat.fore.limb	109.142741696687	fore-limb	bat	Simple
+1.02020202020202	pred.bat.fore.limb	113.769968138976	fore-limb	bat	Simple
+1.04040404040404	pred.bat.fore.limb	118.486740538155	fore-limb	bat	Simple
+1.06060606060606	pred.bat.fore.limb	123.288113594941	fore-limb	bat	Simple
+1.08080808080808	pred.bat.fore.limb	128.168706518857	fore-limb	bat	Simple
+1.1010101010101	pred.bat.fore.limb	133.122705123443	fore-limb	bat	Simple
+1.12121212121212	pred.bat.fore.limb	138.143865991748	fore-limb	bat	Simple
+1.14141414141414	pred.bat.fore.limb	143.225522771118	fore-limb	bat	Simple
+1.16161616161616	pred.bat.fore.limb	148.360594644971	fore-limb	bat	Simple
+1.18181818181818	pred.bat.fore.limb	153.541597017077	fore-limb	bat	Simple
+1.2020202020202	pred.bat.fore.limb	158.760654431041	fore-limb	bat	Simple
+1.22222222222222	pred.bat.fore.limb	164.00951573419	fore-limb	bat	Simple
+1.24242424242424	pred.bat.fore.limb	169.279571481022	fore-limb	bat	Simple
+1.26262626262626	pred.bat.fore.limb	174.561873556891	fore-limb	bat	Simple
+1.28282828282828	pred.bat.fore.limb	179.847156987737	fore-limb	bat	Simple
+1.3030303030303	pred.bat.fore.limb	185.125863886612	fore-limb	bat	Simple
+1.32323232323232	pred.bat.fore.limb	190.388169472517	fore-limb	bat	Simple
+1.34343434343434	pred.bat.fore.limb	195.624010081874	fore-limb	bat	Simple
+1.36363636363636	pred.bat.fore.limb	200.823113077833	fore-limb	bat	Simple
+1.38383838383838	pred.bat.fore.limb	205.975028547807	fore-limb	bat	Simple
+1.4040404040404	pred.bat.fore.limb	211.069162665128	fore-limb	bat	Simple
+1.42424242424242	pred.bat.fore.limb	216.094812576774	fore-limb	bat	Simple
+1.44444444444444	pred.bat.fore.limb	221.041202665785	fore-limb	bat	Simple
+1.46464646464646	pred.bat.fore.limb	225.897522024418	fore-limb	bat	Simple
+1.48484848484848	pred.bat.fore.limb	230.652962962412	fore-limb	bat	Simple
+1.50505050505051	pred.bat.fore.limb	235.29676036404	fore-limb	bat	Simple
+1.52525252525253	pred.bat.fore.limb	239.818231698062	fore-limb	bat	Simple
+1.54545454545455	pred.bat.fore.limb	244.206817476319	fore-limb	bat	Simple
+1.56565656565657	pred.bat.fore.limb	248.452121949666	fore-limb	bat	Simple
+1.58585858585859	pred.bat.fore.limb	252.543953824261	fore-limb	bat	Simple
+1.60606060606061	pred.bat.fore.limb	256.472366777056	fore-limb	bat	Simple
+1.62626262626263	pred.bat.fore.limb	260.22769954664	fore-limb	bat	Simple
+1.64646464646465	pred.bat.fore.limb	263.800615374503	fore-limb	bat	Simple
+1.66666666666667	pred.bat.fore.limb	267.18214057232	fore-limb	bat	Simple
+1.68686868686869	pred.bat.fore.limb	270.363701992975	fore-limb	bat	Simple
+1.70707070707071	pred.bat.fore.limb	273.337163186872	fore-limb	bat	Simple
+1.72727272727273	pred.bat.fore.limb	276.094859030482	fore-limb	bat	Simple
+1.74747474747475	pred.bat.fore.limb	278.629628621116	fore-limb	bat	Simple
+1.76767676767677	pred.bat.fore.limb	280.93484624053	fore-limb	bat	Simple
+1.78787878787879	pred.bat.fore.limb	283.004450200098	fore-limb	bat	Simple
+1.80808080808081	pred.bat.fore.limb	284.832969391851	fore-limb	bat	Simple
+1.82828282828283	pred.bat.fore.limb	286.415547382683	fore-limb	bat	Simple
+1.84848484848485	pred.bat.fore.limb	287.747963903217	fore-limb	bat	Simple
+1.86868686868687	pred.bat.fore.limb	288.826653598284	fore-limb	bat	Simple
+1.88888888888889	pred.bat.fore.limb	289.648721922416	fore-limb	bat	Simple
+1.90909090909091	pred.bat.fore.limb	290.211958081167	fore-limb	bat	Simple
+1.92929292929293	pred.bat.fore.limb	290.514844937297	fore-limb	bat	Simple
+1.94949494949495	pred.bat.fore.limb	290.556565819678	fore-limb	bat	Simple
+1.96969696969697	pred.bat.fore.limb	290.337008192171	fore-limb	bat	Simple
+1.98989898989899	pred.bat.fore.limb	289.85676415939	fore-limb	bat	Simple
+2.01010101010101	pred.bat.fore.limb	289.117127806174	fore-limb	bat	Simple
+2.03030303030303	pred.bat.fore.limb	288.120089387516	fore-limb	bat	Simple
+2.05050505050505	pred.bat.fore.limb	286.868326405433	fore-limb	bat	Simple
+2.07070707070707	pred.bat.fore.limb	285.365191628781	fore-limb	bat	Simple
+2.09090909090909	pred.bat.fore.limb	283.614698131042	fore-limb	bat	Simple
+2.11111111111111	pred.bat.fore.limb	281.621501439522	fore-limb	bat	Simple
+2.13131313131313	pred.bat.fore.limb	279.390878907097	fore-limb	bat	Simple
+2.15151515151515	pred.bat.fore.limb	276.928706434411	fore-limb	bat	Simple
+2.17171717171717	pred.bat.fore.limb	274.241432686221	fore-limb	bat	Simple
+2.19191919191919	pred.bat.fore.limb	271.336050960189	fore-limb	bat	Simple
+2.21212121212121	pred.bat.fore.limb	268.22006887982	fore-limb	bat	Simple
+2.23232323232323	pred.bat.fore.limb	264.901476095271	fore-limb	bat	Simple
+2.25252525252525	pred.bat.fore.limb	261.388710186348	fore-limb	bat	Simple
+2.27272727272727	pred.bat.fore.limb	257.690620971135	fore-limb	bat	Simple
+2.29292929292929	pred.bat.fore.limb	253.816433431205	fore-limb	bat	Simple
+2.31313131313131	pred.bat.fore.limb	249.775709470352	fore-limb	bat	Simple
+2.33333333333333	pred.bat.fore.limb	245.578308728043	fore-limb	bat	Simple
+2.35353535353535	pred.bat.fore.limb	241.234348671526	fore-limb	bat	Simple
+2.37373737373737	pred.bat.fore.limb	236.754164191507	fore-limb	bat	Simple
+2.39393939393939	pred.bat.fore.limb	232.148266925781	fore-limb	bat	Simple
+2.41414141414141	pred.bat.fore.limb	227.427304532987	fore-limb	bat	Simple
+2.43434343434343	pred.bat.fore.limb	222.602020134981	fore-limb	bat	Simple
+2.45454545454545	pred.bat.fore.limb	217.683212141076	fore-limb	bat	Simple
+2.47474747474747	pred.bat.fore.limb	212.681694660822	fore-limb	bat	Simple
+2.49494949494949	pred.bat.fore.limb	207.608258704019	fore-limb	bat	Simple
+2.51515151515152	pred.bat.fore.limb	202.473634357451	fore-limb	bat	Simple
+2.53535353535354	pred.bat.fore.limb	197.288454117519	fore-limb	bat	Simple
+2.55555555555556	pred.bat.fore.limb	192.06321754654	fore-limb	bat	Simple
+2.57575757575758	pred.bat.fore.limb	186.808257408193	fore-limb	bat	Simple
+2.5959595959596	pred.bat.fore.limb	181.533707424513	fore-limb	bat	Simple
+2.61616161616162	pred.bat.fore.limb	176.249471783019	fore-limb	bat	Simple
+2.63636363636364	pred.bat.fore.limb	170.9651965083	fore-limb	bat	Simple
+2.65656565656566	pred.bat.fore.limb	165.690242797586	fore-limb	bat	Simple
+2.67676767676768	pred.bat.fore.limb	160.433662404848	fore-limb	bat	Simple
+2.6969696969697	pred.bat.fore.limb	155.204175142754	fore-limb	bat	Simple
+2.71717171717172	pred.bat.fore.limb	150.010148556603	fore-limb	bat	Simple
+2.73737373737374	pred.bat.fore.limb	144.859579809198	fore-limb	bat	Simple
+2.75757575757576	pred.bat.fore.limb	139.760079800712	fore-limb	bat	Simple
+2.77777777777778	pred.bat.fore.limb	134.718859532948	fore-limb	bat	Simple
+2.7979797979798	pred.bat.fore.limb	129.74271871325	fore-limb	bat	Simple
+2.81818181818182	pred.bat.fore.limb	124.838036579585	fore-limb	bat	Simple
+2.83838383838384	pred.bat.fore.limb	120.010764915308	fore-limb	bat	Simple
+2.85858585858586	pred.bat.fore.limb	115.26642320972	fore-limb	bat	Simple
+2.87878787878788	pred.bat.fore.limb	110.610095908936	fore-limb	bat	Simple
+2.8989898989899	pred.bat.fore.limb	106.046431690802	fore-limb	bat	Simple
+2.91919191919192	pred.bat.fore.limb	101.579644687725	fore-limb	bat	Simple
+2.93939393939394	pred.bat.fore.limb	97.2135175722779	fore-limb	bat	Simple
+2.95959595959596	pred.bat.fore.limb	92.9514064124955	fore-limb	bat	Simple
+2.97979797979798	pred.bat.fore.limb	88.7962471967023	fore-limb	bat	Simple
+3	pred.bat.fore.limb	84.7505639217403	fore-limb	bat	Simple
+1	pred.bat.hind.limb	109.142741696687	hind-limb	bat	Simple
+1.02020202020202	pred.bat.hind.limb	113.769968138976	hind-limb	bat	Simple
+1.04040404040404	pred.bat.hind.limb	118.486740538155	hind-limb	bat	Simple
+1.06060606060606	pred.bat.hind.limb	123.288113594941	hind-limb	bat	Simple
+1.08080808080808	pred.bat.hind.limb	128.168706518857	hind-limb	bat	Simple
+1.1010101010101	pred.bat.hind.limb	133.122705123443	hind-limb	bat	Simple
+1.12121212121212	pred.bat.hind.limb	138.143865991748	hind-limb	bat	Simple
+1.14141414141414	pred.bat.hind.limb	143.225522771118	hind-limb	bat	Simple
+1.16161616161616	pred.bat.hind.limb	148.360594644971	hind-limb	bat	Simple
+1.18181818181818	pred.bat.hind.limb	153.541597017077	hind-limb	bat	Simple
+1.2020202020202	pred.bat.hind.limb	158.760654431041	hind-limb	bat	Simple
+1.22222222222222	pred.bat.hind.limb	164.00951573419	hind-limb	bat	Simple
+1.24242424242424	pred.bat.hind.limb	169.279571481022	hind-limb	bat	Simple
+1.26262626262626	pred.bat.hind.limb	174.561873556891	hind-limb	bat	Simple
+1.28282828282828	pred.bat.hind.limb	179.847156987737	hind-limb	bat	Simple
+1.3030303030303	pred.bat.hind.limb	185.125863886612	hind-limb	bat	Simple
+1.32323232323232	pred.bat.hind.limb	190.388169472517	hind-limb	bat	Simple
+1.34343434343434	pred.bat.hind.limb	195.624010081874	hind-limb	bat	Simple
+1.36363636363636	pred.bat.hind.limb	200.823113077833	hind-limb	bat	Simple
+1.38383838383838	pred.bat.hind.limb	205.975028547807	hind-limb	bat	Simple
+1.4040404040404	pred.bat.hind.limb	211.069162665128	hind-limb	bat	Simple
+1.42424242424242	pred.bat.hind.limb	216.094812576774	hind-limb	bat	Simple
+1.44444444444444	pred.bat.hind.limb	221.041202665785	hind-limb	bat	Simple
+1.46464646464646	pred.bat.hind.limb	225.897522024418	hind-limb	bat	Simple
+1.48484848484848	pred.bat.hind.limb	230.652962962412	hind-limb	bat	Simple
+1.50505050505051	pred.bat.hind.limb	235.29676036404	hind-limb	bat	Simple
+1.52525252525253	pred.bat.hind.limb	239.818231698062	hind-limb	bat	Simple
+1.54545454545455	pred.bat.hind.limb	244.206817476319	hind-limb	bat	Simple
+1.56565656565657	pred.bat.hind.limb	248.452121949666	hind-limb	bat	Simple
+1.58585858585859	pred.bat.hind.limb	252.543953824261	hind-limb	bat	Simple
+1.60606060606061	pred.bat.hind.limb	256.472366777056	hind-limb	bat	Simple
+1.62626262626263	pred.bat.hind.limb	260.22769954664	hind-limb	bat	Simple
+1.64646464646465	pred.bat.hind.limb	263.800615374503	hind-limb	bat	Simple
+1.66666666666667	pred.bat.hind.limb	267.18214057232	hind-limb	bat	Simple
+1.68686868686869	pred.bat.hind.limb	270.363701992975	hind-limb	bat	Simple
+1.70707070707071	pred.bat.hind.limb	273.337163186872	hind-limb	bat	Simple
+1.72727272727273	pred.bat.hind.limb	276.094859030482	hind-limb	bat	Simple
+1.74747474747475	pred.bat.hind.limb	278.629628621116	hind-limb	bat	Simple
+1.76767676767677	pred.bat.hind.limb	280.93484624053	hind-limb	bat	Simple
+1.78787878787879	pred.bat.hind.limb	283.004450200098	hind-limb	bat	Simple
+1.80808080808081	pred.bat.hind.limb	284.832969391851	hind-limb	bat	Simple
+1.82828282828283	pred.bat.hind.limb	286.415547382683	hind-limb	bat	Simple
+1.84848484848485	pred.bat.hind.limb	287.747963903217	hind-limb	bat	Simple
+1.86868686868687	pred.bat.hind.limb	288.826653598284	hind-limb	bat	Simple
+1.88888888888889	pred.bat.hind.limb	289.648721922416	hind-limb	bat	Simple
+1.90909090909091	pred.bat.hind.limb	290.211958081167	hind-limb	bat	Simple
+1.92929292929293	pred.bat.hind.limb	290.514844937297	hind-limb	bat	Simple
+1.94949494949495	pred.bat.hind.limb	290.556565819678	hind-limb	bat	Simple
+1.96969696969697	pred.bat.hind.limb	290.337008192171	hind-limb	bat	Simple
+1.98989898989899	pred.bat.hind.limb	289.85676415939	hind-limb	bat	Simple
+2.01010101010101	pred.bat.hind.limb	289.117127806174	hind-limb	bat	Simple
+2.03030303030303	pred.bat.hind.limb	288.120089387516	hind-limb	bat	Simple
+2.05050505050505	pred.bat.hind.limb	286.868326405433	hind-limb	bat	Simple
+2.07070707070707	pred.bat.hind.limb	285.365191628781	hind-limb	bat	Simple
+2.09090909090909	pred.bat.hind.limb	283.614698131042	hind-limb	bat	Simple
+2.11111111111111	pred.bat.hind.limb	281.621501439522	hind-limb	bat	Simple
+2.13131313131313	pred.bat.hind.limb	279.390878907097	hind-limb	bat	Simple
+2.15151515151515	pred.bat.hind.limb	276.928706434411	hind-limb	bat	Simple
+2.17171717171717	pred.bat.hind.limb	274.241432686221	hind-limb	bat	Simple
+2.19191919191919	pred.bat.hind.limb	271.336050960189	hind-limb	bat	Simple
+2.21212121212121	pred.bat.hind.limb	268.22006887982	hind-limb	bat	Simple
+2.23232323232323	pred.bat.hind.limb	264.901476095271	hind-limb	bat	Simple
+2.25252525252525	pred.bat.hind.limb	261.388710186348	hind-limb	bat	Simple
+2.27272727272727	pred.bat.hind.limb	257.690620971135	hind-limb	bat	Simple
+2.29292929292929	pred.bat.hind.limb	253.816433431205	hind-limb	bat	Simple
+2.31313131313131	pred.bat.hind.limb	249.775709470352	hind-limb	bat	Simple
+2.33333333333333	pred.bat.hind.limb	245.578308728043	hind-limb	bat	Simple
+2.35353535353535	pred.bat.hind.limb	241.234348671526	hind-limb	bat	Simple
+2.37373737373737	pred.bat.hind.limb	236.754164191507	hind-limb	bat	Simple
+2.39393939393939	pred.bat.hind.limb	232.148266925781	hind-limb	bat	Simple
+2.41414141414141	pred.bat.hind.limb	227.427304532987	hind-limb	bat	Simple
+2.43434343434343	pred.bat.hind.limb	222.602020134981	hind-limb	bat	Simple
+2.45454545454545	pred.bat.hind.limb	217.683212141076	hind-limb	bat	Simple
+2.47474747474747	pred.bat.hind.limb	212.681694660822	hind-limb	bat	Simple
+2.49494949494949	pred.bat.hind.limb	207.608258704019	hind-limb	bat	Simple
+2.51515151515152	pred.bat.hind.limb	202.473634357451	hind-limb	bat	Simple
+2.53535353535354	pred.bat.hind.limb	197.288454117519	hind-limb	bat	Simple
+2.55555555555556	pred.bat.hind.limb	192.06321754654	hind-limb	bat	Simple
+2.57575757575758	pred.bat.hind.limb	186.808257408193	hind-limb	bat	Simple
+2.5959595959596	pred.bat.hind.limb	181.533707424513	hind-limb	bat	Simple
+2.61616161616162	pred.bat.hind.limb	176.249471783019	hind-limb	bat	Simple
+2.63636363636364	pred.bat.hind.limb	170.9651965083	hind-limb	bat	Simple
+2.65656565656566	pred.bat.hind.limb	165.690242797586	hind-limb	bat	Simple
+2.67676767676768	pred.bat.hind.limb	160.433662404848	hind-limb	bat	Simple
+2.6969696969697	pred.bat.hind.limb	155.204175142754	hind-limb	bat	Simple
+2.71717171717172	pred.bat.hind.limb	150.010148556603	hind-limb	bat	Simple
+2.73737373737374	pred.bat.hind.limb	144.859579809198	hind-limb	bat	Simple
+2.75757575757576	pred.bat.hind.limb	139.760079800712	hind-limb	bat	Simple
+2.77777777777778	pred.bat.hind.limb	134.718859532948	hind-limb	bat	Simple
+2.7979797979798	pred.bat.hind.limb	129.74271871325	hind-limb	bat	Simple
+2.81818181818182	pred.bat.hind.limb	124.838036579585	hind-limb	bat	Simple
+2.83838383838384	pred.bat.hind.limb	120.010764915308	hind-limb	bat	Simple
+2.85858585858586	pred.bat.hind.limb	115.26642320972	hind-limb	bat	Simple
+2.87878787878788	pred.bat.hind.limb	110.610095908936	hind-limb	bat	Simple
+2.8989898989899	pred.bat.hind.limb	106.046431690802	hind-limb	bat	Simple
+2.91919191919192	pred.bat.hind.limb	101.579644687725	hind-limb	bat	Simple
+2.93939393939394	pred.bat.hind.limb	97.2135175722779	hind-limb	bat	Simple
+2.95959595959596	pred.bat.hind.limb	92.9514064124955	hind-limb	bat	Simple
+2.97979797979798	pred.bat.hind.limb	88.7962471967023	hind-limb	bat	Simple
+3	pred.bat.hind.limb	84.7505639217403	hind-limb	bat	Simple
+1	pred.mus.fore.limb	183.534364729136	fore-limb	mus	Simple
+1.02020202020202	pred.mus.fore.limb	191.315505759143	fore-limb	mus	Simple
+1.04040404040404	pred.mus.fore.limb	199.247227213063	fore-limb	mus	Simple
+1.06060606060606	pred.mus.fore.limb	207.321213078779	fore-limb	mus	Simple
+1.08080808080808	pred.mus.fore.limb	215.528415022467	fore-limb	mus	Simple
+1.1010101010101	pred.mus.fore.limb	223.859055911888	fore-limb	mus	Simple
+1.12121212121212	pred.mus.fore.limb	232.30263682108	fore-limb	mus	Simple
+1.14141414141414	pred.mus.fore.limb	240.847947615682	fore-limb	mus	Simple
+1.16161616161616	pred.mus.fore.limb	249.483081199051	fore-limb	mus	Simple
+1.18181818181818	pred.mus.fore.limb	258.195451478948	fore-limb	mus	Simple
+1.2020202020202	pred.mus.fore.limb	266.971815092928	fore-limb	mus	Simple
+1.22222222222222	pred.mus.fore.limb	275.798296907925	fore-limb	mus	Simple
+1.24242424242424	pred.mus.fore.limb	284.660419285884	fore-limb	mus	Simple
+1.26262626262626	pred.mus.fore.limb	293.54313508293	fore-limb	mus	Simple
+1.28282828282828	pred.mus.fore.limb	302.430864324601	fore-limb	mus	Simple
+1.3030303030303	pred.mus.fore.limb	311.307534474308	fore-limb	mus	Simple
+1.32323232323232	pred.mus.fore.limb	320.156624186602	fore-limb	mus	Simple
+1.34343434343434	pred.mus.fore.limb	328.961210411235	fore-limb	mus	Simple
+1.36363636363636	pred.mus.fore.limb	337.704018688643	fore-limb	mus	Simple
+1.38383838383838	pred.mus.fore.limb	346.367476452491	fore-limb	mus	Simple
+1.4040404040404	pred.mus.fore.limb	354.933769130622	fore-limb	mus	Simple
+1.42424242424242	pred.mus.fore.limb	363.384898812231	fore-limb	mus	Simple
+1.44444444444444	pred.mus.fore.limb	371.702745226718	fore-limb	mus	Simple
+1.46464646464646	pred.mus.fore.limb	379.869128758529	fore-limb	mus	Simple
+1.48484848484848	pred.mus.fore.limb	387.865875202624	fore-limb	mus	Simple
+1.50505050505051	pred.mus.fore.limb	395.67488194727	fore-limb	mus	Simple
+1.52525252525253	pred.mus.fore.limb	403.278185254758	fore-limb	mus	Simple
+1.54545454545455	pred.mus.fore.limb	410.658028296544	fore-limb	mus	Simple
+1.56565656565657	pred.mus.fore.limb	417.796929587504	fore-limb	mus	Simple
+1.58585858585859	pred.mus.fore.limb	424.677751454424	fore-limb	mus	Simple
+1.60606060606061	pred.mus.fore.limb	431.283768166821	fore-limb	mus	Simple
+1.62626262626263	pred.mus.fore.limb	437.598733353671	fore-limb	mus	Simple
+1.64646464646465	pred.mus.fore.limb	443.606946327832	fore-limb	mus	Simple
+1.66666666666667	pred.mus.fore.limb	449.293316940746	fore-limb	mus	Simple
+1.68686868686869	pred.mus.fore.limb	454.643428593699	fore-limb	mus	Simple
+1.70707070707071	pred.mus.fore.limb	459.643599038246	fore-limb	mus	Simple
+1.72727272727273	pred.mus.fore.limb	464.280938607558	fore-limb	mus	Simple
+1.74747474747475	pred.mus.fore.limb	468.543405532244	fore-limb	mus	Simple
+1.76767676767677	pred.mus.fore.limb	472.419858008739	fore-limb	mus	Simple
+1.78787878787879	pred.mus.fore.limb	475.90010270532	fore-limb	mus	Simple
+1.80808080808081	pred.mus.fore.limb	478.974939410322	fore-limb	mus	Simple
+1.82828282828283	pred.mus.fore.limb	481.636201548932	fore-limb	mus	Simple
+1.84848484848485	pred.mus.fore.limb	483.876792318866	fore-limb	mus	Simple
+1.86868686868687	pred.mus.fore.limb	485.690716221146	fore-limb	mus	Simple
+1.88888888888889	pred.mus.fore.limb	487.073105789963	fore-limb	mus	Simple
+1.90909090909091	pred.mus.fore.limb	488.020243354787	fore-limb	mus	Simple
+1.92929292929293	pred.mus.fore.limb	488.529577698604	fore-limb	mus	Simple
+1.94949494949495	pred.mus.fore.limb	488.59973550777	fore-limb	mus	Simple
+1.96969696969697	pred.mus.fore.limb	488.230527541584	fore-limb	mus	Simple
+1.98989898989899	pred.mus.fore.limb	487.422949482784	fore-limb	mus	Simple
+2.01010101010101	pred.mus.fore.limb	486.179177463612	fore-limb	mus	Simple
+2.03030303030303	pred.mus.fore.limb	484.502558295592	fore-limb	mus	Simple
+2.05050505050505	pred.mus.fore.limb	482.397594464406	fore-limb	mus	Simple
+2.07070707070707	pred.mus.fore.limb	479.86992398402	fore-limb	mus	Simple
+2.09090909090909	pred.mus.fore.limb	476.926295236238	fore-limb	mus	Simple
+2.11111111111111	pred.mus.fore.limb	473.574536952806	fore-limb	mus	Simple
+2.13131313131313	pred.mus.fore.limb	469.823523526949	fore-limb	mus	Simple
+2.15151515151515	pred.mus.fore.limb	465.683135869437	fore-limb	mus	Simple
+2.17171717171717	pred.mus.fore.limb	461.164218050807	fore-limb	mus	Simple
+2.19191919191919	pred.mus.fore.limb	456.278529995939	fore-limb	mus	Simple
+2.21212121212121	pred.mus.fore.limb	451.038696519728	fore-limb	mus	Simple
+2.23232323232323	pred.mus.fore.limb	445.458153012771	fore-limb	mus	Simple
+2.25252525252525	pred.mus.fore.limb	439.551088103883	fore-limb	mus	Simple
+2.27272727272727	pred.mus.fore.limb	433.332383641501	fore-limb	mus	Simple
+2.29292929292929	pred.mus.fore.limb	426.817552348747	fore-limb	mus	Simple
+2.31313131313131	pred.mus.fore.limb	420.022673516932	fore-limb	mus	Simple
+2.33333333333333	pred.mus.fore.limb	412.964327109489	fore-limb	mus	Simple
+2.35353535353535	pred.mus.fore.limb	405.659526652879	fore-limb	mus	Simple
+2.37373737373737	pred.mus.fore.limb	398.125651292714	fore-limb	mus	Simple
+2.39393939393939	pred.mus.fore.limb	390.380377392393	fore-limb	mus	Simple
+2.41414141414141	pred.mus.fore.limb	382.441610047887	fore-limb	mus	Simple
+2.43434343434343	pred.mus.fore.limb	374.327414886045	fore-limb	mus	Simple
+2.45454545454545	pred.mus.fore.limb	366.055950505071	fore-limb	mus	Simple
+2.47474747474747	pred.mus.fore.limb	357.645401904679	fore-limb	mus	Simple
+2.49494949494949	pred.mus.fore.limb	349.113915240055	fore-limb	mus	Simple
+2.51515151515152	pred.mus.fore.limb	340.479534218282	fore-limb	mus	Simple
+2.53535353535354	pred.mus.fore.limb	331.760138438518	fore-limb	mus	Simple
+2.55555555555556	pred.mus.fore.limb	322.973383958048	fore-limb	mus	Simple
+2.57575757575758	pred.mus.fore.limb	314.136646345677	fore-limb	mus	Simple
+2.5959595959596	pred.mus.fore.limb	305.266966461905	fore-limb	mus	Simple
+2.61616161616162	pred.mus.fore.limb	296.38099918214	fore-limb	mus	Simple
+2.63636363636364	pred.mus.fore.limb	287.494965255168	fore-limb	mus	Simple
+2.65656565656566	pred.mus.fore.limb	278.624606464275	fore-limb	mus	Simple
+2.67676767676768	pred.mus.fore.limb	269.785144233153	fore-limb	mus	Simple
+2.6969696969697	pred.mus.fore.limb	260.991241793219	fore-limb	mus	Simple
+2.71717171717172	pred.mus.fore.limb	252.256970003303	fore-limb	mus	Simple
+2.73737373737374	pred.mus.fore.limb	243.595776887268	fore-limb	mus	Simple
+2.75757575757576	pred.mus.fore.limb	235.02046092998	fore-limb	mus	Simple
+2.77777777777778	pred.mus.fore.limb	226.543148147469	fore-limb	mus	Simple
+2.7979797979798	pred.mus.fore.limb	218.175272923259	fore-limb	mus	Simple
+2.81818181818182	pred.mus.fore.limb	209.927562579843	fore-limb	mus	Simple
+2.83838383838384	pred.mus.fore.limb	201.810025632309	fore-limb	mus	Simple
+2.85858585858586	pred.mus.fore.limb	193.831943650339	fore-limb	mus	Simple
+2.87878787878788	pred.mus.fore.limb	186.001866635274	fore-limb	mus	Simple
+2.8989898989899	pred.mus.fore.limb	178.327611800812	fore-limb	mus	Simple
+2.91919191919192	pred.mus.fore.limb	170.816265629314	fore-limb	mus	Simple
+2.93939393939394	pred.mus.fore.limb	163.474189060566	fore-limb	mus	Simple
+2.95959595959596	pred.mus.fore.limb	156.30702565643	fore-limb	mus	Simple
+2.97979797979798	pred.mus.fore.limb	149.319712572997	fore-limb	mus	Simple
+3	pred.mus.fore.limb	142.516494161745	fore-limb	mus	Simple
+1	pred.mus.hind.limb	183.534364729136	hind-limb	mus	Simple
+1.02020202020202	pred.mus.hind.limb	191.315505759143	hind-limb	mus	Simple
+1.04040404040404	pred.mus.hind.limb	199.247227213063	hind-limb	mus	Simple
+1.06060606060606	pred.mus.hind.limb	207.321213078779	hind-limb	mus	Simple
+1.08080808080808	pred.mus.hind.limb	215.528415022467	hind-limb	mus	Simple
+1.1010101010101	pred.mus.hind.limb	223.859055911888	hind-limb	mus	Simple
+1.12121212121212	pred.mus.hind.limb	232.30263682108	hind-limb	mus	Simple
+1.14141414141414	pred.mus.hind.limb	240.847947615682	hind-limb	mus	Simple
+1.16161616161616	pred.mus.hind.limb	249.483081199051	hind-limb	mus	Simple
+1.18181818181818	pred.mus.hind.limb	258.195451478948	hind-limb	mus	Simple
+1.2020202020202	pred.mus.hind.limb	266.971815092928	hind-limb	mus	Simple
+1.22222222222222	pred.mus.hind.limb	275.798296907925	hind-limb	mus	Simple
+1.24242424242424	pred.mus.hind.limb	284.660419285884	hind-limb	mus	Simple
+1.26262626262626	pred.mus.hind.limb	293.54313508293	hind-limb	mus	Simple
+1.28282828282828	pred.mus.hind.limb	302.430864324601	hind-limb	mus	Simple
+1.3030303030303	pred.mus.hind.limb	311.307534474308	hind-limb	mus	Simple
+1.32323232323232	pred.mus.hind.limb	320.156624186602	hind-limb	mus	Simple
+1.34343434343434	pred.mus.hind.limb	328.961210411235	hind-limb	mus	Simple
+1.36363636363636	pred.mus.hind.limb	337.704018688643	hind-limb	mus	Simple
+1.38383838383838	pred.mus.hind.limb	346.367476452491	hind-limb	mus	Simple
+1.4040404040404	pred.mus.hind.limb	354.933769130622	hind-limb	mus	Simple
+1.42424242424242	pred.mus.hind.limb	363.384898812231	hind-limb	mus	Simple
+1.44444444444444	pred.mus.hind.limb	371.702745226718	hind-limb	mus	Simple
+1.46464646464646	pred.mus.hind.limb	379.869128758529	hind-limb	mus	Simple
+1.48484848484848	pred.mus.hind.limb	387.865875202624	hind-limb	mus	Simple
+1.50505050505051	pred.mus.hind.limb	395.67488194727	hind-limb	mus	Simple
+1.52525252525253	pred.mus.hind.limb	403.278185254758	hind-limb	mus	Simple
+1.54545454545455	pred.mus.hind.limb	410.658028296544	hind-limb	mus	Simple
+1.56565656565657	pred.mus.hind.limb	417.796929587504	hind-limb	mus	Simple
+1.58585858585859	pred.mus.hind.limb	424.677751454424	hind-limb	mus	Simple
+1.60606060606061	pred.mus.hind.limb	431.283768166821	hind-limb	mus	Simple
+1.62626262626263	pred.mus.hind.limb	437.598733353671	hind-limb	mus	Simple
+1.64646464646465	pred.mus.hind.limb	443.606946327832	hind-limb	mus	Simple
+1.66666666666667	pred.mus.hind.limb	449.293316940746	hind-limb	mus	Simple
+1.68686868686869	pred.mus.hind.limb	454.643428593699	hind-limb	mus	Simple
+1.70707070707071	pred.mus.hind.limb	459.643599038246	hind-limb	mus	Simple
+1.72727272727273	pred.mus.hind.limb	464.280938607558	hind-limb	mus	Simple
+1.74747474747475	pred.mus.hind.limb	468.543405532244	hind-limb	mus	Simple
+1.76767676767677	pred.mus.hind.limb	472.419858008739	hind-limb	mus	Simple
+1.78787878787879	pred.mus.hind.limb	475.90010270532	hind-limb	mus	Simple
+1.80808080808081	pred.mus.hind.limb	478.974939410322	hind-limb	mus	Simple
+1.82828282828283	pred.mus.hind.limb	481.636201548932	hind-limb	mus	Simple
+1.84848484848485	pred.mus.hind.limb	483.876792318866	hind-limb	mus	Simple
+1.86868686868687	pred.mus.hind.limb	485.690716221146	hind-limb	mus	Simple
+1.88888888888889	pred.mus.hind.limb	487.073105789963	hind-limb	mus	Simple
+1.90909090909091	pred.mus.hind.limb	488.020243354787	hind-limb	mus	Simple
+1.92929292929293	pred.mus.hind.limb	488.529577698604	hind-limb	mus	Simple
+1.94949494949495	pred.mus.hind.limb	488.59973550777	hind-limb	mus	Simple
+1.96969696969697	pred.mus.hind.limb	488.230527541584	hind-limb	mus	Simple
+1.98989898989899	pred.mus.hind.limb	487.422949482784	hind-limb	mus	Simple
+2.01010101010101	pred.mus.hind.limb	486.179177463612	hind-limb	mus	Simple
+2.03030303030303	pred.mus.hind.limb	484.502558295592	hind-limb	mus	Simple
+2.05050505050505	pred.mus.hind.limb	482.397594464406	hind-limb	mus	Simple
+2.07070707070707	pred.mus.hind.limb	479.86992398402	hind-limb	mus	Simple
+2.09090909090909	pred.mus.hind.limb	476.926295236238	hind-limb	mus	Simple
+2.11111111111111	pred.mus.hind.limb	473.574536952806	hind-limb	mus	Simple
+2.13131313131313	pred.mus.hind.limb	469.823523526949	hind-limb	mus	Simple
+2.15151515151515	pred.mus.hind.limb	465.683135869437	hind-limb	mus	Simple
+2.17171717171717	pred.mus.hind.limb	461.164218050807	hind-limb	mus	Simple
+2.19191919191919	pred.mus.hind.limb	456.278529995939	hind-limb	mus	Simple
+2.21212121212121	pred.mus.hind.limb	451.038696519728	hind-limb	mus	Simple
+2.23232323232323	pred.mus.hind.limb	445.458153012771	hind-limb	mus	Simple
+2.25252525252525	pred.mus.hind.limb	439.551088103883	hind-limb	mus	Simple
+2.27272727272727	pred.mus.hind.limb	433.332383641501	hind-limb	mus	Simple
+2.29292929292929	pred.mus.hind.limb	426.817552348747	hind-limb	mus	Simple
+2.31313131313131	pred.mus.hind.limb	420.022673516932	hind-limb	mus	Simple
+2.33333333333333	pred.mus.hind.limb	412.964327109489	hind-limb	mus	Simple
+2.35353535353535	pred.mus.hind.limb	405.659526652879	hind-limb	mus	Simple
+2.37373737373737	pred.mus.hind.limb	398.125651292714	hind-limb	mus	Simple
+2.39393939393939	pred.mus.hind.limb	390.380377392393	hind-limb	mus	Simple
+2.41414141414141	pred.mus.hind.limb	382.441610047887	hind-limb	mus	Simple
+2.43434343434343	pred.mus.hind.limb	374.327414886045	hind-limb	mus	Simple
+2.45454545454545	pred.mus.hind.limb	366.055950505071	hind-limb	mus	Simple
+2.47474747474747	pred.mus.hind.limb	357.645401904679	hind-limb	mus	Simple
+2.49494949494949	pred.mus.hind.limb	349.113915240055	hind-limb	mus	Simple
+2.51515151515152	pred.mus.hind.limb	340.479534218282	hind-limb	mus	Simple
+2.53535353535354	pred.mus.hind.limb	331.760138438518	hind-limb	mus	Simple
+2.55555555555556	pred.mus.hind.limb	322.973383958048	hind-limb	mus	Simple
+2.57575757575758	pred.mus.hind.limb	314.136646345677	hind-limb	mus	Simple
+2.5959595959596	pred.mus.hind.limb	305.266966461905	hind-limb	mus	Simple
+2.61616161616162	pred.mus.hind.limb	296.38099918214	hind-limb	mus	Simple
+2.63636363636364	pred.mus.hind.limb	287.494965255168	hind-limb	mus	Simple
+2.65656565656566	pred.mus.hind.limb	278.624606464275	hind-limb	mus	Simple
+2.67676767676768	pred.mus.hind.limb	269.785144233153	hind-limb	mus	Simple
+2.6969696969697	pred.mus.hind.limb	260.991241793219	hind-limb	mus	Simple
+2.71717171717172	pred.mus.hind.limb	252.256970003303	hind-limb	mus	Simple
+2.73737373737374	pred.mus.hind.limb	243.595776887268	hind-limb	mus	Simple
+2.75757575757576	pred.mus.hind.limb	235.02046092998	hind-limb	mus	Simple
+2.77777777777778	pred.mus.hind.limb	226.543148147469	hind-limb	mus	Simple
+2.7979797979798	pred.mus.hind.limb	218.175272923259	hind-limb	mus	Simple
+2.81818181818182	pred.mus.hind.limb	209.927562579843	hind-limb	mus	Simple
+2.83838383838384	pred.mus.hind.limb	201.810025632309	hind-limb	mus	Simple
+2.85858585858586	pred.mus.hind.limb	193.831943650339	hind-limb	mus	Simple
+2.87878787878788	pred.mus.hind.limb	186.001866635274	hind-limb	mus	Simple
+2.8989898989899	pred.mus.hind.limb	178.327611800812	hind-limb	mus	Simple
+2.91919191919192	pred.mus.hind.limb	170.816265629314	hind-limb	mus	Simple
+2.93939393939394	pred.mus.hind.limb	163.474189060566	hind-limb	mus	Simple
+2.95959595959596	pred.mus.hind.limb	156.30702565643	hind-limb	mus	Simple
+2.97979797979798	pred.mus.hind.limb	149.319712572997	hind-limb	mus	Simple
+3	pred.mus.hind.limb	142.516494161745	hind-limb	mus	Simple
+1	pred.bat.fore.limb	92.0351176220678	fore-limb	bat	hind-fore
+1.02020202020202	pred.bat.fore.limb	98.1688052640128	fore-limb	bat	hind-fore
+1.04040404040404	pred.bat.fore.limb	104.562272175834	fore-limb	bat	hind-fore
+1.06060606060606	pred.bat.fore.limb	111.213649163552	fore-limb	bat	hind-fore
+1.08080808080808	pred.bat.fore.limb	118.119810846027	fore-limb	bat	hind-fore
+1.1010101010101	pred.bat.fore.limb	125.276314128398	fore-limb	bat	hind-fore
+1.12121212121212	pred.bat.fore.limb	132.67734247174	fore-limb	bat	hind-fore
+1.14141414141414	pred.bat.fore.limb	140.3156568086	fore-limb	bat	hind-fore
+1.16161616161616	pred.bat.fore.limb	148.182553938077	fore-limb	bat	hind-fore
+1.18181818181818	pred.bat.fore.limb	156.267833207266	fore-limb	bat	hind-fore
+1.2020202020202	pred.bat.fore.limb	164.559772248125	fore-limb	bat	hind-fore
+1.22222222222222	pred.bat.fore.limb	173.045112489792	fore-limb	bat	hind-fore
+1.24242424242424	pred.bat.fore.limb	181.709055106294	fore-limb	bat	hind-fore
+1.26262626262626	pred.bat.fore.limb	190.535267988434	fore-limb	bat	hind-fore
+1.28282828282828	pred.bat.fore.limb	199.505904246902	fore-limb	bat	hind-fore
+1.3030303030303	pred.bat.fore.limb	208.601632661755	fore-limb	bat	hind-fore
+1.32323232323232	pred.bat.fore.limb	217.801680392136	fore-limb	bat	hind-fore
+1.34343434343434	pred.bat.fore.limb	227.083888150151	fore-limb	bat	hind-fore
+1.36363636363636	pred.bat.fore.limb	236.424777925464	fore-limb	bat	hind-fore
+1.38383838383838	pred.bat.fore.limb	245.799633223344	fore-limb	bat	hind-fore
+1.4040404040404	pred.bat.fore.limb	255.182591650104	fore-limb	bat	hind-fore
+1.42424242424242	pred.bat.fore.limb	264.546749547531	fore-limb	bat	hind-fore
+1.44444444444444	pred.bat.fore.limb	273.864278243545	fore-limb	bat	hind-fore
+1.46464646464646	pred.bat.fore.limb	283.106551351698	fore-limb	bat	hind-fore
+1.48484848484848	pred.bat.fore.limb	292.244282418926	fore-limb	bat	hind-fore
+1.50505050505051	pred.bat.fore.limb	301.247672090968	fore-limb	bat	hind-fore
+1.52525252525253	pred.bat.fore.limb	310.086563839954	fore-limb	bat	hind-fore
+1.54545454545455	pred.bat.fore.limb	318.730607180534	fore-limb	bat	hind-fore
+1.56565656565657	pred.bat.fore.limb	327.149427191404	fore-limb	bat	hind-fore
+1.58585858585859	pred.bat.fore.limb	335.312799059878	fore-limb	bat	hind-fore
+1.60606060606061	pred.bat.fore.limb	343.190826279776	fore-limb	bat	hind-fore
+1.62626262626263	pred.bat.fore.limb	350.754121058937	fore-limb	bat	hind-fore
+1.64646464646465	pred.bat.fore.limb	357.973985433328	fore-limb	bat	hind-fore
+1.66666666666667	pred.bat.fore.limb	364.822591541242	fore-limb	bat	hind-fore
+1.68686868686869	pred.bat.fore.limb	371.273159484347	fore-limb	bat	hind-fore
+1.70707070707071	pred.bat.fore.limb	377.300131193111	fore-limb	bat	hind-fore
+1.72727272727273	pred.bat.fore.limb	382.879338722887	fore-limb	bat	hind-fore
+1.74747474747475	pred.bat.fore.limb	387.988165433917	fore-limb	bat	hind-fore
+1.76767676767677	pred.bat.fore.limb	392.605698553725	fore-limb	bat	hind-fore
+1.78787878787879	pred.bat.fore.limb	396.712871683487	fore-limb	bat	hind-fore
+1.80808080808081	pred.bat.fore.limb	400.292595890537	fore-limb	bat	hind-fore
+1.82828282828283	pred.bat.fore.limb	403.329878126309	fore-limb	bat	hind-fore
+1.84848484848485	pred.bat.fore.limb	405.811925821761	fore-limb	bat	hind-fore
+1.86868686868687	pred.bat.fore.limb	407.728236639344	fore-limb	bat	hind-fore
+1.88888888888889	pred.bat.fore.limb	409.070672500429	fore-limb	bat	hind-fore
+1.90909090909091	pred.bat.fore.limb	409.833517158044	fore-limb	bat	hind-fore
+1.92929292929293	pred.bat.fore.limb	410.013516744973	fore-limb	bat	hind-fore
+1.94949494949495	pred.bat.fore.limb	409.60990289474	fore-limb	bat	hind-fore
+1.96969696969697	pred.bat.fore.limb	408.624398205577	fore-limb	bat	hind-fore
+1.98989898989899	pred.bat.fore.limb	407.061203993003	fore-limb	bat	hind-fore
+2.01010101010101	pred.bat.fore.limb	404.92697045286	fore-limb	bat	hind-fore
+2.03030303030303	pred.bat.fore.limb	402.230749531335	fore-limb	bat	hind-fore
+2.05050505050505	pred.bat.fore.limb	398.983930969342	fore-limb	bat	hind-fore
+2.07070707070707	pred.bat.fore.limb	395.200162153592	fore-limb	bat	hind-fore
+2.09090909090909	pred.bat.fore.limb	390.89525256353	fore-limb	bat	hind-fore
+2.11111111111111	pred.bat.fore.limb	386.087063750266	fore-limb	bat	hind-fore
+2.13131313131313	pred.bat.fore.limb	380.795385918685	fore-limb	bat	hind-fore
+2.15151515151515	pred.bat.fore.limb	375.041802305691	fore-limb	bat	hind-fore
+2.17171717171717	pred.bat.fore.limb	368.849542654409	fore-limb	bat	hind-fore
+2.19191919191919	pred.bat.fore.limb	362.243327175077	fore-limb	bat	hind-fore
+2.21212121212121	pred.bat.fore.limb	355.249202457328	fore-limb	bat	hind-fore
+2.23232323232323	pred.bat.fore.limb	347.894370854865	fore-limb	bat	hind-fore
+2.25252525252525	pred.bat.fore.limb	340.207014901751	fore-limb	bat	hind-fore
+2.27272727272727	pred.bat.fore.limb	332.216118339559	fore-limb	bat	hind-fore
+2.29292929292929	pred.bat.fore.limb	323.951285336399	fore-limb	bat	hind-fore
+2.31313131313131	pred.bat.fore.limb	315.442559462856	fore-limb	bat	hind-fore
+2.33333333333333	pred.bat.fore.limb	306.720243956626	fore-limb	bat	hind-fore
+2.35353535353535	pred.bat.fore.limb	297.814724757926	fore-limb	bat	hind-fore
+2.37373737373737	pred.bat.fore.limb	288.756297732718	fore-limb	bat	hind-fore
+2.39393939393939	pred.bat.fore.limb	279.575001421452	fore-limb	bat	hind-fore
+2.41414141414141	pred.bat.fore.limb	270.300456559013	fore-limb	bat	hind-fore
+2.43434343434343	pred.bat.fore.limb	260.961713508141	fore-limb	bat	hind-fore
+2.45454545454545	pred.bat.fore.limb	251.587108635601	fore-limb	bat	hind-fore
+2.47474747474747	pred.bat.fore.limb	242.204130539458	fore-limb	bat	hind-fore
+2.49494949494949	pred.bat.fore.limb	232.839296908674	fore-limb	bat	hind-fore
+2.51515151515152	pred.bat.fore.limb	223.518042664884	fore-limb	bat	hind-fore
+2.53535353535354	pred.bat.fore.limb	214.264619902199	fore-limb	bat	hind-fore
+2.55555555555556	pred.bat.fore.limb	205.102010006166	fore-limb	bat	hind-fore
+2.57575757575758	pred.bat.fore.limb	196.051848199256	fore-limb	bat	hind-fore
+2.5959595959596	pred.bat.fore.limb	187.134360629068	fore-limb	bat	hind-fore
+2.61616161616162	pred.bat.fore.limb	178.368313988375	fore-limb	bat	hind-fore
+2.63636363636364	pred.bat.fore.limb	169.770977534683	fore-limb	bat	hind-fore
+2.65656565656566	pred.bat.fore.limb	161.358097262252	fore-limb	bat	hind-fore
+2.67676767676768	pred.bat.fore.limb	153.143881872862	fore-limb	bat	hind-fore
+2.6969696969697	pred.bat.fore.limb	145.14100009379	fore-limb	bat	hind-fore
+2.71717171717172	pred.bat.fore.limb	137.360588803384	fore-limb	bat	hind-fore
+2.73737373737374	pred.bat.fore.limb	129.81227134691	fore-limb	bat	hind-fore
+2.75757575757576	pred.bat.fore.limb	122.504185358384	fore-limb	bat	hind-fore
+2.77777777777778	pred.bat.fore.limb	115.443019348252	fore-limb	bat	hind-fore
+2.7979797979798	pred.bat.fore.limb	108.634057272056	fore-limb	bat	hind-fore
+2.81818181818182	pred.bat.fore.limb	102.081230261711	fore-limb	bat	hind-fore
+2.83838383838384	pred.bat.fore.limb	95.7871746783213	fore-limb	bat	hind-fore
+2.85858585858586	pred.bat.fore.limb	89.7532956334876	fore-limb	bat	hind-fore
+2.87878787878788	pred.bat.fore.limb	83.9798351240572	fore-limb	bat	hind-fore
+2.8989898989899	pred.bat.fore.limb	78.4659439329388	fore-limb	bat	hind-fore
+2.91919191919192	pred.bat.fore.limb	73.2097564650537	fore-limb	bat	hind-fore
+2.93939393939394	pred.bat.fore.limb	68.2084677120875	fore-limb	bat	hind-fore
+2.95959595959596	pred.bat.fore.limb	63.4584115715864	fore-limb	bat	hind-fore
+2.97979797979798	pred.bat.fore.limb	58.9551397842397	fore-limb	bat	hind-fore
+3	pred.bat.fore.limb	54.6935007970081	fore-limb	bat	hind-fore
+1	pred.bat.hind.limb	117.579892976505	hind-limb	bat	hind-fore
+1.02020202020202	pred.bat.hind.limb	119.816780100175	hind-limb	bat	hind-fore
+1.04040404040404	pred.bat.hind.limb	122.041932990473	hind-limb	bat	hind-fore
+1.06060606060606	pred.bat.hind.limb	124.253136539489	hind-limb	bat	hind-fore
+1.08080808080808	pred.bat.hind.limb	126.448153785146	hind-limb	bat	hind-fore
+1.1010101010101	pred.bat.hind.limb	128.624729529412	hind-limb	bat	hind-fore
+1.12121212121212	pred.bat.hind.limb	130.780594062132	hind-limb	bat	hind-fore
+1.14141414141414	pred.bat.hind.limb	132.913466982327	hind-limb	bat	hind-fore
+1.16161616161616	pred.bat.hind.limb	135.021061108363	hind-limb	bat	hind-fore
+1.18181818181818	pred.bat.hind.limb	137.101086467951	hind-limb	bat	hind-fore
+1.2020202020202	pred.bat.hind.limb	139.151254358565	hind-limb	bat	hind-fore
+1.22222222222222	pred.bat.hind.limb	141.169281468472	hind-limb	bat	hind-fore
+1.24242424242424	pred.bat.hind.limb	143.152894048221	hind-limb	bat	hind-fore
+1.26262626262626	pred.bat.hind.limb	145.099832122165	hind-limb	bat	hind-fore
+1.28282828282828	pred.bat.hind.limb	147.007853729246	hind-limb	bat	hind-fore
+1.3030303030303	pred.bat.hind.limb	148.874739182097	hind-limb	bat	hind-fore
+1.32323232323232	pred.bat.hind.limb	150.698295333247	hind-limb	bat	hind-fore
+1.34343434343434	pred.bat.hind.limb	152.476359837089	hind-limb	bat	hind-fore
+1.36363636363636	pred.bat.hind.limb	154.2068053961	hind-limb	bat	hind-fore
+1.38383838383838	pred.bat.hind.limb	155.887543979745	hind-limb	bat	hind-fore
+1.4040404040404	pred.bat.hind.limb	157.516531004404	hind-limb	bat	hind-fore
+1.42424242424242	pred.bat.hind.limb	159.091769462684	hind-limb	bat	hind-fore
+1.44444444444444	pred.bat.hind.limb	160.611313990479	hind-limb	bat	hind-fore
+1.46464646464646	pred.bat.hind.limb	162.073274860231	hind-limb	bat	hind-fore
+1.48484848484848	pred.bat.hind.limb	163.475821888953	hind-limb	bat	hind-fore
+1.50505050505051	pred.bat.hind.limb	164.817188249708	hind-limb	bat	hind-fore
+1.52525252525253	pred.bat.hind.limb	166.095674175488	hind-limb	bat	hind-fore
+1.54545454545455	pred.bat.hind.limb	167.309650544595	hind-limb	bat	hind-fore
+1.56565656565657	pred.bat.hind.limb	168.457562336998	hind-limb	bat	hind-fore
+1.58585858585859	pred.bat.hind.limb	169.537931951368	hind-limb	bat	hind-fore
+1.60606060606061	pred.bat.hind.limb	170.549362372928	hind-limb	bat	hind-fore
+1.62626262626263	pred.bat.hind.limb	171.490540182591	hind-limb	bat	hind-fore
+1.64646464646465	pred.bat.hind.limb	172.36023839833	hind-limb	bat	hind-fore
+1.66666666666667	pred.bat.hind.limb	173.157319140179	hind-limb	bat	hind-fore
+1.68686868686869	pred.bat.hind.limb	173.880736110755	hind-limb	bat	hind-fore
+1.70707070707071	pred.bat.hind.limb	174.529536883745	hind-limb	bat	hind-fore
+1.72727272727273	pred.bat.hind.limb	175.102864993336	hind-limb	bat	hind-fore
+1.74747474747475	pred.bat.hind.limb	175.599961818193	hind-limb	bat	hind-fore
+1.76767676767677	pred.bat.hind.limb	176.020168254165	hind-limb	bat	hind-fore
+1.78787878787879	pred.bat.hind.limb	176.362926170568	hind-limb	bat	hind-fore
+1.80808080808081	pred.bat.hind.limb	176.627779645536	hind-limb	bat	hind-fore
+1.82828282828283	pred.bat.hind.limb	176.814375976614	hind-limb	bat	hind-fore
+1.84848484848485	pred.bat.hind.limb	176.922466463459	hind-limb	bat	hind-fore
+1.86868686868687	pred.bat.hind.limb	176.951906960215	hind-limb	bat	hind-fore
+1.88888888888889	pred.bat.hind.limb	176.902658195845	hind-limb	bat	hind-fore
+1.90909090909091	pred.bat.hind.limb	176.774785861423	hind-limb	bat	hind-fore
+1.92929292929293	pred.bat.hind.limb	176.568460464122	hind-limb	bat	hind-fore
+1.94949494949495	pred.bat.hind.limb	176.283956948339	hind-limb	bat	hind-fore
+1.96969696969697	pred.bat.hind.limb	175.921654085143	hind-limb	bat	hind-fore
+1.98989898989899	pred.bat.hind.limb	175.48203363195	hind-limb	bat	hind-fore
+2.01010101010101	pred.bat.hind.limb	174.965679265018	hind-limb	bat	hind-fore
+2.03030303030303	pred.bat.hind.limb	174.373275288091	hind-limb	bat	hind-fore
+2.05050505050505	pred.bat.hind.limb	173.705605121178	hind-limb	bat	hind-fore
+2.07070707070707	pred.bat.hind.limb	172.963549574151	hind-limb	bat	hind-fore
+2.09090909090909	pred.bat.hind.limb	172.148084910468	hind-limb	bat	hind-fore
+2.11111111111111	pred.bat.hind.limb	171.260280707004	hind-limb	bat	hind-fore
+2.13131313131313	pred.bat.hind.limb	170.301297516536	hind-limb	bat	hind-fore
+2.15151515151515	pred.bat.hind.limb	169.272384340043	hind-limb	bat	hind-fore
+2.17171717171717	pred.bat.hind.limb	168.17487591652	hind-limb	bat	hind-fore
+2.19191919191919	pred.bat.hind.limb	167.010189838543	hind-limb	bat	hind-fore
+2.21212121212121	pred.bat.hind.limb	165.779823502303	hind-limb	bat	hind-fore
+2.23232323232323	pred.bat.hind.limb	164.485350901286	hind-limb	bat	hind-fore
+2.25252525252525	pred.bat.hind.limb	163.128419273218	hind-limb	bat	hind-fore
+2.27272727272727	pred.bat.hind.limb	161.710745610244	hind-limb	bat	hind-fore
+2.29292929292929	pred.bat.hind.limb	160.234113042709	hind-limb	bat	hind-fore
+2.31313131313131	pred.bat.hind.limb	158.700367107159	hind-limb	bat	hind-fore
+2.33333333333333	pred.bat.hind.limb	157.1114119095	hind-limb	bat	hind-fore
+2.35353535353535	pred.bat.hind.limb	155.469206194449	hind-limb	bat	hind-fore
+2.37373737373737	pred.bat.hind.limb	153.775759332612	hind-limb	bat	hind-fore
+2.39393939393939	pred.bat.hind.limb	152.033127236656	hind-limb	bat	hind-fore
+2.41414141414141	pred.bat.hind.limb	150.243408218161	hind-limb	bat	hind-fore
+2.43434343434343	pred.bat.hind.limb	148.408738796782	hind-limb	bat	hind-fore
+2.45454545454545	pred.bat.hind.limb	146.531289473373	hind-limb	bat	hind-fore
+2.47474747474747	pred.bat.hind.limb	144.61326047871	hind-limb	bat	hind-fore
+2.49494949494949	pred.bat.hind.limb	142.656877509389	hind-limb	bat	hind-fore
+2.51515151515152	pred.bat.hind.limb	140.66438746233	hind-limb	bat	hind-fore
+2.53535353535354	pred.bat.hind.limb	138.638054179255	hind-limb	bat	hind-fore
+2.55555555555556	pred.bat.hind.limb	136.580154212236	hind-limb	bat	hind-fore
+2.57575757575758	pred.bat.hind.limb	134.492972621253	hind-limb	bat	hind-fore
+2.5959595959596	pred.bat.hind.limb	132.378798814438	hind-limb	bat	hind-fore
+2.61616161616162	pred.bat.hind.limb	130.239922441356	hind-limb	bat	hind-fore
+2.63636363636364	pred.bat.hind.limb	128.078629349414	hind-limb	bat	hind-fore
+2.65656565656566	pred.bat.hind.limb	125.897197613078	hind-limb	bat	hind-fore
+2.67676767676768	pred.bat.hind.limb	123.697893645251	hind-limb	bat	hind-fore
+2.6969696969697	pred.bat.hind.limb	121.482968399715	hind-limb	bat	hind-fore
+2.71717171717172	pred.bat.hind.limb	119.254653673136	hind-limb	bat	hind-fore
+2.73737373737374	pred.bat.hind.limb	117.015158514679	hind-limb	bat	hind-fore
+2.75757575757576	pred.bat.hind.limb	114.766665750778	hind-limb	bat	hind-fore
+2.77777777777778	pred.bat.hind.limb	112.511328632153	hind-limb	bat	hind-fore
+2.7979797979798	pred.bat.hind.limb	110.251267609617	hind-limb	bat	hind-fore
+2.81818181818182	pred.bat.hind.limb	107.988567244739	hind-limb	bat	hind-fore
+2.83838383838384	pred.bat.hind.limb	105.725273260848	hind-limb	bat	hind-fore
+2.85858585858586	pred.bat.hind.limb	103.463389739367	hind-limb	bat	hind-fore
+2.87878787878788	pred.bat.hind.limb	101.204876465879	hind-limb	bat	hind-fore
+2.8989898989899	pred.bat.hind.limb	98.9516464298027	hind-limb	bat	hind-fore
+2.91919191919192	pred.bat.hind.limb	96.7055634809864	hind-limb	bat	hind-fore
+2.93939393939394	pred.bat.hind.limb	94.4684401459738	hind-limb	bat	hind-fore
+2.95959595959596	pred.bat.hind.limb	92.2420356061519	hind-limb	bat	hind-fore
+2.97979797979798	pred.bat.hind.limb	90.0280538394364	hind-limb	bat	hind-fore
+3	pred.bat.hind.limb	87.8281419266106	hind-limb	bat	hind-fore
+1	pred.mus.fore.limb	181.028586846361	fore-limb	mus	hind-fore
+1.02020202020202	pred.mus.fore.limb	193.093251233904	fore-limb	mus	hind-fore
+1.04040404040404	pred.mus.fore.limb	205.668888773138	fore-limb	mus	hind-fore
+1.06060606060606	pred.mus.fore.limb	218.751822850688	fore-limb	mus	hind-fore
+1.08080808080808	pred.mus.fore.limb	232.335905994306	fore-limb	mus	hind-fore
+1.1010101010101	pred.mus.fore.limb	246.412398853141	fore-limb	mus	hind-fore
+1.12121212121212	pred.mus.fore.limb	260.969860578856	fore-limb	mus	hind-fore
+1.14141414141414	pred.mus.fore.limb	275.994052278901	fore-limb	mus	hind-fore
+1.16161616161616	pred.mus.fore.limb	291.467855181646	fore-limb	mus	hind-fore
+1.18181818181818	pred.mus.fore.limb	307.371205100423	fore-limb	mus	hind-fore
+1.2020202020202	pred.mus.fore.limb	323.681044709113	fore-limb	mus	hind-fore
+1.22222222222222	pred.mus.fore.limb	340.371295045591	fore-limb	mus	hind-fore
+1.24242424242424	pred.mus.fore.limb	357.412847541062	fore-limb	mus	hind-fore
+1.26262626262626	pred.mus.fore.limb	374.773577733424	fore-limb	mus	hind-fore
+1.28282828282828	pred.mus.fore.limb	392.418381661981	fore-limb	mus	hind-fore
+1.3030303030303	pred.mus.fore.limb	410.309235760095	fore-limb	mus	hind-fore
+1.32323232323232	pred.mus.fore.limb	428.405280863107	fore-limb	mus	hind-fore
+1.34343434343434	pred.mus.fore.limb	446.66293073267	fore-limb	mus	hind-fore
+1.36363636363636	pred.mus.fore.limb	465.036005267723	fore-limb	mus	hind-fore
+1.38383838383838	pred.mus.fore.limb	483.47588832881	fore-limb	mus	hind-fore
+1.4040404040404	pred.mus.fore.limb	501.93170984913	fore-limb	mus	hind-fore
+1.42424242424242	pred.mus.fore.limb	520.350551645351	fore-limb	mus	hind-fore
+1.44444444444444	pred.mus.fore.limb	538.677676076985	fore-limb	mus	hind-fore
+1.46464646464646	pred.mus.fore.limb	556.8567764383	fore-limb	mus	hind-fore
+1.48484848484848	pred.mus.fore.limb	574.830247704726	fore-limb	mus	hind-fore
+1.50505050505051	pred.mus.fore.limb	592.539476000057	fore-limb	mus	hind-fore
+1.52525252525253	pred.mus.fore.limb	609.925144905024	fore-limb	mus	hind-fore
+1.54545454545455	pred.mus.fore.limb	626.927556495453	fore-limb	mus	hind-fore
+1.56565656565657	pred.mus.fore.limb	643.486964782842	fore-limb	mus	hind-fore
+1.58585858585859	pred.mus.fore.limb	659.543919035017	fore-limb	mus	hind-fore
+1.60606060606061	pred.mus.fore.limb	675.03961428269	fore-limb	mus	hind-fore
+1.62626262626263	pred.mus.fore.limb	689.91624617223	fore-limb	mus	hind-fore
+1.64646464646465	pred.mus.fore.limb	704.117367208283	fore-limb	mus	hind-fore
+1.66666666666667	pred.mus.fore.limb	717.588241344329	fore-limb	mus	hind-fore
+1.68686868686869	pred.mus.fore.limb	730.276193826684	fore-limb	mus	hind-fore
+1.70707070707071	pred.mus.fore.limb	742.130953179313	fore-limb	mus	hind-fore
+1.72727272727273	pred.mus.fore.limb	753.10498223402	fore-limb	mus	hind-fore
+1.74747474747475	pred.mus.fore.limb	763.153795163651	fore-limb	mus	hind-fore
+1.76767676767677	pred.mus.fore.limb	772.23625756488	fore-limb	mus	hind-fore
+1.78787878787879	pred.mus.fore.limb	780.314866761289	fore-limb	mus	hind-fore
+1.80808080808081	pred.mus.fore.limb	787.356009655928	fore-limb	mus	hind-fore
+1.82828282828283	pred.mus.fore.limb	793.330195653638	fore-limb	mus	hind-fore
+1.84848484848485	pred.mus.fore.limb	798.21226239514	fore-limb	mus	hind-fore
+1.86868686868687	pred.mus.fore.limb	801.981552294783	fore-limb	mus	hind-fore
+1.88888888888889	pred.mus.fore.limb	804.622058148886	fore-limb	mus	hind-fore
+1.90909090909091	pred.mus.fore.limb	806.122536378494	fore-limb	mus	hind-fore
+1.92929292929293	pred.mus.fore.limb	806.476586785519	fore-limb	mus	hind-fore
+1.94949494949495	pred.mus.fore.limb	805.682698030584	fore-limb	mus	hind-fore
+1.96969696969697	pred.mus.fore.limb	803.744258380383	fore-limb	mus	hind-fore
+1.98989898989899	pred.mus.fore.limb	800.669531617596	fore-limb	mus	hind-fore
+2.01010101010101	pred.mus.fore.limb	796.471598353049	fore-limb	mus	hind-fore
+2.03030303030303	pred.mus.fore.limb	791.168263323332	fore-limb	mus	hind-fore
+2.05050505050505	pred.mus.fore.limb	784.781929593227	fore-limb	mus	hind-fore
+2.07070707070707	pred.mus.fore.limb	777.339440906665	fore-limb	mus	hind-fore
+2.09090909090909	pred.mus.fore.limb	768.871893738524	fore-limb	mus	hind-fore
+2.11111111111111	pred.mus.fore.limb	759.414420888541	fore-limb	mus	hind-fore
+2.13131313131313	pred.mus.fore.limb	749.00594872435	fore-limb	mus	hind-fore
+2.15151515151515	pred.mus.fore.limb	737.688930420102	fore-limb	mus	hind-fore
+2.17171717171717	pred.mus.fore.limb	725.509057747363	fore-limb	mus	hind-fore
+2.19191919191919	pred.mus.fore.limb	712.514954153808	fore-limb	mus	hind-fore
+2.21212121212121	pred.mus.fore.limb	698.757852010684	fore-limb	mus	hind-fore
+2.23232323232323	pred.mus.fore.limb	684.291257020777	fore-limb	mus	hind-fore
+2.25252525252525	pred.mus.fore.limb	669.170602853835	fore-limb	mus	hind-fore
+2.27272727272727	pred.mus.fore.limb	653.45289911569	fore-limb	mus	hind-fore
+2.29292929292929	pred.mus.fore.limb	637.196375760907	fore-limb	mus	hind-fore
+2.31313131313131	pred.mus.fore.limb	620.460127027292	fore-limb	mus	hind-fore
+2.33333333333333	pred.mus.fore.limb	603.303757905182	fore-limb	mus	hind-fore
+2.35353535353535	pred.mus.fore.limb	585.787036056748	fore-limb	mus	hind-fore
+2.37373737373737	pred.mus.fore.limb	567.969551972486	fore-limb	mus	hind-fore
+2.39393939393939	pred.mus.fore.limb	549.910389996171	fore-limb	mus	hind-fore
+2.41414141414141	pred.mus.fore.limb	531.667812668406	fore-limb	mus	hind-fore
+2.43434343434343	pred.mus.fore.limb	513.29896063561	fore-limb	mus	hind-fore
+2.45454545454545	pred.mus.fore.limb	494.859570148951	fore-limb	mus	hind-fore
+2.47474747474747	pred.mus.fore.limb	476.403709939915	fore-limb	mus	hind-fore
+2.49494949494949	pred.mus.fore.limb	457.983539009144	fore-limb	mus	hind-fore
+2.51515151515152	pred.mus.fore.limb	439.649086606767	fore-limb	mus	hind-fore
+2.53535353535354	pred.mus.fore.limb	421.448055418873	fore-limb	mus	hind-fore
+2.55555555555556	pred.mus.fore.limb	403.425648709788	fore-limb	mus	hind-fore
+2.57575757575758	pred.mus.fore.limb	385.624421906738	fore-limb	mus	hind-fore
+2.5959595959596	pred.mus.fore.limb	368.084158855408	fore-limb	mus	hind-fore
+2.61616161616162	pred.mus.fore.limb	350.841772725036	fore-limb	mus	hind-fore
+2.63636363636364	pred.mus.fore.limb	333.931231302732	fore-limb	mus	hind-fore
+2.65656565656566	pred.mus.fore.limb	317.383506191109	fore-limb	mus	hind-fore
+2.67676767676768	pred.mus.fore.limb	301.226545213464	fore-limb	mus	hind-fore
+2.6969696969697	pred.mus.fore.limb	285.485267138359	fore-limb	mus	hind-fore
+2.71717171717172	pred.mus.fore.limb	270.181577662246	fore-limb	mus	hind-fore
+2.73737373737374	pred.mus.fore.limb	255.33440543583	fore-limb	mus	hind-fore
+2.75757575757576	pred.mus.fore.limb	240.959756788266	fore-limb	mus	hind-fore
+2.77777777777778	pred.mus.fore.limb	227.070787693329	fore-limb	mus	hind-fore
+2.7979797979798	pred.mus.fore.limb	213.677891433819	fore-limb	mus	hind-fore
+2.81818181818182	pred.mus.fore.limb	200.788800354447	fore-limb	mus	hind-fore
+2.83838383838384	pred.mus.fore.limb	188.408700048907	fore-limb	mus	hind-fore
+2.85858585858586	pred.mus.fore.limb	176.540354303171	fore-limb	mus	hind-fore
+2.87878787878788	pred.mus.fore.limb	165.184239113236	fore-limb	mus	hind-fore
+2.8989898989899	pred.mus.fore.limb	154.338684110507	fore-limb	mus	hind-fore
+2.91919191919192	pred.mus.fore.limb	144.000019760469	fore-limb	mus	hind-fore
+2.93939393939394	pred.mus.fore.limb	134.162728748598	fore-limb	mus	hind-fore
+2.95959595959596	pred.mus.fore.limb	124.819600030201	fore-limb	mus	hind-fore
+2.97979797979798	pred.mus.fore.limb	115.961884096202	fore-limb	mus	hind-fore
+3	pred.mus.fore.limb	107.579448093068	fore-limb	mus	hind-fore
+1	pred.mus.hind.limb	231.273913882404	hind-limb	mus	hind-fore
+1.02020202020202	pred.mus.hind.limb	235.673761738259	hind-limb	mus	hind-fore
+1.04040404040404	pred.mus.hind.limb	240.050528929472	hind-limb	mus	hind-fore
+1.06060606060606	pred.mus.hind.limb	244.399858446839	hind-limb	mus	hind-fore
+1.08080808080808	pred.mus.hind.limb	248.717350295075	hind-limb	mus	hind-fore
+1.1010101010101	pred.mus.hind.limb	252.99856860966	hind-limb	mus	hind-fore
+1.12121212121212	pred.mus.hind.limb	257.239048981436	hind-limb	mus	hind-fore
+1.14141414141414	pred.mus.hind.limb	261.434305972918	hind-limb	mus	hind-fore
+1.16161616161616	pred.mus.hind.limb	265.579840809398	hind-limb	mus	hind-fore
+1.18181818181818	pred.mus.hind.limb	269.671149227094	hind-limb	mus	hind-fore
+1.2020202020202	pred.mus.hind.limb	273.703729459781	hind-limb	mus	hind-fore
+1.22222222222222	pred.mus.hind.limb	277.673090344657	hind-limb	mus	hind-fore
+1.24242424242424	pred.mus.hind.limb	281.574759527471	hind-limb	mus	hind-fore
+1.26262626262626	pred.mus.hind.limb	285.404291746364	hind-limb	mus	hind-fore
+1.28282828282828	pred.mus.hind.limb	289.157277173304	hind-limb	mus	hind-fore
+1.3030303030303	pred.mus.hind.limb	292.829349791513	hind-limb	mus	hind-fore
+1.32323232323232	pred.mus.hind.limb	296.4161957869	hind-limb	mus	hind-fore
+1.34343434343434	pred.mus.hind.limb	299.913561931135	hind-limb	mus	hind-fore
+1.36363636363636	pred.mus.hind.limb	303.317263933763	hind-limb	mus	hind-fore
+1.38383838383838	pred.mus.hind.limb	306.623194740576	hind-limb	mus	hind-fore
+1.4040404040404	pred.mus.hind.limb	309.827332755329	hind-limb	mus	hind-fore
+1.42424242424242	pred.mus.hind.limb	312.925749961894	hind-limb	mus	hind-fore
+1.44444444444444	pred.mus.hind.limb	315.914619923971	hind-limb	mus	hind-fore
+1.46464646464646	pred.mus.hind.limb	318.790225639636	hind-limb	mus	hind-fore
+1.48484848484848	pred.mus.hind.limb	321.548967228228	hind-limb	mus	hind-fore
+1.50505050505051	pred.mus.hind.limb	324.187369427354	hind-limb	mus	hind-fore
+1.52525252525253	pred.mus.hind.limb	326.702088878219	hind-limb	mus	hind-fore
+1.54545454545455	pred.mus.hind.limb	329.089921177916	hind-limb	mus	hind-fore
+1.56565656565657	pred.mus.hind.limb	331.347807677896	hind-limb	mus	hind-fore
+1.58585858585859	pred.mus.hind.limb	333.472842008425	hind-limb	mus	hind-fore
+1.60606060606061	pred.mus.hind.limb	335.462276309583	hind-limb	mus	hind-fore
+1.62626262626263	pred.mus.hind.limb	337.313527150094	hind-limb	mus	hind-fore
+1.64646464646465	pred.mus.hind.limb	339.024181116165	hind-limb	mus	hind-fore
+1.66666666666667	pred.mus.hind.limb	340.592000053409	hind-limb	mus	hind-fore
+1.68686868686869	pred.mus.hind.limb	342.014925945913	hind-limb	mus	hind-fore
+1.70707070707071	pred.mus.hind.limb	343.291085417577	hind-limb	mus	hind-fore
+1.72727272727273	pred.mus.hind.limb	344.418793841929	hind-limb	mus	hind-fore
+1.74747474747475	pred.mus.hind.limb	345.396559047806	hind-limb	mus	hind-fore
+1.76767676767677	pred.mus.hind.limb	346.223084609496	hind-limb	mus	hind-fore
+1.78787878787879	pred.mus.hind.limb	346.897272711169	hind-limb	mus	hind-fore
+1.80808080808081	pred.mus.hind.limb	347.418226576754	hind-limb	mus	hind-fore
+1.82828282828283	pred.mus.hind.limb	347.785252457728	hind-limb	mus	hind-fore
+1.84848484848485	pred.mus.hind.limb	347.997861172648	hind-limb	mus	hind-fore
+1.86868686868687	pred.mus.hind.limb	348.055769193646	hind-limb	mus	hind-fore
+1.88888888888889	pred.mus.hind.limb	347.958899276506	hind-limb	mus	hind-fore
+1.90909090909091	pred.mus.hind.limb	347.707380632371	hind-limb	mus	hind-fore
+1.92929292929293	pred.mus.hind.limb	347.30154864053	hind-limb	mus	hind-fore
+1.94949494949495	pred.mus.hind.limb	346.7419441032	hind-limb	mus	hind-fore
+1.96969696969697	pred.mus.hind.limb	346.029312044598	hind-limb	mus	hind-fore
+1.98989898989899	pred.mus.hind.limb	345.164600058059	hind-limb	mus	hind-fore
+2.01010101010101	pred.mus.hind.limb	344.148956206312	hind-limb	mus	hind-fore
+2.03030303030303	pred.mus.hind.limb	342.98372648144	hind-limb	mus	hind-fore
+2.05050505050505	pred.mus.hind.limb	341.670451832388	hind-limb	mus	hind-fore
+2.07070707070707	pred.mus.hind.limb	340.210864769203	hind-limb	mus	hind-fore
+2.09090909090909	pred.mus.hind.limb	338.606885554487	hind-limb	mus	hind-fore
+2.11111111111111	pred.mus.hind.limb	336.86061799378	hind-limb	mus	hind-fore
+2.13131313131313	pred.mus.hind.limb	334.97434483778	hind-limb	mus	hind-fore
+2.15151515151515	pred.mus.hind.limb	332.950522810486	hind-limb	mus	hind-fore
+2.17171717171717	pred.mus.hind.limb	330.791777278391	hind-limb	mus	hind-fore
+2.19191919191919	pred.mus.hind.limb	328.500896576945	hind-limb	mus	hind-fore
+2.21212121212121	pred.mus.hind.limb	326.080826011408	hind-limb	mus	hind-fore
+2.23232323232323	pred.mus.hind.limb	323.53466155019	hind-limb	mus	hind-fore
+2.25252525252525	pred.mus.hind.limb	320.86564322954	hind-limb	mus	hind-fore
+2.27272727272727	pred.mus.hind.limb	318.077148289258	hind-limb	mus	hind-fore
+2.29292929292929	pred.mus.hind.limb	315.172684059747	hind-limb	mus	hind-fore
+2.31313131313131	pred.mus.hind.limb	312.155880621367	hind-limb	mus	hind-fore
+2.33333333333333	pred.mus.hind.limb	309.030483257552	hind-limb	mus	hind-fore
+2.35353535353535	pred.mus.hind.limb	305.800344723613	hind-limb	mus	hind-fore
+2.37373737373737	pred.mus.hind.limb	302.469417353511	hind-limb	mus	hind-fore
+2.39393939393939	pred.mus.hind.limb	299.041745027178	hind-limb	mus	hind-fore
+2.41414141414141	pred.mus.hind.limb	295.521455021133	hind-limb	mus	hind-fore
+2.43434343434343	pred.mus.hind.limb	291.912749765316	hind-limb	mus	hind-fore
+2.45454545454545	pred.mus.hind.limb	288.219898529029	hind-limb	mus	hind-fore
+2.47474747474747	pred.mus.hind.limb	284.447229058883	hind-limb	mus	hind-fore
+2.49494949494949	pred.mus.hind.limb	280.599119191507	hind-limb	mus	hind-fore
+2.51515151515152	pred.mus.hind.limb	276.679988463543	hind-limb	mus	hind-fore
+2.53535353535354	pred.mus.hind.limb	272.694289741224	hind-limb	mus	hind-fore
+2.55555555555556	pred.mus.hind.limb	268.646500891423	hind-limb	mus	hind-fore
+2.57575757575758	pred.mus.hind.limb	264.541116515659	hind-limb	mus	hind-fore
+2.5959595959596	pred.mus.hind.limb	260.382639768043	hind-limb	mus	hind-fore
+2.61616161616162	pred.mus.hind.limb	256.175574277585	hind-limb	mus	hind-fore
+2.63636363636364	pred.mus.hind.limb	251.924416194626	hind-limb	mus	hind-fore
+2.65656565656566	pred.mus.hind.limb	247.633646380518	hind-limb	mus	hind-fore
+2.67676767676768	pred.mus.hind.limb	243.307722758883	hind-limb	mus	hind-fore
+2.6969696969697	pred.mus.hind.limb	238.951072846006	hind-limb	mus	hind-fore
+2.71717171717172	pred.mus.hind.limb	234.568086477064	hind-limb	mus	hind-fore
+2.73737373737374	pred.mus.hind.limb	230.163108744003	hind-limb	mus	hind-fore
+2.75757575757576	pred.mus.hind.limb	225.740433159944	hind-limb	mus	hind-fore
+2.77777777777778	pred.mus.hind.limb	221.304295064011	hind-limb	mus	hind-fore
+2.7979797979798	pred.mus.hind.limb	216.858865279521	hind-limb	mus	hind-fore
+2.81818181818182	pred.mus.hind.limb	212.408244037392	hind-limb	mus	hind-fore
+2.83838383838384	pred.mus.hind.limb	207.956455175622	hind-limb	mus	hind-fore
+2.85858585858586	pred.mus.hind.limb	203.507440624609	hind-limb	mus	hind-fore
+2.87878787878788	pred.mus.hind.limb	199.065055186995	hind-limb	mus	hind-fore
+2.8989898989899	pred.mus.hind.limb	194.633061619653	hind-limb	mus	hind-fore
+2.91919191919192	pred.mus.hind.limb	190.215126024312	hind-limb	mus	hind-fore
+2.93939393939394	pred.mus.hind.limb	185.814813552269	hind-limb	mus	hind-fore
+2.95959595959596	pred.mus.hind.limb	181.435584427498	hind-limb	mus	hind-fore
+2.97979797979798	pred.mus.hind.limb	177.080790291438	hind-limb	mus	hind-fore
+3	pred.mus.hind.limb	172.753670871646	hind-limb	mus	hind-fore
+1	pred.bat.fore.limb	130.889633423499	fore-limb	bat	bat-mouse
+1.02020202020202	pred.bat.fore.limb	141.57466249765	fore-limb	bat	bat-mouse
+1.04040404040404	pred.bat.fore.limb	152.783317859953	fore-limb	bat	bat-mouse
+1.06060606060606	pred.bat.fore.limb	164.503998070225	fore-limb	bat	bat-mouse
+1.08080808080808	pred.bat.fore.limb	176.720566998019	fore-limb	bat	bat-mouse
+1.1010101010101	pred.bat.fore.limb	189.412158644575	fore-limb	bat	bat-mouse
+1.12121212121212	pred.bat.fore.limb	202.553023040576	fore-limb	bat	bat-mouse
+1.14141414141414	pred.bat.fore.limb	216.112418445837	fore-limb	bat	bat-mouse
+1.16161616161616	pred.bat.fore.limb	230.054554695015	fore-limb	bat	bat-mouse
+1.18181818181818	pred.bat.fore.limb	244.338592032912	fore-limb	bat	bat-mouse
+1.2020202020202	pred.bat.fore.limb	258.918699165996	fore-limb	bat	bat-mouse
+1.22222222222222	pred.bat.fore.limb	273.744173528714	fore-limb	bat	bat-mouse
+1.24242424242424	pred.bat.fore.limb	288.759625931931	fore-limb	bat	bat-mouse
+1.26262626262626	pred.bat.fore.limb	303.905230837443	fore-limb	bat	bat-mouse
+1.28282828282828	pred.bat.fore.limb	319.117042500912	fore-limb	bat	bat-mouse
+1.3030303030303	pred.bat.fore.limb	334.327376162063	fore-limb	bat	bat-mouse
+1.32323232323232	pred.bat.fore.limb	349.465252354698	fore-limb	bat	bat-mouse
+1.34343434343434	pred.bat.fore.limb	364.456901280658	fore-limb	bat	bat-mouse
+1.36363636363636	pred.bat.fore.limb	379.226323064116	fore-limb	bat	bat-mouse
+1.38383838383838	pred.bat.fore.limb	393.695898598843	fore-limb	bat	bat-mouse
+1.4040404040404	pred.bat.fore.limb	407.787044645864	fore-limb	bat	bat-mouse
+1.42424242424242	pred.bat.fore.limb	421.420905856092	fore-limb	bat	bat-mouse
+1.44444444444444	pred.bat.fore.limb	434.519075505851	fore-limb	bat	bat-mouse
+1.46464646464646	pred.bat.fore.limb	447.00433596478	fore-limb	bat	bat-mouse
+1.48484848484848	pred.bat.fore.limb	458.801409285845	fore-limb	bat	bat-mouse
+1.50505050505051	pred.bat.fore.limb	469.837707834028	fore-limb	bat	bat-mouse
+1.52525252525253	pred.bat.fore.limb	480.044074568441	fore-limb	bat	bat-mouse
+1.54545454545455	pred.bat.fore.limb	489.355502473667	fore-limb	bat	bat-mouse
+1.56565656565657	pred.bat.fore.limb	497.711822707398	fore-limb	bat	bat-mouse
+1.58585858585859	pred.bat.fore.limb	505.05835129638	fore-limb	bat	bat-mouse
+1.60606060606061	pred.bat.fore.limb	511.346484670125	fore-limb	bat	bat-mouse
+1.62626262626263	pred.bat.fore.limb	516.53423496635	fore-limb	bat	bat-mouse
+1.64646464646465	pred.bat.fore.limb	520.586696863835	fore-limb	bat	bat-mouse
+1.66666666666667	pred.bat.fore.limb	523.476438683094	fore-limb	bat	bat-mouse
+1.68686868686869	pred.bat.fore.limb	525.183811625033	fore-limb	bat	bat-mouse
+1.70707070707071	pred.bat.fore.limb	525.697172270943	fore-limb	bat	bat-mouse
+1.72727272727273	pred.bat.fore.limb	525.013014819125	fore-limb	bat	bat-mouse
+1.74747474747475	pred.bat.fore.limb	523.13601095718	fore-limb	bat	bat-mouse
+1.76767676767677	pred.bat.fore.limb	520.078956735582	fore-limb	bat	bat-mouse
+1.78787878787879	pred.bat.fore.limb	515.8626272877	fore-limb	bat	bat-mouse
+1.80808080808081	pred.bat.fore.limb	510.515541703727	fore-limb	bat	bat-mouse
+1.82828282828283	pred.bat.fore.limb	504.07364178118	fore-limb	bat	bat-mouse
+1.84848484848485	pred.bat.fore.limb	496.57988971412	fore-limb	bat	bat-mouse
+1.86868686868687	pred.bat.fore.limb	488.083791020216	fore-limb	bat	bat-mouse
+1.88888888888889	pred.bat.fore.limb	478.640850115117	fore-limb	bat	bat-mouse
+1.90909090909091	pred.bat.fore.limb	468.311966906061	fore-limb	bat	bat-mouse
+1.92929292929293	pred.bat.fore.limb	457.162783573842	fore-limb	bat	bat-mouse
+1.94949494949495	pred.bat.fore.limb	445.262991330566	fore-limb	bat	bat-mouse
+1.96969696969697	pred.bat.fore.limb	432.685607370866	fore-limb	bat	bat-mouse
+1.98989898989899	pred.bat.fore.limb	419.506232471465	fore-limb	bat	bat-mouse
+2.01010101010101	pred.bat.fore.limb	405.802299737846	fore-limb	bat	bat-mouse
+2.03030303030303	pred.bat.fore.limb	391.652324851133	fore-limb	bat	bat-mouse
+2.05050505050505	pred.bat.fore.limb	377.135167841305	fore-limb	bat	bat-mouse
+2.07070707070707	pred.bat.fore.limb	362.329315916306	fore-limb	bat	bat-mouse
+2.09090909090909	pred.bat.fore.limb	347.31219622594	fore-limb	bat	bat-mouse
+2.11111111111111	pred.bat.fore.limb	332.159526652858	fore-limb	bat	bat-mouse
+2.13131313131313	pred.bat.fore.limb	316.944711821106	fore-limb	bat	bat-mouse
+2.15151515151515	pred.bat.fore.limb	301.738290518138	fore-limb	bat	bat-mouse
+2.17171717171717	pred.bat.fore.limb	286.6074396625	fore-limb	bat	bat-mouse
+2.19191919191919	pred.bat.fore.limb	271.615538840825	fore-limb	bat	bat-mouse
+2.21212121212121	pred.bat.fore.limb	256.821798308431	fore-limb	bat	bat-mouse
+2.23232323232323	pred.bat.fore.limb	242.280952221268	fore-limb	bat	bat-mouse
+2.25252525252525	pred.bat.fore.limb	228.043017765506	fore-limb	bat	bat-mouse
+2.27272727272727	pred.bat.fore.limb	214.15311979529	fore-limb	bat	bat-mouse
+2.29292929292929	pred.bat.fore.limb	200.651379597809	fore-limb	bat	bat-mouse
+2.31313131313131	pred.bat.fore.limb	187.572865493784	fore-limb	bat	bat-mouse
+2.33333333333333	pred.bat.fore.limb	174.9476021644	fore-limb	bat	bat-mouse
+2.35353535353535	pred.bat.fore.limb	162.80063488303	fore-limb	bat	bat-mouse
+2.37373737373737	pred.bat.fore.limb	151.152144229585	fore-limb	bat	bat-mouse
+2.39393939393939	pred.bat.fore.limb	140.017606381591	fore-limb	bat	bat-mouse
+2.41414141414141	pred.bat.fore.limb	129.407993711039	fore-limb	bat	bat-mouse
+2.43434343434343	pred.bat.fore.limb	119.330010168706	fore-limb	bat	bat-mouse
+2.45454545454545	pred.bat.fore.limb	109.786355804709	fore-limb	bat	bat-mouse
+2.47474747474747	pred.bat.fore.limb	100.776014749708	fore-limb	bat	bat-mouse
+2.49494949494949	pred.bat.fore.limb	92.2945610579259	fore-limb	bat	bat-mouse
+2.51515151515152	pred.bat.fore.limb	84.3344769816719	fore-limb	bat	bat-mouse
+2.53535353535354	pred.bat.fore.limb	76.885478496821	fore-limb	bat	bat-mouse
+2.55555555555556	pred.bat.fore.limb	69.9348432182306	fore-limb	bat	bat-mouse
+2.57575757575758	pred.bat.fore.limb	63.4677362213686	fore-limb	bat	bat-mouse
+2.5959595959596	pred.bat.fore.limb	57.467529709125	fore-limb	bat	bat-mouse
+2.61616161616162	pred.bat.fore.limb	51.9161129187197	fore-limb	bat	bat-mouse
+2.63636363636364	pred.bat.fore.limb	46.794189140928	fore-limb	bat	bat-mouse
+2.65656565656566	pred.bat.fore.limb	42.0815572112397	fore-limb	bat	bat-mouse
+2.67676767676768	pred.bat.fore.limb	37.7573753196603	fore-limb	bat	bat-mouse
+2.6969696969697	pred.bat.fore.limb	33.8004054631753	fore-limb	bat	bat-mouse
+2.71717171717172	pred.bat.fore.limb	30.1892373241284	fore-limb	bat	bat-mouse
+2.73737373737374	pred.bat.fore.limb	26.9024907917902	fore-limb	bat	bat-mouse
+2.75757575757576	pred.bat.fore.limb	23.9189967473795	fore-limb	bat	bat-mouse
+2.77777777777778	pred.bat.fore.limb	21.2179561001291	fore-limb	bat	bat-mouse
+2.7979797979798	pred.bat.fore.limb	18.7790773903622	fore-limb	bat	bat-mouse
+2.81818181818182	pred.bat.fore.limb	16.5826935627787	fore-limb	bat	bat-mouse
+2.83838383838384	pred.bat.fore.limb	14.6098587582416	fore-limb	bat	bat-mouse
+2.85858585858586	pred.bat.fore.limb	12.8424261752724	fore-limb	bat	bat-mouse
+2.87878787878788	pred.bat.fore.limb	11.263108214101	fore-limb	bat	bat-mouse
+2.8989898989899	pred.bat.fore.limb	9.85552023815157	fore-limb	bat	bat-mouse
+2.91919191919192	pred.bat.fore.limb	8.60420937258655	fore-limb	bat	bat-mouse
+2.93939393939394	pred.bat.fore.limb	7.49466980982664	fore-limb	bat	bat-mouse
+2.95959595959596	pred.bat.fore.limb	6.51334611104488	fore-limb	bat	bat-mouse
+2.97979797979798	pred.bat.fore.limb	5.64762598399292	fore-limb	bat	bat-mouse
+3	pred.bat.fore.limb	4.88582398481077	fore-limb	bat	bat-mouse
+1	pred.bat.hind.limb	130.889633423499	hind-limb	bat	bat-mouse
+1.02020202020202	pred.bat.hind.limb	141.57466249765	hind-limb	bat	bat-mouse
+1.04040404040404	pred.bat.hind.limb	152.783317859953	hind-limb	bat	bat-mouse
+1.06060606060606	pred.bat.hind.limb	164.503998070225	hind-limb	bat	bat-mouse
+1.08080808080808	pred.bat.hind.limb	176.720566998019	hind-limb	bat	bat-mouse
+1.1010101010101	pred.bat.hind.limb	189.412158644575	hind-limb	bat	bat-mouse
+1.12121212121212	pred.bat.hind.limb	202.553023040576	hind-limb	bat	bat-mouse
+1.14141414141414	pred.bat.hind.limb	216.112418445837	hind-limb	bat	bat-mouse
+1.16161616161616	pred.bat.hind.limb	230.054554695015	hind-limb	bat	bat-mouse
+1.18181818181818	pred.bat.hind.limb	244.338592032912	hind-limb	bat	bat-mouse
+1.2020202020202	pred.bat.hind.limb	258.918699165996	hind-limb	bat	bat-mouse
+1.22222222222222	pred.bat.hind.limb	273.744173528714	hind-limb	bat	bat-mouse
+1.24242424242424	pred.bat.hind.limb	288.759625931931	hind-limb	bat	bat-mouse
+1.26262626262626	pred.bat.hind.limb	303.905230837443	hind-limb	bat	bat-mouse
+1.28282828282828	pred.bat.hind.limb	319.117042500912	hind-limb	bat	bat-mouse
+1.3030303030303	pred.bat.hind.limb	334.327376162063	hind-limb	bat	bat-mouse
+1.32323232323232	pred.bat.hind.limb	349.465252354698	hind-limb	bat	bat-mouse
+1.34343434343434	pred.bat.hind.limb	364.456901280658	hind-limb	bat	bat-mouse
+1.36363636363636	pred.bat.hind.limb	379.226323064116	hind-limb	bat	bat-mouse
+1.38383838383838	pred.bat.hind.limb	393.695898598843	hind-limb	bat	bat-mouse
+1.4040404040404	pred.bat.hind.limb	407.787044645864	hind-limb	bat	bat-mouse
+1.42424242424242	pred.bat.hind.limb	421.420905856092	hind-limb	bat	bat-mouse
+1.44444444444444	pred.bat.hind.limb	434.519075505851	hind-limb	bat	bat-mouse
+1.46464646464646	pred.bat.hind.limb	447.00433596478	hind-limb	bat	bat-mouse
+1.48484848484848	pred.bat.hind.limb	458.801409285845	hind-limb	bat	bat-mouse
+1.50505050505051	pred.bat.hind.limb	469.837707834028	hind-limb	bat	bat-mouse
+1.52525252525253	pred.bat.hind.limb	480.044074568441	hind-limb	bat	bat-mouse
+1.54545454545455	pred.bat.hind.limb	489.355502473667	hind-limb	bat	bat-mouse
+1.56565656565657	pred.bat.hind.limb	497.711822707398	hind-limb	bat	bat-mouse
+1.58585858585859	pred.bat.hind.limb	505.05835129638	hind-limb	bat	bat-mouse
+1.60606060606061	pred.bat.hind.limb	511.346484670125	hind-limb	bat	bat-mouse
+1.62626262626263	pred.bat.hind.limb	516.53423496635	hind-limb	bat	bat-mouse
+1.64646464646465	pred.bat.hind.limb	520.586696863835	hind-limb	bat	bat-mouse
+1.66666666666667	pred.bat.hind.limb	523.476438683094	hind-limb	bat	bat-mouse
+1.68686868686869	pred.bat.hind.limb	525.183811625033	hind-limb	bat	bat-mouse
+1.70707070707071	pred.bat.hind.limb	525.697172270943	hind-limb	bat	bat-mouse
+1.72727272727273	pred.bat.hind.limb	525.013014819125	hind-limb	bat	bat-mouse
+1.74747474747475	pred.bat.hind.limb	523.13601095718	hind-limb	bat	bat-mouse
+1.76767676767677	pred.bat.hind.limb	520.078956735582	hind-limb	bat	bat-mouse
+1.78787878787879	pred.bat.hind.limb	515.8626272877	hind-limb	bat	bat-mouse
+1.80808080808081	pred.bat.hind.limb	510.515541703727	hind-limb	bat	bat-mouse
+1.82828282828283	pred.bat.hind.limb	504.07364178118	hind-limb	bat	bat-mouse
+1.84848484848485	pred.bat.hind.limb	496.57988971412	hind-limb	bat	bat-mouse
+1.86868686868687	pred.bat.hind.limb	488.083791020216	hind-limb	bat	bat-mouse
+1.88888888888889	pred.bat.hind.limb	478.640850115117	hind-limb	bat	bat-mouse
+1.90909090909091	pred.bat.hind.limb	468.311966906061	hind-limb	bat	bat-mouse
+1.92929292929293	pred.bat.hind.limb	457.162783573842	hind-limb	bat	bat-mouse
+1.94949494949495	pred.bat.hind.limb	445.262991330566	hind-limb	bat	bat-mouse
+1.96969696969697	pred.bat.hind.limb	432.685607370866	hind-limb	bat	bat-mouse
+1.98989898989899	pred.bat.hind.limb	419.506232471465	hind-limb	bat	bat-mouse
+2.01010101010101	pred.bat.hind.limb	405.802299737846	hind-limb	bat	bat-mouse
+2.03030303030303	pred.bat.hind.limb	391.652324851133	hind-limb	bat	bat-mouse
+2.05050505050505	pred.bat.hind.limb	377.135167841305	hind-limb	bat	bat-mouse
+2.07070707070707	pred.bat.hind.limb	362.329315916306	hind-limb	bat	bat-mouse
+2.09090909090909	pred.bat.hind.limb	347.31219622594	hind-limb	bat	bat-mouse
+2.11111111111111	pred.bat.hind.limb	332.159526652858	hind-limb	bat	bat-mouse
+2.13131313131313	pred.bat.hind.limb	316.944711821106	hind-limb	bat	bat-mouse
+2.15151515151515	pred.bat.hind.limb	301.738290518138	hind-limb	bat	bat-mouse
+2.17171717171717	pred.bat.hind.limb	286.6074396625	hind-limb	bat	bat-mouse
+2.19191919191919	pred.bat.hind.limb	271.615538840825	hind-limb	bat	bat-mouse
+2.21212121212121	pred.bat.hind.limb	256.821798308431	hind-limb	bat	bat-mouse
+2.23232323232323	pred.bat.hind.limb	242.280952221268	hind-limb	bat	bat-mouse
+2.25252525252525	pred.bat.hind.limb	228.043017765506	hind-limb	bat	bat-mouse
+2.27272727272727	pred.bat.hind.limb	214.15311979529	hind-limb	bat	bat-mouse
+2.29292929292929	pred.bat.hind.limb	200.651379597809	hind-limb	bat	bat-mouse
+2.31313131313131	pred.bat.hind.limb	187.572865493784	hind-limb	bat	bat-mouse
+2.33333333333333	pred.bat.hind.limb	174.9476021644	hind-limb	bat	bat-mouse
+2.35353535353535	pred.bat.hind.limb	162.80063488303	hind-limb	bat	bat-mouse
+2.37373737373737	pred.bat.hind.limb	151.152144229585	hind-limb	bat	bat-mouse
+2.39393939393939	pred.bat.hind.limb	140.017606381591	hind-limb	bat	bat-mouse
+2.41414141414141	pred.bat.hind.limb	129.407993711039	hind-limb	bat	bat-mouse
+2.43434343434343	pred.bat.hind.limb	119.330010168706	hind-limb	bat	bat-mouse
+2.45454545454545	pred.bat.hind.limb	109.786355804709	hind-limb	bat	bat-mouse
+2.47474747474747	pred.bat.hind.limb	100.776014749708	hind-limb	bat	bat-mouse
+2.49494949494949	pred.bat.hind.limb	92.2945610579259	hind-limb	bat	bat-mouse
+2.51515151515152	pred.bat.hind.limb	84.3344769816719	hind-limb	bat	bat-mouse
+2.53535353535354	pred.bat.hind.limb	76.885478496821	hind-limb	bat	bat-mouse
+2.55555555555556	pred.bat.hind.limb	69.9348432182306	hind-limb	bat	bat-mouse
+2.57575757575758	pred.bat.hind.limb	63.4677362213686	hind-limb	bat	bat-mouse
+2.5959595959596	pred.bat.hind.limb	57.467529709125	hind-limb	bat	bat-mouse
+2.61616161616162	pred.bat.hind.limb	51.9161129187197	hind-limb	bat	bat-mouse
+2.63636363636364	pred.bat.hind.limb	46.794189140928	hind-limb	bat	bat-mouse
+2.65656565656566	pred.bat.hind.limb	42.0815572112397	hind-limb	bat	bat-mouse
+2.67676767676768	pred.bat.hind.limb	37.7573753196603	hind-limb	bat	bat-mouse
+2.6969696969697	pred.bat.hind.limb	33.8004054631753	hind-limb	bat	bat-mouse
+2.71717171717172	pred.bat.hind.limb	30.1892373241284	hind-limb	bat	bat-mouse
+2.73737373737374	pred.bat.hind.limb	26.9024907917902	hind-limb	bat	bat-mouse
+2.75757575757576	pred.bat.hind.limb	23.9189967473795	hind-limb	bat	bat-mouse
+2.77777777777778	pred.bat.hind.limb	21.2179561001291	hind-limb	bat	bat-mouse
+2.7979797979798	pred.bat.hind.limb	18.7790773903622	hind-limb	bat	bat-mouse
+2.81818181818182	pred.bat.hind.limb	16.5826935627787	hind-limb	bat	bat-mouse
+2.83838383838384	pred.bat.hind.limb	14.6098587582416	hind-limb	bat	bat-mouse
+2.85858585858586	pred.bat.hind.limb	12.8424261752724	hind-limb	bat	bat-mouse
+2.87878787878788	pred.bat.hind.limb	11.263108214101	hind-limb	bat	bat-mouse
+2.8989898989899	pred.bat.hind.limb	9.85552023815157	hind-limb	bat	bat-mouse
+2.91919191919192	pred.bat.hind.limb	8.60420937258655	hind-limb	bat	bat-mouse
+2.93939393939394	pred.bat.hind.limb	7.49466980982664	hind-limb	bat	bat-mouse
+2.95959595959596	pred.bat.hind.limb	6.51334611104488	hind-limb	bat	bat-mouse
+2.97979797979798	pred.bat.hind.limb	5.64762598399292	hind-limb	bat	bat-mouse
+3	pred.bat.hind.limb	4.88582398481077	hind-limb	bat	bat-mouse
+1	pred.mus.fore.limb	139.684753256603	fore-limb	mus	bat-mouse
+1.02020202020202	pred.mus.fore.limb	142.065615127774	fore-limb	mus	bat-mouse
+1.04040404040404	pred.mus.fore.limb	144.450622560469	fore-limb	mus	bat-mouse
+1.06060606060606	pred.mus.fore.limb	146.838632205066	fore-limb	mus	bat-mouse
+1.08080808080808	pred.mus.fore.limb	149.228479375098	fore-limb	mus	bat-mouse
+1.1010101010101	pred.mus.fore.limb	151.618978878951	fore-limb	mus	bat-mouse
+1.12121212121212	pred.mus.fore.limb	154.008925891259	fore-limb	mus	bat-mouse
+1.14141414141414	pred.mus.fore.limb	156.397096863328	fore-limb	mus	bat-mouse
+1.16161616161616	pred.mus.fore.limb	158.782250471809	fore-limb	mus	bat-mouse
+1.18181818181818	pred.mus.fore.limb	161.163128604794	fore-limb	mus	bat-mouse
+1.2020202020202	pred.mus.fore.limb	163.538457384396	fore-limb	mus	bat-mouse
+1.22222222222222	pred.mus.fore.limb	165.906948224821	fore-limb	mus	bat-mouse
+1.24242424242424	pred.mus.fore.limb	168.267298924849	fore-limb	mus	bat-mouse
+1.26262626262626	pred.mus.fore.limb	170.618194793562	fore-limb	mus	bat-mouse
+1.28282828282828	pred.mus.fore.limb	172.958309808092	fore-limb	mus	bat-mouse
+1.3030303030303	pred.mus.fore.limb	175.286307802075	fore-limb	mus	bat-mouse
+1.32323232323232	pred.mus.fore.limb	177.600843683434	fore-limb	mus	bat-mouse
+1.34343434343434	pred.mus.fore.limb	179.900564680033	fore-limb	mus	bat-mouse
+1.36363636363636	pred.mus.fore.limb	182.184111611686	fore-limb	mus	bat-mouse
+1.38383838383838	pred.mus.fore.limb	184.45012018693	fore-limb	mus	bat-mouse
+1.4040404040404	pred.mus.fore.limb	186.6972223229	fore-limb	mus	bat-mouse
+1.42424242424242	pred.mus.fore.limb	188.924047486607	fore-limb	mus	bat-mouse
+1.44444444444444	pred.mus.fore.limb	191.129224055831	fore-limb	mus	bat-mouse
+1.46464646464646	pred.mus.fore.limb	193.311380697791	fore-limb	mus	bat-mouse
+1.48484848484848	pred.mus.fore.limb	195.469147763727	fore-limb	mus	bat-mouse
+1.50505050505051	pred.mus.fore.limb	197.601158697438	fore-limb	mus	bat-mouse
+1.52525252525253	pred.mus.fore.limb	199.7060514558	fore-limb	mus	bat-mouse
+1.54545454545455	pred.mus.fore.limb	201.782469939236	fore-limb	mus	bat-mouse
+1.56565656565657	pred.mus.fore.limb	203.829065430073	fore-limb	mus	bat-mouse
+1.58585858585859	pred.mus.fore.limb	205.844498036679	fore-limb	mus	bat-mouse
+1.60606060606061	pred.mus.fore.limb	207.827438141246	fore-limb	mus	bat-mouse
+1.62626262626263	pred.mus.fore.limb	209.776567849054	fore-limb	mus	bat-mouse
+1.64646464646465	pred.mus.fore.limb	211.690582437028	fore-limb	mus	bat-mouse
+1.66666666666667	pred.mus.fore.limb	213.568191799377	fore-limb	mus	bat-mouse
+1.68686868686869	pred.mus.fore.limb	215.408121888098	fore-limb	mus	bat-mouse
+1.70707070707071	pred.mus.fore.limb	217.209116146093	fore-limb	mus	bat-mouse
+1.72727272727273	pred.mus.fore.limb	218.969936930681	fore-limb	mus	bat-mouse
+1.74747474747475	pred.mus.fore.limb	220.689366925229	fore-limb	mus	bat-mouse
+1.76767676767677	pred.mus.fore.limb	222.366210536686	fore-limb	mus	bat-mouse
+1.78787878787879	pred.mus.fore.limb	223.999295276768	fore-limb	mus	bat-mouse
+1.80808080808081	pred.mus.fore.limb	225.587473124564	fore-limb	mus	bat-mouse
+1.82828282828283	pred.mus.fore.limb	227.129621868372	fore-limb	mus	bat-mouse
+1.84848484848485	pred.mus.fore.limb	228.624646424553	fore-limb	mus	bat-mouse
+1.86868686868687	pred.mus.fore.limb	230.071480131254	fore-limb	mus	bat-mouse
+1.88888888888889	pred.mus.fore.limb	231.469086014854	fore-limb	mus	bat-mouse
+1.90909090909091	pred.mus.fore.limb	232.816458027036	fore-limb	mus	bat-mouse
+1.92929292929293	pred.mus.fore.limb	234.112622250425	fore-limb	mus	bat-mouse
+1.94949494949495	pred.mus.fore.limb	235.356638070764	fore-limb	mus	bat-mouse
+1.96969696969697	pred.mus.fore.limb	236.54759931366	fore-limb	mus	bat-mouse
+1.98989898989899	pred.mus.fore.limb	237.684635343978	fore-limb	mus	bat-mouse
+2.01010101010101	pred.mus.fore.limb	238.766912126016	fore-limb	mus	bat-mouse
+2.03030303030303	pred.mus.fore.limb	239.793633242652	fore-limb	mus	bat-mouse
+2.05050505050505	pred.mus.fore.limb	240.764040871727	fore-limb	mus	bat-mouse
+2.07070707070707	pred.mus.fore.limb	241.677416717985	fore-limb	mus	bat-mouse
+2.09090909090909	pred.mus.fore.limb	242.53308289896	fore-limb	mus	bat-mouse
+2.11111111111111	pred.mus.fore.limb	243.330402783294	fore-limb	mus	bat-mouse
+2.13131313131313	pred.mus.fore.limb	244.068781780028	fore-limb	mus	bat-mouse
+2.15151515151515	pred.mus.fore.limb	244.747668077487	fore-limb	mus	bat-mouse
+2.17171717171717	pred.mus.fore.limb	245.366553330495	fore-limb	mus	bat-mouse
+2.19191919191919	pred.mus.fore.limb	245.924973294699	fore-limb	mus	bat-mouse
+2.21212121212121	pred.mus.fore.limb	246.422508406916	fore-limb	mus	bat-mouse
+2.23232323232323	pred.mus.fore.limb	246.858784310463	fore-limb	mus	bat-mouse
+2.25252525252525	pred.mus.fore.limb	247.233472324575	fore-limb	mus	bat-mouse
+2.27272727272727	pred.mus.fore.limb	247.546289857066	fore-limb	mus	bat-mouse
+2.29292929292929	pred.mus.fore.limb	247.797000759522	fore-limb	mus	bat-mouse
+2.31313131313131	pred.mus.fore.limb	247.98541562439	fore-limb	mus	bat-mouse
+2.33333333333333	pred.mus.fore.limb	248.111392023451	fore-limb	mus	bat-mouse
+2.35353535353535	pred.mus.fore.limb	248.174834687244	fore-limb	mus	bat-mouse
+2.37373737373737	pred.mus.fore.limb	248.175695625136	fore-limb	mus	bat-mouse
+2.39393939393939	pred.mus.fore.limb	248.113974185824	fore-limb	mus	bat-mouse
+2.41414141414141	pred.mus.fore.limb	247.98971705815	fore-limb	mus	bat-mouse
+2.43434343434343	pred.mus.fore.limb	247.803018212247	fore-limb	mus	bat-mouse
+2.45454545454545	pred.mus.fore.limb	247.554018781107	fore-limb	mus	bat-mouse
+2.47474747474747	pred.mus.fore.limb	247.242906882783	fore-limb	mus	bat-mouse
+2.49494949494949	pred.mus.fore.limb	246.869917383533	fore-limb	mus	bat-mouse
+2.51515151515152	pred.mus.fore.limb	246.435331602343	fore-limb	mus	bat-mouse
+2.53535353535354	pred.mus.fore.limb	245.939476957319	fore-limb	mus	bat-mouse
+2.55555555555556	pred.mus.fore.limb	245.382726554602	fore-limb	mus	bat-mouse
+2.57575757575758	pred.mus.fore.limb	244.765498720498	fore-limb	mus	bat-mouse
+2.5959595959596	pred.mus.fore.limb	244.088256477676	fore-limb	mus	bat-mouse
+2.61616161616162	pred.mus.fore.limb	243.35150696632	fore-limb	mus	bat-mouse
+2.63636363636364	pred.mus.fore.limb	242.555800811276	fore-limb	mus	bat-mouse
+2.65656565656566	pred.mus.fore.limb	241.701731436277	fore-limb	mus	bat-mouse
+2.67676767676768	pred.mus.fore.limb	240.789934326462	fore-limb	mus	bat-mouse
+2.6969696969697	pred.mus.fore.limb	239.821086240454	fore-limb	mus	bat-mouse
+2.71717171717172	pred.mus.fore.limb	238.795904373373	fore-limb	mus	bat-mouse
+2.73737373737374	pred.mus.fore.limb	237.715145472234	fore-limb	mus	bat-mouse
+2.75757575757576	pred.mus.fore.limb	236.579604905257	fore-limb	mus	bat-mouse
+2.77777777777778	pred.mus.fore.limb	235.390115686682	fore-limb	mus	bat-mouse
+2.7979797979798	pred.mus.fore.limb	234.147547458776	fore-limb	mus	bat-mouse
+2.81818181818182	pred.mus.fore.limb	232.852805432762	fore-limb	mus	bat-mouse
+2.83838383838384	pred.mus.fore.limb	231.506829290483	fore-limb	mus	bat-mouse
+2.85858585858586	pred.mus.fore.limb	230.11059204865	fore-limb	mus	bat-mouse
+2.87878787878788	pred.mus.fore.limb	228.665098887626	fore-limb	mus	bat-mouse
+2.8989898989899	pred.mus.fore.limb	227.17138594667	fore-limb	mus	bat-mouse
+2.91919191919192	pred.mus.fore.limb	225.630519087713	fore-limb	mus	bat-mouse
+2.93939393939394	pred.mus.fore.limb	224.043592629683	fore-limb	mus	bat-mouse
+2.95959595959596	pred.mus.fore.limb	222.411728055511	fore-limb	mus	bat-mouse
+2.97979797979798	pred.mus.fore.limb	220.736072693931	fore-limb	mus	bat-mouse
+3	pred.mus.fore.limb	219.01779837826	fore-limb	mus	bat-mouse
+1	pred.mus.hind.limb	139.684753256603	hind-limb	mus	bat-mouse
+1.02020202020202	pred.mus.hind.limb	142.065615127774	hind-limb	mus	bat-mouse
+1.04040404040404	pred.mus.hind.limb	144.450622560469	hind-limb	mus	bat-mouse
+1.06060606060606	pred.mus.hind.limb	146.838632205066	hind-limb	mus	bat-mouse
+1.08080808080808	pred.mus.hind.limb	149.228479375098	hind-limb	mus	bat-mouse
+1.1010101010101	pred.mus.hind.limb	151.618978878951	hind-limb	mus	bat-mouse
+1.12121212121212	pred.mus.hind.limb	154.008925891259	hind-limb	mus	bat-mouse
+1.14141414141414	pred.mus.hind.limb	156.397096863328	hind-limb	mus	bat-mouse
+1.16161616161616	pred.mus.hind.limb	158.782250471809	hind-limb	mus	bat-mouse
+1.18181818181818	pred.mus.hind.limb	161.163128604794	hind-limb	mus	bat-mouse
+1.2020202020202	pred.mus.hind.limb	163.538457384396	hind-limb	mus	bat-mouse
+1.22222222222222	pred.mus.hind.limb	165.906948224821	hind-limb	mus	bat-mouse
+1.24242424242424	pred.mus.hind.limb	168.267298924849	hind-limb	mus	bat-mouse
+1.26262626262626	pred.mus.hind.limb	170.618194793562	hind-limb	mus	bat-mouse
+1.28282828282828	pred.mus.hind.limb	172.958309808092	hind-limb	mus	bat-mouse
+1.3030303030303	pred.mus.hind.limb	175.286307802075	hind-limb	mus	bat-mouse
+1.32323232323232	pred.mus.hind.limb	177.600843683434	hind-limb	mus	bat-mouse
+1.34343434343434	pred.mus.hind.limb	179.900564680033	hind-limb	mus	bat-mouse
+1.36363636363636	pred.mus.hind.limb	182.184111611686	hind-limb	mus	bat-mouse
+1.38383838383838	pred.mus.hind.limb	184.45012018693	hind-limb	mus	bat-mouse
+1.4040404040404	pred.mus.hind.limb	186.6972223229	hind-limb	mus	bat-mouse
+1.42424242424242	pred.mus.hind.limb	188.924047486607	hind-limb	mus	bat-mouse
+1.44444444444444	pred.mus.hind.limb	191.129224055831	hind-limb	mus	bat-mouse
+1.46464646464646	pred.mus.hind.limb	193.311380697791	hind-limb	mus	bat-mouse
+1.48484848484848	pred.mus.hind.limb	195.469147763727	hind-limb	mus	bat-mouse
+1.50505050505051	pred.mus.hind.limb	197.601158697438	hind-limb	mus	bat-mouse
+1.52525252525253	pred.mus.hind.limb	199.7060514558	hind-limb	mus	bat-mouse
+1.54545454545455	pred.mus.hind.limb	201.782469939236	hind-limb	mus	bat-mouse
+1.56565656565657	pred.mus.hind.limb	203.829065430073	hind-limb	mus	bat-mouse
+1.58585858585859	pred.mus.hind.limb	205.844498036679	hind-limb	mus	bat-mouse
+1.60606060606061	pred.mus.hind.limb	207.827438141246	hind-limb	mus	bat-mouse
+1.62626262626263	pred.mus.hind.limb	209.776567849054	hind-limb	mus	bat-mouse
+1.64646464646465	pred.mus.hind.limb	211.690582437028	hind-limb	mus	bat-mouse
+1.66666666666667	pred.mus.hind.limb	213.568191799377	hind-limb	mus	bat-mouse
+1.68686868686869	pred.mus.hind.limb	215.408121888098	hind-limb	mus	bat-mouse
+1.70707070707071	pred.mus.hind.limb	217.209116146093	hind-limb	mus	bat-mouse
+1.72727272727273	pred.mus.hind.limb	218.969936930681	hind-limb	mus	bat-mouse
+1.74747474747475	pred.mus.hind.limb	220.689366925229	hind-limb	mus	bat-mouse
+1.76767676767677	pred.mus.hind.limb	222.366210536686	hind-limb	mus	bat-mouse
+1.78787878787879	pred.mus.hind.limb	223.999295276768	hind-limb	mus	bat-mouse
+1.80808080808081	pred.mus.hind.limb	225.587473124564	hind-limb	mus	bat-mouse
+1.82828282828283	pred.mus.hind.limb	227.129621868372	hind-limb	mus	bat-mouse
+1.84848484848485	pred.mus.hind.limb	228.624646424553	hind-limb	mus	bat-mouse
+1.86868686868687	pred.mus.hind.limb	230.071480131254	hind-limb	mus	bat-mouse
+1.88888888888889	pred.mus.hind.limb	231.469086014854	hind-limb	mus	bat-mouse
+1.90909090909091	pred.mus.hind.limb	232.816458027036	hind-limb	mus	bat-mouse
+1.92929292929293	pred.mus.hind.limb	234.112622250425	hind-limb	mus	bat-mouse
+1.94949494949495	pred.mus.hind.limb	235.356638070764	hind-limb	mus	bat-mouse
+1.96969696969697	pred.mus.hind.limb	236.54759931366	hind-limb	mus	bat-mouse
+1.98989898989899	pred.mus.hind.limb	237.684635343978	hind-limb	mus	bat-mouse
+2.01010101010101	pred.mus.hind.limb	238.766912126016	hind-limb	mus	bat-mouse
+2.03030303030303	pred.mus.hind.limb	239.793633242652	hind-limb	mus	bat-mouse
+2.05050505050505	pred.mus.hind.limb	240.764040871727	hind-limb	mus	bat-mouse
+2.07070707070707	pred.mus.hind.limb	241.677416717985	hind-limb	mus	bat-mouse
+2.09090909090909	pred.mus.hind.limb	242.53308289896	hind-limb	mus	bat-mouse
+2.11111111111111	pred.mus.hind.limb	243.330402783294	hind-limb	mus	bat-mouse
+2.13131313131313	pred.mus.hind.limb	244.068781780028	hind-limb	mus	bat-mouse
+2.15151515151515	pred.mus.hind.limb	244.747668077487	hind-limb	mus	bat-mouse
+2.17171717171717	pred.mus.hind.limb	245.366553330495	hind-limb	mus	bat-mouse
+2.19191919191919	pred.mus.hind.limb	245.924973294699	hind-limb	mus	bat-mouse
+2.21212121212121	pred.mus.hind.limb	246.422508406916	hind-limb	mus	bat-mouse
+2.23232323232323	pred.mus.hind.limb	246.858784310463	hind-limb	mus	bat-mouse
+2.25252525252525	pred.mus.hind.limb	247.233472324575	hind-limb	mus	bat-mouse
+2.27272727272727	pred.mus.hind.limb	247.546289857066	hind-limb	mus	bat-mouse
+2.29292929292929	pred.mus.hind.limb	247.797000759522	hind-limb	mus	bat-mouse
+2.31313131313131	pred.mus.hind.limb	247.98541562439	hind-limb	mus	bat-mouse
+2.33333333333333	pred.mus.hind.limb	248.111392023451	hind-limb	mus	bat-mouse
+2.35353535353535	pred.mus.hind.limb	248.174834687244	hind-limb	mus	bat-mouse
+2.37373737373737	pred.mus.hind.limb	248.175695625136	hind-limb	mus	bat-mouse
+2.39393939393939	pred.mus.hind.limb	248.113974185824	hind-limb	mus	bat-mouse
+2.41414141414141	pred.mus.hind.limb	247.98971705815	hind-limb	mus	bat-mouse
+2.43434343434343	pred.mus.hind.limb	247.803018212247	hind-limb	mus	bat-mouse
+2.45454545454545	pred.mus.hind.limb	247.554018781107	hind-limb	mus	bat-mouse
+2.47474747474747	pred.mus.hind.limb	247.242906882783	hind-limb	mus	bat-mouse
+2.49494949494949	pred.mus.hind.limb	246.869917383533	hind-limb	mus	bat-mouse
+2.51515151515152	pred.mus.hind.limb	246.435331602343	hind-limb	mus	bat-mouse
+2.53535353535354	pred.mus.hind.limb	245.939476957319	hind-limb	mus	bat-mouse
+2.55555555555556	pred.mus.hind.limb	245.382726554602	hind-limb	mus	bat-mouse
+2.57575757575758	pred.mus.hind.limb	244.765498720498	hind-limb	mus	bat-mouse
+2.5959595959596	pred.mus.hind.limb	244.088256477676	hind-limb	mus	bat-mouse
+2.61616161616162	pred.mus.hind.limb	243.35150696632	hind-limb	mus	bat-mouse
+2.63636363636364	pred.mus.hind.limb	242.555800811276	hind-limb	mus	bat-mouse
+2.65656565656566	pred.mus.hind.limb	241.701731436277	hind-limb	mus	bat-mouse
+2.67676767676768	pred.mus.hind.limb	240.789934326462	hind-limb	mus	bat-mouse
+2.6969696969697	pred.mus.hind.limb	239.821086240454	hind-limb	mus	bat-mouse
+2.71717171717172	pred.mus.hind.limb	238.795904373373	hind-limb	mus	bat-mouse
+2.73737373737374	pred.mus.hind.limb	237.715145472234	hind-limb	mus	bat-mouse
+2.75757575757576	pred.mus.hind.limb	236.579604905257	hind-limb	mus	bat-mouse
+2.77777777777778	pred.mus.hind.limb	235.390115686682	hind-limb	mus	bat-mouse
+2.7979797979798	pred.mus.hind.limb	234.147547458776	hind-limb	mus	bat-mouse
+2.81818181818182	pred.mus.hind.limb	232.852805432762	hind-limb	mus	bat-mouse
+2.83838383838384	pred.mus.hind.limb	231.506829290483	hind-limb	mus	bat-mouse
+2.85858585858586	pred.mus.hind.limb	230.11059204865	hind-limb	mus	bat-mouse
+2.87878787878788	pred.mus.hind.limb	228.665098887626	hind-limb	mus	bat-mouse
+2.8989898989899	pred.mus.hind.limb	227.17138594667	hind-limb	mus	bat-mouse
+2.91919191919192	pred.mus.hind.limb	225.630519087713	hind-limb	mus	bat-mouse
+2.93939393939394	pred.mus.hind.limb	224.043592629683	hind-limb	mus	bat-mouse
+2.95959595959596	pred.mus.hind.limb	222.411728055511	hind-limb	mus	bat-mouse
+2.97979797979798	pred.mus.hind.limb	220.736072693931	hind-limb	mus	bat-mouse
+3	pred.mus.hind.limb	219.01779837826	hind-limb	mus	bat-mouse
+1	pred.bat.fore.limb	118.666386663667	fore-limb	bat	4 curves
+1.02020202020202	pred.bat.fore.limb	130.926371033421	fore-limb	bat	4 curves
+1.04040404040404	pred.bat.fore.limb	144.065364875342	fore-limb	bat	4 curves
+1.06060606060606	pred.bat.fore.limb	158.097527390461	fore-limb	bat	4 curves
+1.08080808080808	pred.bat.fore.limb	173.030878621719	fore-limb	bat	4 curves
+1.1010101010101	pred.bat.fore.limb	188.866611904627	fore-limb	bat	4 curves
+1.12121212121212	pred.bat.fore.limb	205.598436248409	fore-limb	bat	4 curves
+1.14141414141414	pred.bat.fore.limb	223.211962533281	fore-limb	bat	4 curves
+1.16161616161616	pred.bat.fore.limb	241.684147839681	fore-limb	bat	4 curves
+1.18181818181818	pred.bat.fore.limb	260.982812374291	fore-limb	bat	4 curves
+1.2020202020202	pred.bat.fore.limb	281.06624329669	fore-limb	bat	4 curves
+1.22222222222222	pred.bat.fore.limb	301.882899256443	fore-limb	bat	4 curves
+1.24242424242424	pred.bat.fore.limb	323.371228607813	fore-limb	bat	4 curves
+1.26262626262626	pred.bat.fore.limb	345.459613070917	fore-limb	bat	4 curves
+1.28282828282828	pred.bat.fore.limb	368.066447056112	fore-limb	bat	4 curves
+1.3030303030303	pred.bat.fore.limb	391.100360974872	fore-limb	bat	4 curves
+1.32323232323232	pred.bat.fore.limb	414.460594647871	fore-limb	bat	4 curves
+1.34343434343434	pred.bat.fore.limb	438.037524422276	fore-limb	bat	4 curves
+1.36363636363636	pred.bat.fore.limb	461.713344868522	fore-limb	bat	4 curves
+1.38383838383838	pred.bat.fore.limb	485.362902994627	fore-limb	bat	4 curves
+1.4040404040404	pred.bat.fore.limb	508.854679854504	fore-limb	bat	4 curves
+1.42424242424242	pred.bat.fore.limb	532.05191130411	fore-limb	bat	4 curves
+1.44444444444444	pred.bat.fore.limb	554.81383654953	fore-limb	bat	4 curves
+1.46464646464646	pred.bat.fore.limb	576.997060111629	fore-limb	bat	4 curves
+1.48484848484848	pred.bat.fore.limb	598.457009981859	fore-limb	bat	4 curves
+1.50505050505051	pred.bat.fore.limb	619.049472141241	fore-limb	bat	4 curves
+1.52525252525253	pred.bat.fore.limb	638.632179334468	fore-limb	bat	4 curves
+1.54545454545455	pred.bat.fore.limb	657.066430102787	fore-limb	bat	4 curves
+1.56565656565657	pred.bat.fore.limb	674.218712644343	fore-limb	bat	4 curves
+1.58585858585859	pred.bat.fore.limb	689.962307140232	fore-limb	bat	4 curves
+1.60606060606061	pred.bat.fore.limb	704.17883979817	fore-limb	bat	4 curves
+1.62626262626263	pred.bat.fore.limb	716.759762049131	fore-limb	bat	4 curves
+1.64646464646465	pred.bat.fore.limb	727.607729096896	fore-limb	bat	4 curves
+1.66666666666667	pred.bat.fore.limb	736.637853361642	fore-limb	bat	4 curves
+1.68686868686869	pred.bat.fore.limb	743.778810256778	fore-limb	bat	4 curves
+1.70707070707071	pred.bat.fore.limb	748.973776157408	fore-limb	bat	4 curves
+1.72727272727273	pred.bat.fore.limb	752.181181309293	fore-limb	bat	4 curves
+1.74747474747475	pred.bat.fore.limb	753.375263724974	fore-limb	bat	4 curves
+1.76767676767677	pred.bat.fore.limb	752.546413743893	fore-limb	bat	4 curves
+1.78787878787879	pred.bat.fore.limb	749.701302810494	fore-limb	bat	4 curves
+1.80808080808081	pred.bat.fore.limb	744.862794056421	fore-limb	bat	4 curves
+1.82828282828283	pred.bat.fore.limb	738.069636363178	fore-limb	bat	4 curves
+1.84848484848485	pred.bat.fore.limb	729.375947631493	fore-limb	bat	4 curves
+1.86868686868687	pred.bat.fore.limb	718.850496895795	fore-limb	bat	4 curves
+1.88888888888889	pred.bat.fore.limb	706.575798603498	fore-limb	bat	4 curves
+1.90909090909091	pred.bat.fore.limb	692.647035742569	fore-limb	bat	4 curves
+1.92929292929293	pred.bat.fore.limb	677.170831469949	fore-limb	bat	4 curves
+1.94949494949495	pred.bat.fore.limb	660.263891401907	fore-limb	bat	4 curves
+1.96969696969697	pred.bat.fore.limb	642.051540722618	fore-limb	bat	4 curves
+1.98989898989899	pred.bat.fore.limb	622.666181711082	fore-limb	bat	4 curves
+2.01010101010101	pred.bat.fore.limb	602.245698155925	fore-limb	bat	4 curves
+2.03030303030303	pred.bat.fore.limb	580.93183341578	fore-limb	bat	4 curves
+2.05050505050505	pred.bat.fore.limb	558.868568597988	fore-limb	bat	4 curves
+2.07070707070707	pred.bat.fore.limb	536.200526493689	fore-limb	bat	4 curves
+2.09090909090909	pred.bat.fore.limb	513.071425560097	fore-limb	bat	4 curves
+2.11111111111111	pred.bat.fore.limb	489.622606430036	fore-limb	bat	4 curves
+2.13131313131313	pred.bat.fore.limb	465.991651214652	fore-limb	bat	4 curves
+2.15151515151515	pred.bat.fore.limb	442.31111331544	fore-limb	bat	4 curves
+2.17171717171717	pred.bat.fore.limb	418.707372650682	fore-limb	bat	4 curves
+2.19191919191919	pred.bat.fore.limb	395.299628206715	fore-limb	bat	4 curves
+2.21212121212121	pred.bat.fore.limb	372.199036725141	fore-limb	bat	4 curves
+2.23232323232323	pred.bat.fore.limb	349.508003211268	fore-limb	bat	4 curves
+2.25252525252525	pred.bat.fore.limb	327.319625871151	fore-limb	bat	4 curves
+2.27272727272727	pred.bat.fore.limb	305.717295124288	fore-limb	bat	4 curves
+2.29292929292929	pred.bat.fore.limb	284.774443558727	fore-limb	bat	4 curves
+2.31313131313131	pred.bat.fore.limb	264.554441149226	fore-limb	bat	4 curves
+2.33333333333333	pred.bat.fore.limb	245.110627792148	fore-limb	bat	4 curves
+2.35353535353535	pred.bat.fore.limb	226.486473257636	fore-limb	bat	4 curves
+2.37373737373737	pred.bat.fore.limb	208.715853044688	fore-limb	bat	4 curves
+2.39393939393939	pred.bat.fore.limb	191.823427362045	fore-limb	bat	4 curves
+2.41414141414141	pred.bat.fore.limb	175.825109551189	fore-limb	bat	4 curves
+2.43434343434343	pred.bat.fore.limb	160.728609711678	fore-limb	bat	4 curves
+2.45454545454545	pred.bat.fore.limb	146.534039069334	fore-limb	bat	4 curves
+2.47474747474747	pred.bat.fore.limb	133.234560722845	fore-limb	bat	4 curves
+2.49494949494949	pred.bat.fore.limb	120.817072786075	fore-limb	bat	4 curves
+2.51515151515152	pred.bat.fore.limb	109.262910578747	fore-limb	bat	4 curves
+2.53535353535354	pred.bat.fore.limb	98.5485553706785	fore-limb	bat	4 curves
+2.55555555555556	pred.bat.fore.limb	88.6463382151093	fore-limb	bat	4 curves
+2.57575757575758	pred.bat.fore.limb	79.5251285752287	fore-limb	bat	4 curves
+2.5959595959596	pred.bat.fore.limb	71.150998714651	fore-limb	bat	4 curves
+2.61616161616162	pred.bat.fore.limb	63.4878561490547	fore-limb	bat	4 curves
+2.63636363636364	pred.bat.fore.limb	56.4980378061105	fore-limb	bat	4 curves
+2.65656565656566	pred.bat.fore.limb	50.1428608809931	fore-limb	bat	4 curves
+2.67676767676768	pred.bat.fore.limb	44.3831266756762	fore-limb	bat	4 curves
+2.6969696969697	pred.bat.fore.limb	39.1795749463623	fore-limb	bat	4 curves
+2.71717171717172	pred.bat.fore.limb	34.4932874337249	fore-limb	bat	4 curves
+2.73737373737374	pred.bat.fore.limb	30.2860402985623	fore-limb	bat	4 curves
+2.75757575757576	pred.bat.fore.limb	26.5206061187887	fore-limb	bat	4 curves
+2.77777777777778	pred.bat.fore.limb	23.1610069145831	fore-limb	bat	4 curves
+2.7979797979798	pred.bat.fore.limb	20.1727203530746	fore-limb	bat	4 curves
+2.81818181818182	pred.bat.fore.limb	17.5228418419473	fore-limb	bat	4 curves
+2.83838383838384	pred.bat.fore.limb	15.1802056557416	fore-limb	bat	4 curves
+2.85858585858586	pred.bat.fore.limb	13.11546855513	fore-limb	bat	4 curves
+2.87878787878788	pred.bat.fore.limb	11.3011595659456	fore-limb	bat	4 curves
+2.8989898989899	pred.bat.fore.limb	9.71169969091866	fore-limb	bat	4 curves
+2.91919191919192	pred.bat.fore.limb	8.32339534380341	fore-limb	bat	4 curves
+2.93939393939394	pred.bat.fore.limb	7.11440923451983	fore-limb	bat	4 curves
+2.95959595959596	pred.bat.fore.limb	6.06471230711543	fore-limb	bat	4 curves
+2.97979797979798	pred.bat.fore.limb	5.15602015176036	fore-limb	bat	4 curves
+3	pred.bat.fore.limb	4.37171708926581	fore-limb	bat	4 curves
+1	pred.bat.hind.limb	143.095522930717	hind-limb	bat	4 curves
+1.02020202020202	pred.bat.hind.limb	150.194582968099	hind-limb	bat	4 curves
+1.04040404040404	pred.bat.hind.limb	157.383362752215	hind-limb	bat	4 curves
+1.06060606060606	pred.bat.hind.limb	164.641646066447	hind-limb	bat	4 curves
+1.08080808080808	pred.bat.hind.limb	171.947911933415	hind-limb	bat	4 curves
+1.1010101010101	pred.bat.hind.limb	179.279421016399	hind-limb	bat	4 curves
+1.12121212121212	pred.bat.hind.limb	186.612316290252	hind-limb	bat	4 curves
+1.14141414141414	pred.bat.hind.limb	193.921737587673	hind-limb	bat	4 curves
+1.16161616161616	pred.bat.hind.limb	201.181949444646	hind-limb	bat	4 curves
+1.18181818181818	pred.bat.hind.limb	208.366481486751	hind-limb	bat	4 curves
+1.2020202020202	pred.bat.hind.limb	215.44828041887	hind-limb	bat	4 curves
+1.22222222222222	pred.bat.hind.limb	222.399872507294	hind-limb	bat	4 curves
+1.24242424242424	pred.bat.hind.limb	229.193535278318	hind-limb	bat	4 curves
+1.26262626262626	pred.bat.hind.limb	235.801477003828	hind-limb	bat	4 curves
+1.28282828282828	pred.bat.hind.limb	242.196022404952	hind-limb	bat	4 curves
+1.3030303030303	pred.bat.hind.limb	248.349802882124	hind-limb	bat	4 curves
+1.32323232323232	pred.bat.hind.limb	254.235949476268	hind-limb	bat	4 curves
+1.34343434343434	pred.bat.hind.limb	259.828286683388	hind-limb	bat	4 curves
+1.36363636363636	pred.bat.hind.limb	265.101525185553	hind-limb	bat	4 curves
+1.38383838383838	pred.bat.hind.limb	270.031451526475	hind-limb	bat	4 curves
+1.4040404040404	pred.bat.hind.limb	274.595112750887	hind-limb	bat	4 curves
+1.42424242424242	pred.bat.hind.limb	278.770994044286	hind-limb	bat	4 curves
+1.44444444444444	pred.bat.hind.limb	282.539187453729	hind-limb	bat	4 curves
+1.46464646464646	pred.bat.hind.limb	285.881549841114	hind-limb	bat	4 curves
+1.48484848484848	pred.bat.hind.limb	288.781848317006	hind-limb	bat	4 curves
+1.50505050505051	pred.bat.hind.limb	291.225891524751	hind-limb	bat	4 curves
+1.52525252525253	pred.bat.hind.limb	293.201645289694	hind-limb	bat	4 curves
+1.54545454545455	pred.bat.hind.limb	294.699331315021	hind-limb	bat	4 curves
+1.56565656565657	pred.bat.hind.limb	295.711507791713	hind-limb	bat	4 curves
+1.58585858585859	pred.bat.hind.limb	296.233130992847	hind-limb	bat	4 curves
+1.60606060606061	pred.bat.hind.limb	296.26159713888	hind-limb	bat	4 curves
+1.62626262626263	pred.bat.hind.limb	295.796764047724	hind-limb	bat	4 curves
+1.64646464646465	pred.bat.hind.limb	294.840952317702	hind-limb	bat	4 curves
+1.66666666666667	pred.bat.hind.limb	293.398926029617	hind-limb	bat	4 curves
+1.68686868686869	pred.bat.hind.limb	291.477853192496	hind-limb	bat	4 curves
+1.70707070707071	pred.bat.hind.limb	289.087246392497	hind-limb	bat	4 curves
+1.72727272727273	pred.bat.hind.limb	286.238884332611	hind-limb	bat	4 curves
+1.74747474747475	pred.bat.hind.limb	282.946715168617	hind-limb	bat	4 curves
+1.76767676767677	pred.bat.hind.limb	279.22674275122	hind-limb	bat	4 curves
+1.78787878787879	pred.bat.hind.limb	275.096897072339	hind-limb	bat	4 curves
+1.80808080808081	pred.bat.hind.limb	270.576890382558	hind-limb	bat	4 curves
+1.82828282828283	pred.bat.hind.limb	265.68806059445	hind-limb	bat	4 curves
+1.84848484848485	pred.bat.hind.limb	260.453203710908	hind-limb	bat	4 curves
+1.86868686868687	pred.bat.hind.limb	254.896397117221	hind-limb	bat	4 curves
+1.88888888888889	pred.bat.hind.limb	249.042815649414	hind-limb	bat	4 curves
+1.90909090909091	pred.bat.hind.limb	242.918542398536	hind-limb	bat	4 curves
+1.92929292929293	pred.bat.hind.limb	236.550376231065	hind-limb	bat	4 curves
+1.94949494949495	pred.bat.hind.limb	229.965637999589	hind-limb	bat	4 curves
+1.96969696969697	pred.bat.hind.limb	223.191977386071	hind-limb	bat	4 curves
+1.98989898989899	pred.bat.hind.limb	216.257182263457	hind-limb	bat	4 curves
+2.01010101010101	pred.bat.hind.limb	209.188992381536	hind-limb	bat	4 curves
+2.03030303030303	pred.bat.hind.limb	202.014919081699	hind-limb	bat	4 curves
+2.05050505050505	pred.bat.hind.limb	194.762072624554	hind-limb	bat	4 curves
+2.07070707070707	pred.bat.hind.limb	187.456998576752	hind-limb	bat	4 curves
+2.09090909090909	pred.bat.hind.limb	180.125524551288	hind-limb	bat	4 curves
+2.11111111111111	pred.bat.hind.limb	172.792618431781	hind-limb	bat	4 curves
+2.13131313131313	pred.bat.hind.limb	165.482259038566	hind-limb	bat	4 curves
+2.15151515151515	pred.bat.hind.limb	158.217320015743	hind-limb	bat	4 curves
+2.17171717171717	pred.bat.hind.limb	151.019467536469	hind-limb	bat	4 curves
+2.19191919191919	pred.bat.hind.limb	143.909072241496	hind-limb	bat	4 curves
+2.21212121212121	pred.bat.hind.limb	136.905135646047	hind-limb	bat	4 curves
+2.23232323232323	pred.bat.hind.limb	130.025231074951	hind-limb	bat	4 curves
+2.25252525252525	pred.bat.hind.limb	123.285459018087	hind-limb	bat	4 curves
+2.27272727272727	pred.bat.hind.limb	116.700416639455	hind-limb	bat	4 curves
+2.29292929292929	pred.bat.hind.limb	110.283181025832	hind-limb	bat	4 curves
+2.31313131313131	pred.bat.hind.limb	104.045305626176	hind-limb	bat	4 curves
+2.33333333333333	pred.bat.hind.limb	97.9968292123849	hind-limb	bat	4 curves
+2.35353535353535	pred.bat.hind.limb	92.1462965864954	hind-limb	bat	4 curves
+2.37373737373737	pred.bat.hind.limb	86.5007901696674	hind-limb	bat	4 curves
+2.39393939393939	pred.bat.hind.limb	81.0659715348903	hind-limb	bat	4 curves
+2.41414141414141	pred.bat.hind.limb	75.846131888224	hind-limb	bat	4 curves
+2.43434343434343	pred.bat.hind.limb	70.8442504625593	hind-limb	bat	4 curves
+2.45454545454545	pred.bat.hind.limb	66.0620597628818	hind-limb	bat	4 curves
+2.47474747474747	pred.bat.hind.limb	61.5001165922696	hind-limb	bat	4 curves
+2.49494949494949	pred.bat.hind.limb	57.1578777924897	hind-limb	bat	4 curves
+2.51515151515152	pred.bat.hind.limb	53.0337796511079	hind-limb	bat	4 curves
+2.53535353535354	pred.bat.hind.limb	49.1253199573177	hind-limb	bat	4 curves
+2.55555555555556	pred.bat.hind.limb	45.4291417299505	hind-limb	bat	4 curves
+2.57575757575758	pred.bat.hind.limb	41.9411176920194	hind-limb	bat	4 curves
+2.5959595959596	pred.bat.hind.limb	38.6564346252088	hind-limb	bat	4 curves
+2.61616161616162	pred.bat.hind.limb	35.5696768035448	hind-limb	bat	4 curves
+2.63636363636364	pred.bat.hind.limb	32.6749077766005	hind-limb	bat	4 curves
+2.65656565656566	pred.bat.hind.limb	29.9657498475685	hind-limb	bat	4 curves
+2.67676767676768	pred.bat.hind.limb	27.4354606690253	hind-limb	bat	4 curves
+2.6969696969697	pred.bat.hind.limb	25.0770064578714	hind-limb	bat	4 curves
+2.71717171717172	pred.bat.hind.limb	22.8831314095655	hind-limb	bat	4 curves
+2.73737373737374	pred.bat.hind.limb	20.8464229692323	hind-limb	bat	4 curves
+2.75757575757576	pred.bat.hind.limb	18.9593726925172	hind-limb	bat	4 curves
+2.77777777777778	pred.bat.hind.limb	17.2144325012819	hind-limb	bat	4 curves
+2.7979797979798	pred.bat.hind.limb	15.6040662076237	hind-limb	bat	4 curves
+2.81818181818182	pred.bat.hind.limb	14.1207962436167	hind-limb	bat	4 curves
+2.83838383838384	pred.bat.hind.limb	12.7572455930997	hind-limb	bat	4 curves
+2.85858585858586	pred.bat.hind.limb	11.5061749753965	hind-limb	bat	4 curves
+2.87878787878788	pred.bat.hind.limb	10.3605153787726	hind-limb	bat	4 curves
+2.8989898989899	pred.bat.hind.limb	9.31339608356744	hind-limb	bat	4 curves
+2.91919191919192	pred.bat.hind.limb	8.35816835123806	hind-limb	bat	4 curves
+2.93939393939394	pred.bat.hind.limb	7.48842498606692	hind-limb	bat	4 curves
+2.95959595959596	pred.bat.hind.limb	6.69801600115642	hind-limb	bat	4 curves
+2.97979797979798	pred.bat.hind.limb	5.98106063976974	hind-limb	bat	4 curves
+3	pred.bat.hind.limb	5.33195601735789	hind-limb	bat	4 curves
+1	pred.mus.fore.limb	129.072305983928	fore-limb	mus	4 curves
+1.02020202020202	pred.mus.fore.limb	130.684448673635	fore-limb	mus	4 curves
+1.04040404040404	pred.mus.fore.limb	132.291129846451	fore-limb	mus	4 curves
+1.06060606060606	pred.mus.fore.limb	133.891656888911	fore-limb	mus	4 curves
+1.08080808080808	pred.mus.fore.limb	135.485332333894	fore-limb	mus	4 curves
+1.1010101010101	pred.mus.fore.limb	137.071454344859	fore-limb	mus	4 curves
+1.12121212121212	pred.mus.fore.limb	138.649317210138	fore-limb	mus	4 curves
+1.14141414141414	pred.mus.fore.limb	140.218211846833	fore-limb	mus	4 curves
+1.16161616161616	pred.mus.fore.limb	141.777426313849	fore-limb	mus	4 curves
+1.18181818181818	pred.mus.fore.limb	143.326246333551	fore-limb	mus	4 curves
+1.2020202020202	pred.mus.fore.limb	144.863955821556	fore-limb	mus	4 curves
+1.22222222222222	pred.mus.fore.limb	146.389837424113	fore-limb	mus	4 curves
+1.24242424242424	pred.mus.fore.limb	147.903173062538	fore-limb	mus	4 curves
+1.26262626262626	pred.mus.fore.limb	149.403244484143	fore-limb	mus	4 curves
+1.28282828282828	pred.mus.fore.limb	150.889333819079	fore-limb	mus	4 curves
+1.3030303030303	pred.mus.fore.limb	152.360724142511	fore-limb	mus	4 curves
+1.32323232323232	pred.mus.fore.limb	153.816700041523	fore-limb	mus	4 curves
+1.34343434343434	pred.mus.fore.limb	155.256548186128	fore-limb	mus	4 curves
+1.36363636363636	pred.mus.fore.limb	156.679557903775	fore-limb	mus	4 curves
+1.38383838383838	pred.mus.fore.limb	158.085021756706	fore-limb	mus	4 curves
+1.4040404040404	pred.mus.fore.limb	159.472236121509	fore-limb	mus	4 curves
+1.42424242424242	pred.mus.fore.limb	160.840501770229	fore-limb	mus	4 curves
+1.44444444444444	pred.mus.fore.limb	162.189124452365	fore-limb	mus	4 curves
+1.46464646464646	pred.mus.fore.limb	163.51741547707	fore-limb	mus	4 curves
+1.48484848484848	pred.mus.fore.limb	164.824692294905	fore-limb	mus	4 curves
+1.50505050505051	pred.mus.fore.limb	166.110279078436	fore-limb	mus	4 curves
+1.52525252525253	pred.mus.fore.limb	167.373507301011	fore-limb	mus	4 curves
+1.54545454545455	pred.mus.fore.limb	168.61371631301	fore-limb	mus	4 curves
+1.56565656565657	pred.mus.fore.limb	169.83025391489	fore-limb	mus	4 curves
+1.58585858585859	pred.mus.fore.limb	171.022476926328	fore-limb	mus	4 curves
+1.60606060606061	pred.mus.fore.limb	172.189751750768	fore-limb	mus	4 curves
+1.62626262626263	pred.mus.fore.limb	173.331454934682	fore-limb	mus	4 curves
+1.64646464646465	pred.mus.fore.limb	174.446973720864	fore-limb	mus	4 curves
+1.66666666666667	pred.mus.fore.limb	175.535706595063	fore-limb	mus	4 curves
+1.68686868686869	pred.mus.fore.limb	176.597063825271	fore-limb	mus	4 curves
+1.70707070707071	pred.mus.fore.limb	177.630467993008	fore-limb	mus	4 curves
+1.72727272727273	pred.mus.fore.limb	178.635354515915	fore-limb	mus	4 curves
+1.74747474747475	pred.mus.fore.limb	179.611172161011	fore-limb	mus	4 curves
+1.76767676767677	pred.mus.fore.limb	180.557383547948	fore-limb	mus	4 curves
+1.78787878787879	pred.mus.fore.limb	181.473465641636	fore-limb	mus	4 curves
+1.80808080808081	pred.mus.fore.limb	182.358910233589	fore-limb	mus	4 curves
+1.82828282828283	pred.mus.fore.limb	183.213224411392	fore-limb	mus	4 curves
+1.84848484848485	pred.mus.fore.limb	184.035931015665	fore-limb	mus	4 curves
+1.86868686868687	pred.mus.fore.limb	184.826569083947	fore-limb	mus	4 curves
+1.88888888888889	pred.mus.fore.limb	185.584694280908	fore-limb	mus	4 curves
+1.90909090909091	pred.mus.fore.limb	186.309879314335	fore-limb	mus	4 curves
+1.92929292929293	pred.mus.fore.limb	187.001714336349	fore-limb	mus	4 curves
+1.94949494949495	pred.mus.fore.limb	187.659807329322	fore-limb	mus	4 curves
+1.96969696969697	pred.mus.fore.limb	188.283784475978	fore-limb	mus	4 curves
+1.98989898989899	pred.mus.fore.limb	188.873290513212	fore-limb	mus	4 curves
+2.01010101010101	pred.mus.fore.limb	189.427989069129	fore-limb	mus	4 curves
+2.03030303030303	pred.mus.fore.limb	189.947562982879	fore-limb	mus	4 curves
+2.05050505050505	pred.mus.fore.limb	190.431714606846	fore-limb	mus	4 curves
+2.07070707070707	pred.mus.fore.limb	190.880166090803	fore-limb	mus	4 curves
+2.09090909090909	pred.mus.fore.limb	191.292659647638	fore-limb	mus	4 curves
+2.11111111111111	pred.mus.fore.limb	191.668957800308	fore-limb	mus	4 curves
+2.13131313131313	pred.mus.fore.limb	192.00884360968	fore-limb	mus	4 curves
+2.15151515151515	pred.mus.fore.limb	192.312120882959	fore-limb	mus	4 curves
+2.17171717171717	pred.mus.fore.limb	192.578614362424	fore-limb	mus	4 curves
+2.19191919191919	pred.mus.fore.limb	192.808169894211	fore-limb	mus	4 curves
+2.21212121212121	pred.mus.fore.limb	193.000654576919	fore-limb	mus	4 curves
+2.23232323232323	pred.mus.fore.limb	193.155956889843	fore-limb	mus	4 curves
+2.25252525252525	pred.mus.fore.limb	193.273986800653	fore-limb	mus	4 curves
+2.27272727272727	pred.mus.fore.limb	193.354675852377	fore-limb	mus	4 curves
+2.29292929292929	pred.mus.fore.limb	193.397977229574	fore-limb	mus	4 curves
+2.31313131313131	pred.mus.fore.limb	193.403865803597	fore-limb	mus	4 curves
+2.33333333333333	pred.mus.fore.limb	193.372338156903	fore-limb	mus	4 curves
+2.35353535353535	pred.mus.fore.limb	193.303412586349	fore-limb	mus	4 curves
+2.37373737373737	pred.mus.fore.limb	193.197129085505	fore-limb	mus	4 curves
+2.39393939393939	pred.mus.fore.limb	193.053549305973	fore-limb	mus	4 curves
+2.41414141414141	pred.mus.fore.limb	192.87275649779	fore-limb	mus	4 curves
+2.43434343434343	pred.mus.fore.limb	192.654855428985	fore-limb	mus	4 curves
+2.45454545454545	pred.mus.fore.limb	192.399972284397	fore-limb	mus	4 curves
+2.47474747474747	pred.mus.fore.limb	192.108254543894	fore-limb	mus	4 curves
+2.49494949494949	pred.mus.fore.limb	191.77987084016	fore-limb	mus	4 curves
+2.51515151515152	pred.mus.fore.limb	191.41501079624	fore-limb	mus	4 curves
+2.53535353535354	pred.mus.fore.limb	191.013884843054	fore-limb	mus	4 curves
+2.55555555555556	pred.mus.fore.limb	190.576724017143	fore-limb	mus	4 curves
+2.57575757575758	pred.mus.fore.limb	190.103779738903	fore-limb	mus	4 curves
+2.5959595959596	pred.mus.fore.limb	189.595323571614	fore-limb	mus	4 curves
+2.61616161616162	pred.mus.fore.limb	189.051646961583	fore-limb	mus	4 curves
+2.63636363636364	pred.mus.fore.limb	188.473060959752	fore-limb	mus	4 curves
+2.65656565656566	pred.mus.fore.limb	187.859895925141	fore-limb	mus	4 curves
+2.67676767676768	pred.mus.fore.limb	187.212501210523	fore-limb	mus	4 curves
+2.6969696969697	pred.mus.fore.limb	186.53124483075	fore-limb	mus	4 curves
+2.71717171717172	pred.mus.fore.limb	185.816513114172	fore-limb	mus	4 curves
+2.73737373737374	pred.mus.fore.limb	185.068710337603	fore-limb	mus	4 curves
+2.75757575757576	pred.mus.fore.limb	184.288258345328	fore-limb	mus	4 curves
+2.77777777777778	pred.mus.fore.limb	183.47559615265	fore-limb	mus	4 curves
+2.7979797979798	pred.mus.fore.limb	182.631179534493	fore-limb	mus	4 curves
+2.81818181818182	pred.mus.fore.limb	181.755480599603	fore-limb	mus	4 curves
+2.83838383838384	pred.mus.fore.limb	180.848987350912	fore-limb	mus	4 curves
+2.85858585858586	pred.mus.fore.limb	179.912203232624	fore-limb	mus	4 curves
+2.87878787878788	pred.mus.fore.limb	178.94564666462	fore-limb	mus	4 curves
+2.8989898989899	pred.mus.fore.limb	177.949850564784	fore-limb	mus	4 curves
+2.91919191919192	pred.mus.fore.limb	176.925361859861	fore-limb	mus	4 curves
+2.93939393939394	pred.mus.fore.limb	175.872740985476	fore-limb	mus	4 curves
+2.95959595959596	pred.mus.fore.limb	174.79256137596	fore-limb	mus	4 curves
+2.97979797979798	pred.mus.fore.limb	173.685408944621	fore-limb	mus	4 curves
+3	pred.mus.fore.limb	172.551881555124	fore-limb	mus	4 curves
+1	pred.mus.hind.limb	155.643646359536	hind-limb	mus	4 curves
+1.02020202020202	pred.mus.hind.limb	158.360569893628	hind-limb	mus	4 curves
+1.04040404040404	pred.mus.hind.limb	161.084282715122	hind-limb	mus	4 curves
+1.06060606060606	pred.mus.hind.limb	163.813515880355	hind-limb	mus	4 curves
+1.08080808080808	pred.mus.hind.limb	166.546974572378	hind-limb	mus	4 curves
+1.1010101010101	pred.mus.hind.limb	169.283338979834	hind-limb	mus	4 curves
+1.12121212121212	pred.mus.hind.limb	172.021265222411	hind-limb	mus	4 curves
+1.14141414141414	pred.mus.hind.limb	174.759386322202	hind-limb	mus	4 curves
+1.16161616161616	pred.mus.hind.limb	177.496313220272	hind-limb	mus	4 curves
+1.18181818181818	pred.mus.hind.limb	180.230635837587	hind-limb	mus	4 curves
+1.2020202020202	pred.mus.hind.limb	182.960924179418	hind-limb	mus	4 curves
+1.22222222222222	pred.mus.hind.limb	185.685729482195	hind-limb	mus	4 curves
+1.24242424242424	pred.mus.hind.limb	188.403585401732	hind-limb	mus	4 curves
+1.26262626262626	pred.mus.hind.limb	191.113009241629	hind-limb	mus	4 curves
+1.28282828282828	pred.mus.hind.limb	193.812503220583	hind-limb	mus	4 curves
+1.3030303030303	pred.mus.hind.limb	196.500555777237	hind-limb	mus	4 curves
+1.32323232323232	pred.mus.hind.limb	199.17564291113	hind-limb	mus	4 curves
+1.34343434343434	pred.mus.hind.limb	201.836229558208	hind-limb	mus	4 curves
+1.36363636363636	pred.mus.hind.limb	204.480770999277	hind-limb	mus	4 curves
+1.38383838383838	pred.mus.hind.limb	207.107714299707	hind-limb	mus	4 curves
+1.4040404040404	pred.mus.hind.limb	209.71549977861	hind-limb	mus	4 curves
+1.42424242424242	pred.mus.hind.limb	212.302562505638	hind-limb	mus	4 curves
+1.44444444444444	pred.mus.hind.limb	214.867333823476	hind-limb	mus	4 curves
+1.46464646464646	pred.mus.hind.limb	217.408242894043	hind-limb	mus	4 curves
+1.48484848484848	pred.mus.hind.limb	219.92371826633	hind-limb	mus	4 curves
+1.50505050505051	pred.mus.hind.limb	222.412189463754	hind-limb	mus	4 curves
+1.52525252525253	pred.mus.hind.limb	224.872088588846	hind-limb	mus	4 curves
+1.54545454545455	pred.mus.hind.limb	227.301851943025	hind-limb	mus	4 curves
+1.56565656565657	pred.mus.hind.limb	229.699921659169	hind-limb	mus	4 curves
+1.58585858585859	pred.mus.hind.limb	232.06474734464	hind-limb	mus	4 curves
+1.60606060606061	pred.mus.hind.limb	234.394787732374	hind-limb	mus	4 curves
+1.62626262626263	pred.mus.hind.limb	236.688512337614	hind-limb	mus	4 curves
+1.64646464646465	pred.mus.hind.limb	238.944403117815	hind-limb	mus	4 curves
+1.66666666666667	pred.mus.hind.limb	241.160956133249	hind-limb	mus	4 curves
+1.68686868686869	pred.mus.hind.limb	243.336683205766	hind-limb	mus	4 curves
+1.70707070707071	pred.mus.hind.limb	245.47011357319	hind-limb	mus	4 curves
+1.72727272727273	pred.mus.hind.limb	247.559795536789	hind-limb	mus	4 curves
+1.74747474747475	pred.mus.hind.limb	249.604298099253	hind-limb	mus	4 curves
+1.76767676767677	pred.mus.hind.limb	251.602212590608	hind-limb	mus	4 curves
+1.78787878787879	pred.mus.hind.limb	253.552154279487	hind-limb	mus	4 curves
+1.80808080808081	pred.mus.hind.limb	255.452763967204	hind-limb	mus	4 curves
+1.82828282828283	pred.mus.hind.limb	257.302709562053	hind-limb	mus	4 curves
+1.84848484848485	pred.mus.hind.limb	259.100687631302	hind-limb	mus	4 curves
+1.86868686868687	pred.mus.hind.limb	260.845424928351	hind-limb	mus	4 curves
+1.88888888888889	pred.mus.hind.limb	262.535679892555	hind-limb	mus	4 curves
+1.90909090909091	pred.mus.hind.limb	264.170244119249	hind-limb	mus	4 curves
+1.92929292929293	pred.mus.hind.limb	265.747943797538	hind-limb	mus	4 curves
+1.94949494949495	pred.mus.hind.limb	267.26764111346	hind-limb	mus	4 curves
+1.96969696969697	pred.mus.hind.limb	268.728235616177	hind-limb	mus	4 curves
+1.98989898989899	pred.mus.hind.limb	270.12866554491	hind-limb	mus	4 curves
+2.01010101010101	pred.mus.hind.limb	271.467909114363	hind-limb	mus	4 curves
+2.03030303030303	pred.mus.hind.limb	272.74498575647	hind-limb	mus	4 curves
+2.05050505050505	pred.mus.hind.limb	273.958957316353	hind-limb	mus	4 curves
+2.07070707070707	pred.mus.hind.limb	275.108929200448	hind-limb	mus	4 curves
+2.09090909090909	pred.mus.hind.limb	276.194051474831	hind-limb	mus	4 curves
+2.11111111111111	pred.mus.hind.limb	277.213519911862	hind-limb	mus	4 curves
+2.13131313131313	pred.mus.hind.limb	278.166576983337	hind-limb	mus	4 curves
+2.15151515151515	pred.mus.hind.limb	279.052512798437	hind-limb	mus	4 curves
+2.17171717171717	pred.mus.hind.limb	279.870665984844	hind-limb	mus	4 curves
+2.19191919191919	pred.mus.hind.limb	280.6204245115	hind-limb	mus	4 curves
+2.21212121212121	pred.mus.hind.limb	281.30122645156	hind-limb	mus	4 curves
+2.23232323232323	pred.mus.hind.limb	281.912560684235	hind-limb	mus	4 curves
+2.25252525252525	pred.mus.hind.limb	282.45396753427	hind-limb	mus	4 curves
+2.27272727272727	pred.mus.hind.limb	282.925039347952	hind-limb	mus	4 curves
+2.29292929292929	pred.mus.hind.limb	283.325421004637	hind-limb	mus	4 curves
+2.31313131313131	pred.mus.hind.limb	283.654810362893	hind-limb	mus	4 curves
+2.33333333333333	pred.mus.hind.limb	283.912958640479	hind-limb	mus	4 curves
+2.35353535353535	pred.mus.hind.limb	284.099670727484	hind-limb	mus	4 curves
+2.37373737373737	pred.mus.hind.limb	284.214805432084	hind-limb	mus	4 curves
+2.39393939393939	pred.mus.hind.limb	284.258275658474	hind-limb	mus	4 curves
+2.41414141414141	pred.mus.hind.limb	284.230048516668	hind-limb	mus	4 curves
+2.43434343434343	pred.mus.hind.limb	284.13014536397	hind-limb	mus	4 curves
+2.45454545454545	pred.mus.hind.limb	283.958641778048	hind-limb	mus	4 curves
+2.47474747474747	pred.mus.hind.limb	283.715667461642	hind-limb	mus	4 curves
+2.49494949494949	pred.mus.hind.limb	283.401406079101	hind-limb	mus	4 curves
+2.51515151515152	pred.mus.hind.limb	283.016095025014	hind-limb	mus	4 curves
+2.53535353535354	pred.mus.hind.limb	282.560025125352	hind-limb	mus	4 curves
+2.55555555555556	pred.mus.hind.limb	282.033540271653	hind-limb	mus	4 curves
+2.57575757575758	pred.mus.hind.limb	281.437036988879	hind-limb	mus	4 curves
+2.5959595959596	pred.mus.hind.limb	280.770963937726	hind-limb	mus	4 curves
+2.61616161616162	pred.mus.hind.limb	280.03582135224	hind-limb	mus	4 curves
+2.63636363636364	pred.mus.hind.limb	279.232160413742	hind-limb	mus	4 curves
+2.65656565656566	pred.mus.hind.limb	278.360582562154	hind-limb	mus	4 curves
+2.67676767676768	pred.mus.hind.limb	277.421738745923	hind-limb	mus	4 curves
+2.6969696969697	pred.mus.hind.limb	276.416328611862	hind-limb	mus	4 curves
+2.71717171717172	pred.mus.hind.limb	275.345099636322	hind-limb	mus	4 curves
+2.73737373737374	pred.mus.hind.limb	274.208846199189	hind-limb	mus	4 curves
+2.75757575757576	pred.mus.hind.limb	273.008408602328	hind-limb	mus	4 curves
+2.77777777777778	pred.mus.hind.limb	271.744672034169	hind-limb	mus	4 curves
+2.7979797979798	pred.mus.hind.limb	270.418565482208	hind-limb	mus	4 curves
+2.81818181818182	pred.mus.hind.limb	269.031060595312	hind-limb	mus	4 curves
+2.83838383838384	pred.mus.hind.limb	267.583170497759	hind-limb	mus	4 curves
+2.85858585858586	pred.mus.hind.limb	266.075948557058	hind-limb	mus	4 curves
+2.87878787878788	pred.mus.hind.limb	264.510487107622	hind-limb	mus	4 curves
+2.8989898989899	pred.mus.hind.limb	262.887916132482	hind-limb	mus	4 curves
+2.91919191919192	pred.mus.hind.limb	261.209401905248	hind-limb	mus	4 curves
+2.93939393939394	pred.mus.hind.limb	259.476145594613	hind-limb	mus	4 curves
+2.95959595959596	pred.mus.hind.limb	257.689381833728	hind-limb	mus	4 curves
+2.97979797979798	pred.mus.hind.limb	255.850377256825	hind-limb	mus	4 curves
+3	pred.mus.hind.limb	253.960429005528	hind-limb	mus	4 curves
